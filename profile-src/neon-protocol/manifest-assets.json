@@ -1,0 +1,175 @@
+{
+  "version": "neon-protocol",
+  "account": "PHBR63",
+  "date": "2026-10-21",
+  "assets": [
+    {
+      "path": "assets/neon-protocol/about-desktop.svg",
+      "width": 1200,
+      "height": 602,
+      "bytes": 3466,
+      "git_blob_sha": "72df46d2443815ec4a6601ed310ba98cf7b759b5",
+      "sha256": "4542e8eb62f9d2108fcff5c2e66f96694a47680b777730320ebf7845c9fbf0f2"
+    },
+    {
+      "path": "assets/neon-protocol/about-mobile.svg",
+      "width": 600,
+      "height": 989,
+      "bytes": 3737,
+      "git_blob_sha": "5af90fb6630a7b895a909feaeeda6158960c305c",
+      "sha256": "7d29b91873d3e712d0b6b3d1afe8f2312cc0af985958b2787146cca11e823350"
+    },
+    {
+      "path": "assets/neon-protocol/footer-desktop.svg",
+      "width": 1200,
+      "height": 248,
+      "bytes": 1201,
+      "git_blob_sha": "1fb85511841c5f4867d0ee81ba24d7b2bec17a09",
+      "sha256": "e48f08ce446f28a6cda5e064f34fa089c52970f1a78fcc6b793203463351b373"
+    },
+    {
+      "path": "assets/neon-protocol/footer-mobile.svg",
+      "width": 600,
+      "height": 284,
+      "bytes": 1188,
+      "git_blob_sha": "bbede572c3092b6740644453fc03bf9875f88a14",
+      "sha256": "a5cca7c6cf32ef09f852db2cfb5cf81024d46d998c07f599b95637aa8731052b"
+    },
+    {
+      "path": "assets/neon-protocol/intro-desktop.svg",
+      "width": 1200,
+      "height": 440,
+      "bytes": 2397,
+      "git_blob_sha": "8cc1334f03a5610e60e87518c7ca84699cc21b36",
+      "sha256": "8d3b38dd25bc2a5cfe3d6935f5765a894069d682b3c928bb798438861502af0e"
+    },
+    {
+      "path": "assets/neon-protocol/intro-mobile.svg",
+      "width": 600,
+      "height": 704,
+      "bytes": 2089,
+      "git_blob_sha": "67dfac75d2dc0618edef9ca9ba56234cc8d57e13",
+      "sha256": "5c0b78c61efac8c76cd4a33649b20d5f167c53d92e2d063150667dc0dbc63b40"
+    },
+    {
+      "path": "assets/neon-protocol/project-3dgame-desktop.svg",
+      "width": 1200,
+      "height": 240,
+      "bytes": 1151,
+      "git_blob_sha": "fd4f4afe6f53f76d59780c5820ed873bdcc77151",
+      "sha256": "233d9783bf7e302a53cb69c32e8bd81c3a11ea7737f57291f7a6c840ebb3b326"
+    },
+    {
+      "path": "assets/neon-protocol/project-3dgame-mobile.svg",
+      "width": 600,
+      "height": 344,
+      "bytes": 989,
+      "git_blob_sha": "27cdbaa8e797016570139eec1ae0296f6b6740ea",
+      "sha256": "da22ea57cd65f447357b70c6f291cfdbe95beb8201af4a86cc02e6fb56a4a750"
+    },
+    {
+      "path": "assets/neon-protocol/project-anime-desktop.svg",
+      "width": 1200,
+      "height": 240,
+      "bytes": 1192,
+      "git_blob_sha": "490e9f30bcd719ba131124d26129d2317e86b175",
+      "sha256": "98f3e96fe6d58f3d0c74a7654423e8e80e48dbc9ca2a7a4c2f7034ebf4c81a19"
+    },
+    {
+      "path": "assets/neon-protocol/project-anime-mobile.svg",
+      "width": 600,
+      "height": 344,
+      "bytes": 1183,
+      "git_blob_sha": "72c692bf3be5306eabcd13a07200ccd3c7272e97",
+      "sha256": "18b59ac33d4d6d1a595d7ee339e2453f4805ec6d40c53a19273e08efbe6a7604"
+    },
+    {
+      "path": "assets/neon-protocol/project-roll-desktop.svg",
+      "width": 1200,
+      "height": 240,
+      "bytes": 1487,
+      "git_blob_sha": "2f601e2b3800f65ae98c6fe9ec321a2aff3565d6",
+      "sha256": "7d0e244e6b6a450e19c20cd3aeb2e3589f4a31ec8daa4ad8486229fc2f1e87e0"
+    },
+    {
+      "path": "assets/neon-protocol/project-roll-mobile.svg",
+      "width": 600,
+      "height": 344,
+      "bytes": 1473,
+      "git_blob_sha": "15100e04424912e91d18e93a4ec0eff476c0d2d2",
+      "sha256": "12a452edc865d630b0343ad0fb5741a9bfa3ff439c0f4de2d6b96e3835270fed"
+    },
+    {
+      "path": "assets/neon-protocol/project-vr-desktop.svg",
+      "width": 1200,
+      "height": 240,
+      "bytes": 1361,
+      "git_blob_sha": "73d84edcddefe7e1f19e0265bc232f756de4eacc",
+      "sha256": "2c67f75c6732636c01a3fb02cc05bb32f674bfd5c0b2dd5b256269ee6d95724c"
+    },
+    {
+      "path": "assets/neon-protocol/project-vr-mobile.svg",
+      "width": 600,
+      "height": 344,
+      "bytes": 1341,
+      "git_blob_sha": "931e865754ba0bb968ffc0dd74bc4167566b03f3",
+      "sha256": "9583740d93063140029411c15d5dd5ea222b6c2787f06f96852112bb5da6caf3"
+    },
+    {
+      "path": "assets/neon-protocol/projeto-anime-check.webp",
+      "width": 1774,
+      "height": 887,
+      "bytes": 336820,
+      "git_blob_sha": "32063f796ffbc7142d16093d9db98a9972f50f92",
+      "sha256": "9f4a61d0d387ac23bd0b413174ffe352563bd4be4c27d19dd3af0ea8b653f0bb"
+    },
+    {
+      "path": "assets/neon-protocol/section-projects-desktop.svg",
+      "width": 1200,
+      "height": 140,
+      "bytes": 1004,
+      "git_blob_sha": "91e3b049846d12b669cdecae123cb8f57602aa87",
+      "sha256": "f2b5fced16acd70bdb4c17e4385c55bd4ab007c6cb8a0d56baca7d43aa55e9f3"
+    },
+    {
+      "path": "assets/neon-protocol/section-projects-mobile.svg",
+      "width": 600,
+      "height": 166,
+      "bytes": 889,
+      "git_blob_sha": "4ff103c0230fd82cab8c05c21a872f784a57fc85",
+      "sha256": "4910c0749415324cdc1b7b76b378b43dc2acebb5bbf26fbe8c4b10f153694d70"
+    },
+    {
+      "path": "assets/neon-protocol/stack-desktop.svg",
+      "width": 1200,
+      "height": 768,
+      "bytes": 4249,
+      "git_blob_sha": "6259f5fb6b8c36da29a49650cab465f3fc36786e",
+      "sha256": "489d3ce8abfb11d8518781b0464015056b8a135e7971daa4e35977d354edb428"
+    },
+    {
+      "path": "assets/neon-protocol/stack-mobile.svg",
+      "width": 600,
+      "height": 1312,
+      "bytes": 4227,
+      "git_blob_sha": "2c48136412a40a27a2367f8c9414f28cffbc2583",
+      "sha256": "6f9f388ae008c9e39034b4fd0cdca97036fa2dfc8a3c307d2ea3ca544c57251d"
+    },
+    {
+      "path": "assets/neon-protocol/terminal-mobile.gif",
+      "width": 600,
+      "height": 260,
+      "bytes": 136477,
+      "git_blob_sha": "45c4649bc8baae8b8697fd8aac96bd3eab6cd2d0",
+      "sha256": "6739ae94b8b90fd073945a0b74c37875b6c4fac497c947e61aa37d03f1e2612b"
+    },
+    {
+      "path": "assets/neon-protocol/terminal-mobile.svg",
+      "width": 600,
+      "height": 260,
+      "bytes": 1157,
+      "git_blob_sha": "9c554498c2a20d2521a78db47223c57be01007bd",
+      "sha256": "a7582a3a242db86f992ca5a7dab36b0d3db8386cd3b367d88b6bf10d86b1cf4c"
+    }
+  ]
+}

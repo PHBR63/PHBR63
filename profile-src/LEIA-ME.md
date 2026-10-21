@@ -1,6 +1,6 @@
 # Perfil PHBR63 — Aincrad v2
 
-> **Material legado.** O `README.md` da raiz agora é editado diretamente; os assets atuais ficam em `assets/yellow-protocol`.
+> **Material legado.** A versão atual é mantida em [`neon-protocol`](./neon-protocol/README.md). Os assets ficam em `assets/neon-protocol` e `assets/yellow-protocol`; `neon-protocol/build_readme.py` monta o README da raiz.
 >
 > Os geradores antigos servem somente às versões legadas: gravam `README.legacy.md` na própria pasta de fontes, sem sobrescrever o README da raiz. A documentação abaixo registra a versão anterior.
 

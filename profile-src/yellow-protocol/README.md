@@ -1,10 +1,10 @@
 # Yellow Protocol — perfil PHBR63
 
-Esta é a identidade atual do README do perfil: amarelo #FCEE09, preto #080C12, acentos ciano #00F0FF e atmosfera urbana inspirada em Cyberpunk 2077.
+Esta é a base de artes da identidade do perfil: amarelo #FCEE09, preto #080C12, acentos ciano #00F0FF e atmosfera urbana inspirada em Cyberpunk 2077. A composição atual, com painéis coloridos em todo o README, é mantida em [`../neon-protocol`](../neon-protocol/README.md).
 
 ## Edição
 
-Edite o README.md da raiz diretamente. Os assets publicados estão em assets/yellow-protocol. Os geradores históricos em profile-src e profile-src/cyberpunk agora salvam README.legacy.md em suas próprias pastas.
+Edite o conteúdo e a composição atuais em `profile-src/neon-protocol/build_readme.py`. As artes deste kit continuam em `assets/yellow-protocol`; os painéis complementares estão em `assets/neon-protocol`. Os geradores históricos em profile-src e profile-src/cyberpunk salvam README.legacy.md em suas próprias pastas.
 
 - banners: arte horizontal e composição compacta selecionada por picture até 600 px.
 - projetos: três capas ilustradas em WebP, com descrição e link em texto no README.

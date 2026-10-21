@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="248" viewBox="0 0 1200 248" role="img" aria-labelledby="title desc">
+<title id="title">Ver todos os repositórios — @phbr63</title>
+<desc id="desc">Chamada para abrir todos os repositórios públicos de PHBR63 no GitHub.</desc>
+<rect width="1200" height="248" fill="#080C12"/>
+<rect x="0" y="0" width="1200" height="248" fill="#FCEE09"/>
+<path d="M962 0H1200V248H866L944 170V78Z" fill="#00F0FF"/>
+<text x="40" y="85" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="50" font-weight="700" fill="#080C12" text-anchor="start">VER TODOS OS</text>
+<text x="40" y="150" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="50" font-weight="700" fill="#080C12" text-anchor="start">REPOSITÓRIOS</text>
+<text x="40" y="213" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="32" font-weight="700" fill="#080C12" text-anchor="start">@phbr63</text>
+<path d="M1014 62H1126V174H1106V102L1034 174L1014 154L1086 82H1014Z" fill="#080C12"/>
+<rect x="0" y="240" width="1110" height="8" fill="#080C12"/>
+<rect x="1130" y="240" width="70" height="8" fill="#FF375A"/>
+</svg>

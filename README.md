@@ -1,81 +1,99 @@
 <picture>
   <source media="(max-width: 600px)" srcset="./assets/yellow-protocol/banners/banner-compacto.webp">
-  <img src="./assets/yellow-protocol/banners/banner-principal.webp" width="100%" alt="Pedro Zampronha — @phbr63. Desenvolvimento, experimentação e projetos.">
+  <img src="./assets/yellow-protocol/banners/banner-principal.webp" width="100%" alt="Pedro Zampronha — @phbr63. Desenvolvimento, experimentação e projetos. Identidade visual inspirada em Cyberpunk 2077.">
 </picture>
 
-<p align="center">
-  <b>Desenvolvimento de software · Integrações · Dados · Experiências interativas</b>
+<picture>
+  <source media="(max-width: 600px)" srcset="./assets/neon-protocol/intro-mobile.svg">
+  <img src="./assets/neon-protocol/intro-desktop.svg" width="100%" alt="Pedro Zampronha. Formado em Sistemas de Informação pela ESPM. Desenvolvimento de software, integração de sistemas e dados. Interesses em jogos, RPG, animes e realidade virtual.">
+</picture>
+
+<picture>
+  <source media="(max-width: 600px) and (prefers-reduced-motion: no-preference)" srcset="./assets/neon-protocol/terminal-mobile.gif">
+  <source media="(max-width: 600px)" srcset="./assets/neon-protocol/terminal-mobile.svg">
+  <source media="(prefers-reduced-motion: no-preference)" srcset="./assets/yellow-protocol/animacoes/terminal-conexao.gif">
+  <img src="./assets/yellow-protocol/animacoes/terminal-conexao.png" width="100%" alt="Criando. Experimentando. Evoluindo.">
+</picture>
+
+<picture>
+  <source media="(max-width: 600px)" srcset="./assets/neon-protocol/stack-mobile.svg">
+  <img src="./assets/neon-protocol/stack-desktop.svg" width="100%" alt="Tecnologias por área: back-end e integrações — Java, Spring Boot, APIs REST e Apache Camel; web — React, TypeScript, HTML, CSS e Tailwind CSS; dados — SQL, PostgreSQL, MySQL, Oracle, Supabase e Tableau; automação — Python; jogos e realidade virtual — C# e Unity; versionamento — Git e GitHub.">
+</picture>
+
+<picture>
+  <source media="(max-width: 600px)" srcset="./assets/neon-protocol/section-projects-mobile.svg">
+  <img src="./assets/neon-protocol/section-projects-desktop.svg" width="100%" alt="Projetos — explorar o código.">
+</picture>
+
+<p>
+<a href="https://github.com/PHBR63/3dGame">
+  <img src="./assets/yellow-protocol/projetos/projeto-3dgame.webp" width="100%" alt="Capa ilustrada de 3dGame. Abrir o repositório.">
+  <picture>
+  <source media="(max-width: 600px)" srcset="./assets/neon-protocol/project-3dgame-mobile.svg">
+  <img src="./assets/neon-protocol/project-3dgame-desktop.svg" width="100%" alt="3dGame — Jogo da turma da ESPM. Abrir repositório.">
+</picture>
+</a>
 </p>
 
-<p align="center">
-  <a href="#user-content-missões--projetos">Projetos</a> ·
-  <a href="#user-content-tech-loadout--tecnologias">Tecnologias</a> ·
-  <a href="#user-content-identificação--sobre-mim">Sobre mim</a> ·
-  <a href="https://github.com/PHBR63?tab=repositories">Todos os repositórios</a>
+<p>
+<a href="https://github.com/PHBR63/jogo-vr">
+  <img src="./assets/yellow-protocol/projetos/projeto-jogo-vr.webp" width="100%" alt="Capa ilustrada de jogo-vr. Abrir o repositório.">
+  <picture>
+  <source media="(max-width: 600px)" srcset="./assets/neon-protocol/project-vr-mobile.svg">
+  <img src="./assets/neon-protocol/project-vr-desktop.svg" width="100%" alt="jogo-vr — Unity e C#. Projeto de jogo em realidade virtual. Abrir repositório.">
+</picture>
+</a>
 </p>
+
+<p>
+<a href="https://github.com/PHBR63/lets-roll-cursor">
+  <img src="./assets/yellow-protocol/projetos/projeto-lets-roll-cursor.webp" width="100%" alt="Capa ilustrada de Let&#x27;s Roll. Abrir o repositório.">
+  <picture>
+  <source media="(max-width: 600px)" srcset="./assets/neon-protocol/project-roll-mobile.svg">
+  <img src="./assets/neon-protocol/project-roll-desktop.svg" width="100%" alt="Let&#x27;s Roll — React, TypeScript e Supabase. Plataforma para RPG de mesa online, em desenvolvimento. Abrir repositório.">
+</picture>
+</a>
+</p>
+
+<p>
+<a href="https://github.com/PHBR63/anime-check">
+  <img src="./assets/neon-protocol/projeto-anime-check.webp" width="100%" alt="Capa ilustrada de Anime Check. Abrir o repositório.">
+  <picture>
+  <source media="(max-width: 600px)" srcset="./assets/neon-protocol/project-anime-mobile.svg">
+  <img src="./assets/neon-protocol/project-anime-desktop.svg" width="100%" alt="Anime Check — Organização e descoberta de animes. Abrir repositório.">
+</picture>
+</a>
+</p>
+
+<picture>
+  <source media="(max-width: 600px)" srcset="./assets/neon-protocol/about-mobile.svg">
+  <img src="./assets/neon-protocol/about-desktop.svg" width="100%" alt="Minha trajetória reúne desenvolvimento, integração de sistemas e dados. Experiência com Java, Spring Boot e APIs REST. No setor financeiro, trabalhei com cobrança, modernização de aplicações e correção de vulnerabilidades. Interesses em jogos, RPG, animes e realidade virtual.">
+</picture>
+
+<picture>
+  <source media="(prefers-reduced-motion: no-preference)" srcset="./assets/yellow-protocol/animacoes/divisoria-scan.gif">
+  <img src="./assets/yellow-protocol/animacoes/divisoria-scan.png" width="100%" alt="">
+</picture>
+
+<a href="https://github.com/PHBR63?tab=repositories">
+<picture>
+  <source media="(max-width: 600px)" srcset="./assets/neon-protocol/footer-mobile.svg">
+  <img src="./assets/neon-protocol/footer-desktop.svg" width="100%" alt="Ver todos os repositórios de @phbr63 no GitHub.">
+</picture>
+</a>
+
+<details>
+<summary><b>Ler perfil em texto — apresentação, tecnologias e projetos</b></summary>
+
+## Pedro Zampronha
 
 Sou **Pedro Zampronha**, formado em Sistemas de Informação pela **ESPM**. Trabalho com desenvolvimento de software, integração de sistemas e dados. Gosto de conectar a necessidade de quem usa, a regra de negócio, a interface, a API e os dados.
 
 Jogos, RPG, animes e realidade virtual também fazem parte desse percurso — e frequentemente viram projetos.
 
-<picture>
-  <source media="(prefers-reduced-motion: no-preference)" srcset="./assets/yellow-protocol/animacoes/terminal-conexao.gif">
-  <img src="./assets/yellow-protocol/animacoes/terminal-conexao.png" width="100%" alt="Criando. Experimentando. Evoluindo.">
-</picture>
-
-## Missões // Projetos
-
-### 01 · 3dGame
-
-<a href="https://github.com/PHBR63/3dGame">
-  <img src="./assets/yellow-protocol/projetos/projeto-3dgame.webp" width="640" alt="Capa ilustrada de 3dGame: um portal iluminado em uma cidade futurista. Abrir o repositório.">
-</a>
-
-**Jogo da turma da ESPM.** Um registro de desenvolvimento de jogos em 3D.
-
-[Explorar o código →](https://github.com/PHBR63/3dGame)
-
-### 02 · jogo-vr
-
-<a href="https://github.com/PHBR63/jogo-vr">
-  <img src="./assets/yellow-protocol/projetos/projeto-jogo-vr.webp" width="640" alt="Capa ilustrada de jogo-vr: um visor de realidade virtual com detalhes amarelos e ciano. Abrir o repositório.">
-</a>
-
-**Unity · C#** — Projeto de jogo em realidade virtual, explorando experiências interativas.
-
-[Explorar o código →](https://github.com/PHBR63/jogo-vr)
-
-### 03 · Let's Roll
-
-<a href="https://github.com/PHBR63/lets-roll-cursor">
-  <img src="./assets/yellow-protocol/projetos/projeto-lets-roll-cursor.webp" width="640" alt="Capa ilustrada de lets-roll-cursor: um cursor ciano com rastros de luz. Abrir o repositório de Let's Roll.">
-</a>
-
-**React · TypeScript · Supabase** — Plataforma em desenvolvimento para RPG de mesa online, com organização de campanhas e recursos para mestres e jogadores.
-
-[Explorar o código →](https://github.com/PHBR63/lets-roll-cursor)
-
-**Também por aqui:** [Anime Check](https://github.com/PHBR63/anime-check), projeto voltado à organização e descoberta de animes.
-
-<sub>Os projetos estão em diferentes estágios de desenvolvimento. As capas são ilustrações conceituais de apresentação.</sub>
-
-## Tech loadout // Tecnologias
-
-<p>
-  <img src="./assets/yellow-protocol/tecnologias/java.svg" width="140" alt="Java">
-  <img src="./assets/yellow-protocol/tecnologias/spring-boot.svg" width="140" alt="Spring Boot">
-  <img src="./assets/yellow-protocol/tecnologias/react.svg" width="140" alt="React">
-  <img src="./assets/yellow-protocol/tecnologias/typescript.svg" width="140" alt="TypeScript">
-  <img src="./assets/yellow-protocol/tecnologias/python.svg" width="140" alt="Python">
-  <img src="./assets/yellow-protocol/tecnologias/sql.svg" width="140" alt="SQL">
-  <img src="./assets/yellow-protocol/tecnologias/csharp.svg" width="140" alt="C#">
-  <img src="./assets/yellow-protocol/tecnologias/unity.svg" width="140" alt="Unity">
-</p>
+### Tecnologias e ferramentas
 
 Tecnologias presentes na minha experiência e nos meus projetos. Escolho as ferramentas considerando o problema, a complexidade da solução e o trabalho necessário para mantê-la.
-
-<details>
-<summary><b>Ver ferramentas por área</b></summary>
 
 | Área | Tecnologias e ferramentas |
 | :--- | :--- |
@@ -86,12 +104,35 @@ Tecnologias presentes na minha experiência e nos meus projetos. Escolho as ferr
 | Jogos e realidade virtual | C# · Unity |
 | Versionamento | Git · GitHub |
 
-</details>
+### Projetos
 
-## Identificação // Sobre mim
+#### 01 · 3dGame
 
-<details>
-<summary><b>Minha experiência e como gosto de trabalhar</b></summary>
+**Jogo da turma da ESPM.** Um registro de desenvolvimento de jogos em 3D.
+
+[Explorar o código de 3dGame →](https://github.com/PHBR63/3dGame)
+
+#### 02 · jogo-vr
+
+**Unity · C#** — Projeto de jogo em realidade virtual, explorando experiências interativas.
+
+[Explorar o código de jogo-vr →](https://github.com/PHBR63/jogo-vr)
+
+#### 03 · Let's Roll
+
+**React · TypeScript · Supabase** — Plataforma em desenvolvimento para RPG de mesa online, com organização de campanhas e recursos para mestres e jogadores.
+
+[Explorar o código de Let's Roll →](https://github.com/PHBR63/lets-roll-cursor)
+
+#### 04 · Anime Check
+
+Projeto voltado à organização e descoberta de animes.
+
+[Explorar o código de Anime Check →](https://github.com/PHBR63/anime-check)
+
+Os projetos estão em diferentes estágios de desenvolvimento. As capas são ilustrações conceituais de apresentação.
+
+### Experiência e forma de trabalhar
 
 Minha trajetória reúne desenvolvimento de software, integração de sistemas, análise de dados e experiência com infraestrutura e liderança técnica.
 
@@ -101,20 +142,10 @@ Também trabalho com aplicações web, automação e visualização de dados. Go
 
 Valorizo código legível, responsabilidades bem definidas e documentação que explique o caminho dos dados e o motivo das decisões. Procuro compreender o contexto, fazer mudanças objetivas e validar o comportamento esperado. Uso ferramentas de inteligência artificial como apoio à pesquisa e ao desenvolvimento, mantendo a revisão crítica sobre o resultado.
 
+[Todos os repositórios](https://github.com/PHBR63?tab=repositories) · [Atividade no GitHub](https://github.com/PHBR63?tab=overview)
+
 </details>
 
-<picture>
-  <source media="(prefers-reduced-motion: no-preference)" srcset="./assets/yellow-protocol/animacoes/divisoria-scan.gif">
-  <img src="./assets/yellow-protocol/animacoes/divisoria-scan.png" width="100%" alt="">
-</picture>
-
 <p align="center">
-  <b>Continuar explorando</b><br>
-  <a href="https://github.com/PHBR63?tab=repositories">Repositórios</a> ·
-  <a href="https://github.com/PHBR63?tab=overview">Atividade no GitHub</a>
+  <sub>Identidade visual inspirada em <a href="https://www.cyberpunk.net/br/pt-br/cyberpunk-2077">Cyberpunk 2077</a>. Capas conceituais criadas com IA.</sub>
 </p>
-
-<p align="center">
-  <sub>Identidade visual inspirada em <a href="https://www.cyberpunk.net/br/pt-br/cyberpunk-2077">Cyberpunk 2077</a>. Artes ilustradas criadas com IA.</sub>
-</p>
-

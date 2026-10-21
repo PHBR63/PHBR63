@@ -1,0 +1,15 @@
+{
+  "asset": "assets/neon-protocol/projeto-anime-check.webp",
+  "mode": "built-in image_gen",
+  "source": "generated_images/exec-83190b31-25cb-4098-b5cd-f5eed17c8e87.png",
+  "style_references": [
+    "assets/yellow-protocol/projetos/projeto-jogo-vr.webp",
+    "assets/yellow-protocol/projetos/projeto-lets-roll-cursor.webp"
+  ],
+  "prompt": "Use case: stylized-concept\nAsset type: final production GitHub profile project cover illustration, landscape exactly 2:1.\nInput images: Image 1 and Image 2 are style references only, not edit targets. Create a NEW companion cover in the same visual family.\nPrimary request: Cyberpunk 2077 / Yellow Protocol themed cover for an anime organization and discovery project called ANIME CHECK.\nScene/backdrop: dense futuristic city at night, rain-dark metal architecture, wet reflective surfaces, yellow neon light streaks and cyan technological glow.\nSubject: on the right half, a visually exciting fan of 3 floating holographic illustrated anime discovery cards, showing original futuristic character portraits/silhouettes. Cards feel like collectible illustrations, not application screenshots. Use vivid magenta and red accents on card art, balanced by cyan edges and yellow light.\nStyle/medium: cinematic high-detail concept art with the same industrial textures, clean angular framing, strong typography and urban scale as the two references. Increase colorful accents while preserving the references' yellow and black identity.\nComposition/framing: wide 2:1 cover. Left half is dark and graphic with huge bold italic angular yellow title split into two lines: ANIME / CHECK. Title must be prominent and legible as a thumbnail. Along lower left, smaller exact label PROJETO / TYPESCRIPT. Clearly separate large numeric marker 04 in its own angular badge. Keep all text within safe margins of at least 6 percent. Large yellow corner at upper left, cyan/red technical accents and angular corner detail at lower right; opaque dark background.\nColor palette: black #080C12; dominant electric yellow #FCEE09; cyan #00F0FF; red #FF375A; controlled magenta #F35CDB.\nText (verbatim, these are the only words and numbers): \"ANIME CHECK\", \"PROJETO / TYPESCRIPT\", \"04\".\nConstraints: exactly one polished image; exact readable text; no browser frame, no device mockup, no fake app statistics or UI buttons, no game or company logos, no extra text, no watermarks. Do not copy the VR headset or cursor subjects from references. Original anime characters only.",
+  "encoding": {
+    "format": "webp",
+    "quality": 82,
+    "resized": false
+  }
+}

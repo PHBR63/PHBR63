@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="602" viewBox="0 0 1200 602" role="img" aria-labelledby="title desc">
+<title id="title">Sobre Pedro Zampronha</title>
+<desc id="desc">Experiência em desenvolvimento e integração, passagem pelo setor financeiro e interesses em jogos, RPG, animes e realidade virtual.</desc>
+<rect width="1200" height="602" fill="#080C12"/>
+<path d="M0 0H1152L1200 48V112L1176 136H0Z" fill="#00F0FF"/>
+<text x="32" y="73" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="52" font-weight="700" fill="#080C12" text-anchor="start">03 // IDENTIFICAÇÃO</text>
+<text x="34" y="113" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="26" font-weight="400" fill="#080C12" text-anchor="start">SOBRE MIM</text>
+<rect x="1150" y="118" width="18" height="6" fill="#080C12"/>
+<rect x="1124" y="118" width="18" height="6" fill="#080C12"/>
+<rect x="1098" y="118" width="18" height="6" fill="#080C12"/>
+<text x="32" y="194" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="32" font-weight="400" fill="#EDF3FA" text-anchor="start">Experiência com Java, Spring Boot e APIs</text>
+<text x="32" y="237" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="32" font-weight="400" fill="#EDF3FA" text-anchor="start">REST, integração de sistemas e dados.</text>
+<path d="M32 296H744L762 314V354H32Z" fill="#FCEE09"/>
+<text x="50" y="335" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="28" font-weight="700" fill="#080C12" text-anchor="start">SETOR FINANCEIRO</text>
+<text x="32" y="399" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="32" font-weight="400" fill="#EDF3FA" text-anchor="start">No setor financeiro, trabalhei com cobrança,</text>
+<text x="32" y="442" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="32" font-weight="400" fill="#EDF3FA" text-anchor="start">modernização de aplicações e correção de</text>
+<text x="32" y="485" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="32" font-weight="400" fill="#EDF3FA" text-anchor="start">vulnerabilidades.</text>
+<path d="M804 168H1136L1168 200V570H828L804 546Z" fill="#FCEE09"/>
+<text x="828" y="217" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="28" font-weight="700" fill="#080C12" text-anchor="start">ALÉM DO CÓDIGO</text>
+<rect x="828" y="238" width="316" height="3" fill="#080C12"/>
+<path d="M828 271L840 277L828 283Z" fill="#080C12"/>
+<text x="854" y="286" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="32" font-weight="400" fill="#080C12" text-anchor="start">Jogos</text>
+<path d="M828 331L840 337L828 343Z" fill="#080C12"/>
+<text x="854" y="346" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="32" font-weight="400" fill="#080C12" text-anchor="start">RPG</text>
+<path d="M828 391L840 397L828 403Z" fill="#080C12"/>
+<text x="854" y="406" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="32" font-weight="400" fill="#080C12" text-anchor="start">Animes</text>
+<path d="M828 451L840 457L828 463Z" fill="#080C12"/>
+<text x="854" y="466" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="32" font-weight="400" fill="#080C12" text-anchor="start">Realidade virtual</text>
+<rect x="0" y="594" width="400" height="8" fill="#00F0FF"/>
+<rect x="400" y="594" width="150" height="8" fill="#FF375A"/>
+</svg>

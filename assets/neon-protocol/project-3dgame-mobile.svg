@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="344" viewBox="0 0 600 344" role="img" aria-labelledby="title desc">
+<title id="title">3dGame — abrir repositório</title>
+<desc id="desc">Jogo da turma da ESPM.</desc>
+<rect width="600" height="344" fill="#080C12"/>
+<path d="M0 0H572L600 28V88H0Z" fill="#FCEE09"/>
+<text x="28" y="59" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="38" font-weight="700" fill="#080C12" text-anchor="start">3dGame</text>
+<text x="28" y="191.5" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="32" font-weight="400" fill="#EDF3FA" text-anchor="start">Jogo da turma da ESPM.</text>
+<rect x="0" y="272" width="600" height="72" fill="#00F0FF"/>
+<text x="28" y="320" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="28" font-weight="700" fill="#080C12" text-anchor="start">ABRIR REPOSITÓRIO ↗</text>
+<path d="M504 292H560V298H498Z" fill="#080C12"/>
+</svg>
