@@ -5,6 +5,8 @@
 </picture>
 </p>
 
+<p align="center"><img src="./assets/neon-protocol/animated/hero-signal.svg" width="100%" alt="Painel Cyberpunk animado: hero-signal"></p>
+
 <p>
 <picture>
   <source media="(max-width: 600px)" srcset="./assets/neon-protocol/intro-mobile.svg">
@@ -28,6 +30,8 @@
 </picture>
 </p>
 
+<p align="center"><img src="./assets/neon-protocol/animated/identity-scan.svg" width="100%" alt="Painel Cyberpunk animado: identity-scan"></p>
+
 <p>
 <picture>
   <source media="(max-width: 600px)" srcset="./assets/neon-protocol/stack-mobile.svg">
@@ -42,12 +46,16 @@
 </picture>
 </p>
 
+<p align="center"><img src="./assets/neon-protocol/animated/tech-pulse.svg" width="100%" alt="Painel Cyberpunk animado: tech-pulse"></p>
+
 <p>
 <picture>
   <source media="(max-width: 600px)" srcset="./assets/neon-protocol/section-projects-mobile.svg">
   <img src="./assets/neon-protocol/section-projects-desktop.svg" width="100%" align="top" alt="Projetos — explorar o código.">
 </picture>
 </p>
+
+<p align="center"><img src="./assets/neon-protocol/animated/mission-3d.svg" width="100%" alt="Painel Cyberpunk animado: mission-3d"></p>
 
 <p>
 <a href="https://github.com/PHBR63/3dGame">
@@ -59,6 +67,8 @@
 </a>
 </p>
 
+<p align="center"><img src="./assets/neon-protocol/animated/mission-vr.svg" width="100%" alt="Painel Cyberpunk animado: mission-vr"></p>
+
 <p>
 <a href="https://github.com/PHBR63/jogo-vr">
   <img src="./assets/yellow-protocol/projetos/projeto-jogo-vr.webp" width="100%" align="top" alt="Capa ilustrada de jogo-vr. Abrir o repositório.">
@@ -69,6 +79,8 @@
 </a>
 </p>
 
+<p align="center"><img src="./assets/neon-protocol/animated/mission-roll.svg" width="100%" alt="Painel Cyberpunk animado: mission-roll"></p>
+
 <p>
 <a href="https://github.com/PHBR63/lets-roll-cursor">
   <img src="./assets/yellow-protocol/projetos/projeto-lets-roll-cursor.webp" width="100%" align="top" alt="Capa ilustrada de Let&#x27;s Roll. Abrir o repositório.">
@@ -78,6 +90,8 @@
 </picture>
 </a>
 </p>
+
+<p align="center"><img src="./assets/neon-protocol/animated/mission-anime.svg" width="100%" alt="Painel Cyberpunk animado: mission-anime"></p>
 
 <p>
 <a href="https://github.com/PHBR63/anime-check">
@@ -96,6 +110,8 @@
 </picture>
 </p>
 
+<p align="center"><img src="./assets/neon-protocol/animated/timeline.svg" width="100%" alt="Painel Cyberpunk animado: timeline"></p>
+
 <p>
 <picture>
   <source media="(max-width: 600px)" srcset="./assets/neon-protocol/about-mobile.svg">
@@ -109,6 +125,8 @@
   <img src="./assets/yellow-protocol/animacoes/divisoria-scan.gif" width="100%" align="top" alt="">
 </picture>
 </p>
+
+<p align="center"><img src="./assets/neon-protocol/animated/outro.svg" width="100%" alt="Painel Cyberpunk animado: outro"></p>
 
 <p>
 <a href="https://github.com/PHBR63?tab=repositories">
