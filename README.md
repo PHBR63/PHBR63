@@ -1,6 +1,6 @@
-<p align="center"><img src="./assets/aincrad-hero.png" width="100%" alt="Pedro Zampronha. Arte de Aincrad com castelo flutuante sobre as nuvens e menu holográfico Link Start."></p>
+<p align="center"><img src="./assets/aincrad-hero-reference.png" width="100%" alt="Pedro Zampronha. Arte de Aincrad com castelo flutuante sobre as nuvens e menu holográfico Link Start."></p>
 
-<img src="./assets/system-link.svg" width="100%" alt="PHBR63 · Code, build, explore">
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/system-link.svg"><img src="./assets/system-link-light.svg" width="100%" alt="PHBR63 · Code, build, explore"></picture>
 
 <p align="center"><b>Desenvolvimento de software · Integrações · Dados · Experiências interativas</b><br><sub>Java e Spring Boot no back-end. Interfaces, dados e mundos interativos nos projetos.</sub></p>
 
@@ -13,15 +13,19 @@
 
 <a href="https://github.com/PHBR63/lets-roll-cursor">
 <picture>
-  <source media="(max-width: 600px)" srcset="./assets/quest-lets-roll-mobile.svg">
-  <img src="./assets/quest-lets-roll.svg" width="100%" alt="Let&#x27;s Roll — RPG de mesa online. Abrir repositório.">
+  <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="./assets/quest-lets-roll-mobile.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/quest-lets-roll.svg">
+  <source media="(max-width: 600px)" srcset="./assets/quest-lets-roll-light-mobile.svg">
+  <img src="./assets/quest-lets-roll-light.svg" width="100%" alt="Let&#x27;s Roll — RPG de mesa online. Abrir repositório.">
 </picture>
 </a>
 
 <a href="https://github.com/PHBR63/anime-check">
 <picture>
-  <source media="(max-width: 600px)" srcset="./assets/quest-anime-check-mobile.svg">
-  <img src="./assets/quest-anime-check.svg" width="100%" alt="Anime Check — Organização e descoberta de animes. Abrir repositório.">
+  <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="./assets/quest-anime-check-mobile.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/quest-anime-check.svg">
+  <source media="(max-width: 600px)" srcset="./assets/quest-anime-check-light-mobile.svg">
+  <img src="./assets/quest-anime-check-light.svg" width="100%" alt="Anime Check — Organização e descoberta de animes. Abrir repositório.">
 </picture>
 </a>
 
@@ -34,8 +38,10 @@
 <br>
 
 <picture>
-  <source media="(max-width: 600px)" srcset="./assets/skill-records-mobile.svg">
-  <img src="./assets/skill-records.svg" width="100%" alt="Back-end: Java e Spring Boot. Web: React e TypeScript. Dados: SQL e Tableau. Automação: Python. Jogos: C# e Unity. Versionamento: Git e GitHub.">
+  <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="./assets/skill-records-mobile.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/skill-records.svg">
+  <source media="(max-width: 600px)" srcset="./assets/skill-records-light-mobile.svg">
+  <img src="./assets/skill-records-light.svg" width="100%" alt="Back-end: Java e Spring Boot. Web: React e TypeScript. Dados: SQL e Tableau. Automação: Python. Jogos: C# e Unity. Versionamento: Git e GitHub.">
 </picture>
 
 Escolho as ferramentas de acordo com o problema, considerando a complexidade da solução e o trabalho necessário para mantê-la.
@@ -47,8 +53,10 @@ Escolho as ferramentas de acordo com o problema, considerando a complexidade da 
 <br>
 
 <picture>
-  <source media="(max-width: 600px)" srcset="./assets/activity-record-mobile.svg">
-  <img src="./assets/activity-record.svg" width="100%" alt="12 repositórios públicos e 391 contribuições na janela consultada. Dados coletados em 21/10/2026.">
+  <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="./assets/activity-record-mobile.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-record.svg">
+  <source media="(max-width: 600px)" srcset="./assets/activity-record-light-mobile.svg">
+  <img src="./assets/activity-record-light.svg" width="100%" alt="12 repositórios públicos e 391 contribuições na janela consultada. Dados coletados em 21/10/2026.">
 </picture>
 
 <sub>Fotografia dos dados públicos consultados em 21/10/2026; não é um indicador em tempo real.</sub>
@@ -122,4 +130,4 @@ Por aqui, compartilho parte desse percurso: aplicações, estudos e ideias que g
 
 <p align="center"><br><b>O próximo projeto começa com uma boa ideia.</b><br><sub>Software, RPG, animes e realidade virtual fazem parte do caminho.</sub><br><br><a href="https://github.com/PHBR63?tab=repositories">Explorar meus repositórios</a></p>
 
-<p align="center"><sub>PHBR63 · Interface autoral inspirada em Sword Art Online / Aincrad · Sem vínculo oficial com a franquia.</sub></p>
+<p align="center"><sub>PHBR63 · Inspirado em Sword Art Online / Aincrad · Sem vínculo oficial.<br>Referências: <a href="https://aincrad-archive.hecate2.chatgpt.site/">Aincrad Memory Archive</a> · <a href="https://wallpapersafari.com/w/F8j0Gb">Wallpaper de Aincrad</a>. Arte do cabeçalho adaptada com IA.</sub></p>

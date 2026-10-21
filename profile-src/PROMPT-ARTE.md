@@ -1,5 +1,15 @@
 # Prompt da arte
 
+## Versão refinada após a referência Aincrad Memory Archive
+
+Ferramenta integrada imagegen, modo de edição. Alvo: wallpaper de Aincrad em https://wallpapersafari.com/w/F8j0Gb. Resultado: assets/aincrad-hero-reference.png.
+
+Edit the provided Aincrad anime wallpaper into an exceptionally polished ultra-wide 3:1 GitHub profile banner for Pedro Zampronha. The wallpaper is the landscape edit target and visual reference: preserve its specific stepped metallic conical castle silhouette, broad circular floor bands, narrow tower at the top, floating rocky underside, bridges, blue daylight sky and white clouds. Do not replace it with a generic fantasy palace, gothic castle or new architecture.
+Composition: castle occupies right 55%, fully recognizable. Left 45% is a refined translucent white/icy glass menu card inspired by the original Sword Art Online interface and the Aincrad Memory Archive site. Bright silver-white panels, thin light-gray outlines, restrained amber-yellow #e8ae00 highlights, ice cyan #3cb9dc accents. Sophisticated circular Link Start HUD integrated toward lower right, small and not obscuring castle. The overall image should feel like a premium authentic anime system menu, calm, high detail and beautifully composed.
+Left typography must be narrow condensed like SAO UI, dark graphite ink, completely readable and fully inside safe margins. Exact text only: small 'PHBR63 / PLAYER PROFILE'; very large two-line 'PEDRO' then 'ZAMPRONHA'; subtitle 'DESENVOLVIMENTO · INTEGRAÇÕES · DADOS'; amber button 'LINK START'. No other lettering, logos, watermarks, characters, invented metrics, portraits or percentages. Keep castle imagery faithful to the supplied anime wallpaper. This is a finished banner asset, not a device mockup. Save locally and report the absolute output path.
+
+## Exploração inicial
+
 Ferramenta: imagegen integrada. Geração nova, sem imagem de referência raster e sem chave de API.
 
 Use case: stylized-concept / premium GitHub profile hero banner. Create a polished ultra-wide landscape banner, about 3:1 aspect ratio, for Pedro Zampronha's developer profile, inspired by Sword Art Online's Aincrad and its floating holographic menus. This must feel like a sophisticated cinematic anime title screen mixed with an elegant developer HUD, not a generic cyberpunk dashboard.

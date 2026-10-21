@@ -7,11 +7,20 @@ import re
 SOURCE = Path(__file__).resolve().parent
 ROOT = SOURCE.parent if SOURCE.name == "profile-src" else SOURCE
 ASSETS = ROOT / "assets"
+TYPE_PATH = SOURCE / "heading-paths.json"
+TYPE = json.loads(TYPE_PATH.read_text(encoding="utf-8")) if TYPE_PATH.exists() else {}
 INK, MUTED, CYAN, AMBER = "#eaf5ff", "#9bb2cc", "#70dfff", "#eebc70"
 
 
 def text(x, y, value, size=26, color=INK, weight=400, extra=""):
     """Recebe posição e rótulo; retorna texto SVG com conteúdo escapado."""
+    value = str(value)
+    shape = TYPE.get(value) if size >= 30 or (size >= 24 and weight >= 600) else None
+    if shape and value != "↗":
+        scale = size / shape["units"]
+        start = x - shape["width"] * scale if 'text-anchor="end"' in extra else x
+        paths = "".join(f'<path transform="translate({g["x"]} 0)" d="{g["d"]}"/>' for g in shape["glyphs"])
+        return f'<g fill="{color}" transform="translate({start} {y}) scale({scale} {-scale})"><title>{escape(value)}</title>{paths}</g>'
     return f'<text x="{x}" y="{y}" font-size="{size}" fill="{color}" font-weight="{weight}" {extra}>{escape(str(value))}</text>'
 
 
@@ -101,7 +110,7 @@ def activity(user, mobile=False):
 
 def picture(base, alt):
     """Gera marcação compatível com o GitHub, com variante para telas pequenas."""
-    return f'<picture>\n  <source media="(max-width: 600px)" srcset="./assets/{base}-mobile.svg">\n  <img src="./assets/{base}.svg" width="100%" alt="{escape(alt)}">\n</picture>'
+    return f'<picture>\n  <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="./assets/{base}-mobile.svg">\n  <source media="(prefers-color-scheme: dark)" srcset="./assets/{base}.svg">\n  <source media="(max-width: 600px)" srcset="./assets/{base}-light-mobile.svg">\n  <img src="./assets/{base}-light.svg" width="100%" alt="{escape(alt)}">\n</picture>'
 
 
 def main():
@@ -119,10 +128,18 @@ def main():
         save(f"activity-record{suffix}.svg",activity(user,mobile))
     strip='''<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="88" viewBox="0 0 1200 88" role="img" aria-label="PHBR63 · Software, integrações e dados"><style>@keyframes travel{to{stroke-dashoffset:-1200}}.signal{animation:travel 12s linear infinite}@media(prefers-reduced-motion:reduce){.signal{animation:none}}</style><path d="M0 18h1200" stroke="#264a64"/><path class="signal" d="M0 18h1200" stroke="#70dfff" stroke-width="2" stroke-dasharray="80 1120"/><g font-family="Segoe UI,Arial,sans-serif" font-size="22" fill="#9bb2cc"><text x="0" y="62">PHBR63 / DEVELOPER PROFILE</text><text x="1200" y="62" text-anchor="end" fill="#eebc70">CODE · BUILD · EXPLORE</text></g></svg>'''
     save("system-link.svg",strip)
+    palette = {"#eaf5ff":"#212933", "#9bb2cc":"#596873", "#70dfff":"#ad7900", "#eebc70":"#169ab8", "#10243b":"#fffdf5", "#091525":"#f6fafc", "#101e32":"#f3f8fb", "#2c536e":"#d5dfe5", "#1b94ba":"#ead88c", "#0a1525":"#f9fbfd", "#31506b":"#dce4e9", "#0d2033":"#ffffff", "#24465e":"#e0e7ec", "#112a3c":"#e5edf1", "#24627b":"#f0d582", "#38a7c8":"#dfaf32"}
+    for asset in list(ASSETS.glob("*.svg")):
+        if "-light" in asset.stem or asset.name == "aincrad-header.svg":
+            continue
+        content = asset.read_text(encoding="utf-8")
+        light = re.sub("|".join(map(re.escape,palette)), lambda m: palette[m.group()], content, flags=re.IGNORECASE)
+        name = asset.stem.replace("-mobile", "-light-mobile") if "-mobile" in asset.stem else asset.stem+"-light"
+        save(name+".svg",light)
     approved=(SOURCE/"texto-aprovado.md").read_text(encoding="utf-8").strip()
-    readme=f'''<p align="center"><img src="./assets/aincrad-hero.png" width="100%" alt="Pedro Zampronha. Arte de Aincrad com castelo flutuante sobre as nuvens e menu holográfico Link Start."></p>
+    readme=f'''<p align="center"><img src="./assets/aincrad-hero-reference.png" width="100%" alt="Pedro Zampronha. Arte de Aincrad com castelo flutuante sobre as nuvens e menu holográfico Link Start."></p>
 
-<img src="./assets/system-link.svg" width="100%" alt="PHBR63 · Code, build, explore">
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/system-link.svg"><img src="./assets/system-link-light.svg" width="100%" alt="PHBR63 · Code, build, explore"></picture>
 
 <p align="center"><b>Desenvolvimento de software · Integrações · Dados · Experiências interativas</b><br><sub>Java e Spring Boot no back-end. Interfaces, dados e mundos interativos nos projetos.</sub></p>
 
@@ -175,7 +192,7 @@ Escolho as ferramentas de acordo com o problema, considerando a complexidade da 
 
 <p align="center"><br><b>O próximo projeto começa com uma boa ideia.</b><br><sub>Software, RPG, animes e realidade virtual fazem parte do caminho.</sub><br><br><a href="https://github.com/PHBR63?tab=repositories">Explorar meus repositórios</a></p>
 
-<p align="center"><sub>PHBR63 · Interface autoral inspirada em Sword Art Online / Aincrad · Sem vínculo oficial com a franquia.</sub></p>
+<p align="center"><sub>PHBR63 · Inspirado em Sword Art Online / Aincrad · Sem vínculo oficial.<br>Referências: <a href="https://aincrad-archive.hecate2.chatgpt.site/">Aincrad Memory Archive</a> · <a href="https://wallpapersafari.com/w/F8j0Gb">Wallpaper de Aincrad</a>. Arte do cabeçalho adaptada com IA.</sub></p>
 '''
     (ROOT/"README.md").write_text(readme,encoding="utf-8",newline="\n")
     for name in re.findall(r'(?:src|srcset)="\./assets/([^"]+)"',readme):
