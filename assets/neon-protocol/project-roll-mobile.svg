@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="600" height="344" viewBox="0 0 600 344" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="368" viewBox="0 0 600 368" role="img" aria-labelledby="title desc">
 <title id="title">Let&#x27;s Roll — abrir repositório</title>
 <desc id="desc">Plataforma para RPG de mesa online, em desenvolvimento.</desc>
-<rect width="600" height="344" fill="#080C12"/>
-<path d="M0 0H572L600 28V88H0Z" fill="#FCEE09"/>
-<text x="28" y="59" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="38" font-weight="700" fill="#080C12" text-anchor="start">Let&#x27;s Roll</text>
-<text x="28" y="148.5" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="32" font-weight="700" fill="#00F0FF" text-anchor="start">React · TypeScript · Supabase</text>
-<text x="28" y="191.5" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="32" font-weight="400" fill="#EDF3FA" text-anchor="start">Plataforma para RPG de mesa</text>
-<text x="28" y="234.5" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="32" font-weight="400" fill="#EDF3FA" text-anchor="start">online, em desenvolvimento.</text>
-<rect x="0" y="272" width="600" height="72" fill="#00F0FF"/>
-<text x="28" y="320" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="28" font-weight="700" fill="#080C12" text-anchor="start">ABRIR REPOSITÓRIO ↗</text>
-<path d="M504 292H560V298H498Z" fill="#080C12"/>
-<rect x="0" y="88" width="10" height="184" fill="#F35CDB"/>
+<rect width="600" height="368" fill="#080C12"/>
+<path d="M0 0H568L600 32V96H0Z" fill="#FCEE09"/>
+<text x="32" y="62" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="38" font-weight="700" fill="#080C12" text-anchor="start">Let&#x27;s Roll</text>
+<text x="32" y="150" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="32" font-weight="400" fill="#00F0FF" text-anchor="start">React · TypeScript · Supabase</text>
+<text x="32" y="204" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="32" font-weight="400" fill="#EDF3FA" text-anchor="start">Plataforma para RPG de mesa</text>
+<text x="32" y="252" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="32" font-weight="400" fill="#EDF3FA" text-anchor="start">online, em desenvolvimento.</text>
+<rect x="0" y="288" width="600" height="80" fill="#00F0FF"/>
+<text x="32" y="338" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="28" font-weight="700" fill="#080C12" text-anchor="start">ABRIR REPOSITÓRIO ↗</text>
+<path d="M504 324H568V330H498Z" fill="#080C12"/>
+<rect x="0" y="96" width="8" height="192" fill="#F35CDB"/>
 </svg>

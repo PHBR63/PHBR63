@@ -1,86 +1,108 @@
+<p>
 <picture>
   <source media="(max-width: 600px)" srcset="./assets/yellow-protocol/banners/banner-compacto.webp">
-  <img src="./assets/yellow-protocol/banners/banner-principal.webp" width="100%" alt="Pedro Zampronha — @phbr63. Desenvolvimento, experimentação e projetos. Identidade visual inspirada em Cyberpunk 2077.">
+  <img src="./assets/yellow-protocol/banners/banner-principal.webp" width="100%" align="top" alt="Pedro Zampronha — @phbr63. Desenvolvimento, experimentação e projetos. Identidade visual inspirada em Cyberpunk 2077.">
 </picture>
+</p>
 
+<p>
 <picture>
   <source media="(max-width: 600px)" srcset="./assets/neon-protocol/intro-mobile.svg">
-  <img src="./assets/neon-protocol/intro-desktop.svg" width="100%" alt="Pedro Zampronha. Formado em Sistemas de Informação pela ESPM. Desenvolvimento de software, integração de sistemas e dados. Interesses em jogos, RPG, animes e realidade virtual.">
+  <img src="./assets/neon-protocol/intro-desktop.svg" width="100%" align="top" alt="Pedro Zampronha. Formado em Sistemas de Informação pela ESPM. Desenvolvimento de software, integração de sistemas e dados. Interesses em jogos, RPG, animes e realidade virtual.">
 </picture>
+</p>
 
+<p>
 <picture>
   <source media="(max-width: 600px) and (prefers-reduced-motion: no-preference)" srcset="./assets/neon-protocol/terminal-mobile.gif">
   <source media="(max-width: 600px)" srcset="./assets/neon-protocol/terminal-mobile.svg">
   <source media="(prefers-reduced-motion: no-preference)" srcset="./assets/yellow-protocol/animacoes/terminal-conexao.gif">
-  <img src="./assets/yellow-protocol/animacoes/terminal-conexao.png" width="100%" alt="Criando. Experimentando. Evoluindo.">
+  <img src="./assets/yellow-protocol/animacoes/terminal-conexao.png" width="100%" align="top" alt="Criando. Experimentando. Evoluindo.">
 </picture>
+</p>
 
+<br>
+
+<p>
 <picture>
   <source media="(max-width: 600px)" srcset="./assets/neon-protocol/stack-mobile.svg">
-  <img src="./assets/neon-protocol/stack-desktop.svg" width="100%" alt="Tecnologias por área: back-end e integrações — Java, Spring Boot, APIs REST e Apache Camel; web — React, TypeScript, HTML, CSS e Tailwind CSS; dados — SQL, PostgreSQL, MySQL, Oracle, Supabase e Tableau; automação — Python; jogos e realidade virtual — C# e Unity; versionamento — Git e GitHub.">
+  <img src="./assets/neon-protocol/stack-desktop.svg" width="100%" align="top" alt="Tecnologias por área: back-end e integrações — Java, Spring Boot, APIs REST e Apache Camel; web — React, TypeScript, HTML, CSS e Tailwind CSS; dados — SQL, PostgreSQL, MySQL, Oracle, Supabase e Tableau; automação — Python; jogos e realidade virtual — C# e Unity; versionamento — Git e GitHub.">
 </picture>
+</p>
 
+<br>
+
+<p>
 <picture>
   <source media="(max-width: 600px)" srcset="./assets/neon-protocol/section-projects-mobile.svg">
-  <img src="./assets/neon-protocol/section-projects-desktop.svg" width="100%" alt="Projetos — explorar o código.">
+  <img src="./assets/neon-protocol/section-projects-desktop.svg" width="100%" align="top" alt="Projetos — explorar o código.">
 </picture>
+</p>
 
 <p>
 <a href="https://github.com/PHBR63/3dGame">
-  <img src="./assets/yellow-protocol/projetos/projeto-3dgame.webp" width="100%" alt="Capa ilustrada de 3dGame. Abrir o repositório.">
+  <img src="./assets/yellow-protocol/projetos/projeto-3dgame.webp" width="100%" align="top" alt="Capa ilustrada de 3dGame. Abrir o repositório.">
   <picture>
   <source media="(max-width: 600px)" srcset="./assets/neon-protocol/project-3dgame-mobile.svg">
-  <img src="./assets/neon-protocol/project-3dgame-desktop.svg" width="100%" alt="3dGame — Jogo da turma da ESPM. Abrir repositório.">
+  <img src="./assets/neon-protocol/project-3dgame-desktop.svg" width="100%" align="top" alt="3dGame — Jogo da turma da ESPM. Abrir repositório.">
 </picture>
 </a>
 </p>
 
 <p>
 <a href="https://github.com/PHBR63/jogo-vr">
-  <img src="./assets/yellow-protocol/projetos/projeto-jogo-vr.webp" width="100%" alt="Capa ilustrada de jogo-vr. Abrir o repositório.">
+  <img src="./assets/yellow-protocol/projetos/projeto-jogo-vr.webp" width="100%" align="top" alt="Capa ilustrada de jogo-vr. Abrir o repositório.">
   <picture>
   <source media="(max-width: 600px)" srcset="./assets/neon-protocol/project-vr-mobile.svg">
-  <img src="./assets/neon-protocol/project-vr-desktop.svg" width="100%" alt="jogo-vr — Unity e C#. Projeto de jogo em realidade virtual. Abrir repositório.">
+  <img src="./assets/neon-protocol/project-vr-desktop.svg" width="100%" align="top" alt="jogo-vr — Unity e C#. Projeto de jogo em realidade virtual. Abrir repositório.">
 </picture>
 </a>
 </p>
 
 <p>
 <a href="https://github.com/PHBR63/lets-roll-cursor">
-  <img src="./assets/yellow-protocol/projetos/projeto-lets-roll-cursor.webp" width="100%" alt="Capa ilustrada de Let&#x27;s Roll. Abrir o repositório.">
+  <img src="./assets/yellow-protocol/projetos/projeto-lets-roll-cursor.webp" width="100%" align="top" alt="Capa ilustrada de Let&#x27;s Roll. Abrir o repositório.">
   <picture>
   <source media="(max-width: 600px)" srcset="./assets/neon-protocol/project-roll-mobile.svg">
-  <img src="./assets/neon-protocol/project-roll-desktop.svg" width="100%" alt="Let&#x27;s Roll — React, TypeScript e Supabase. Plataforma para RPG de mesa online, em desenvolvimento. Abrir repositório.">
+  <img src="./assets/neon-protocol/project-roll-desktop.svg" width="100%" align="top" alt="Let&#x27;s Roll — React, TypeScript e Supabase. Plataforma para RPG de mesa online, em desenvolvimento. Abrir repositório.">
 </picture>
 </a>
 </p>
 
 <p>
 <a href="https://github.com/PHBR63/anime-check">
-  <img src="./assets/neon-protocol/projeto-anime-check.webp" width="100%" alt="Capa ilustrada de Anime Check. Abrir o repositório.">
+  <img src="./assets/neon-protocol/projeto-anime-check.webp" width="100%" align="top" alt="Capa ilustrada de Anime Check. Abrir o repositório.">
   <picture>
   <source media="(max-width: 600px)" srcset="./assets/neon-protocol/project-anime-mobile.svg">
-  <img src="./assets/neon-protocol/project-anime-desktop.svg" width="100%" alt="Anime Check — Organização e descoberta de animes. Abrir repositório.">
+  <img src="./assets/neon-protocol/project-anime-desktop.svg" width="100%" align="top" alt="Anime Check — Organização e descoberta de animes. Abrir repositório.">
 </picture>
 </a>
 </p>
 
+<br>
+
+<p>
 <picture>
   <source media="(max-width: 600px)" srcset="./assets/neon-protocol/about-mobile.svg">
-  <img src="./assets/neon-protocol/about-desktop.svg" width="100%" alt="Minha trajetória reúne desenvolvimento, integração de sistemas e dados. Experiência com Java, Spring Boot e APIs REST. No setor financeiro, trabalhei com cobrança, modernização de aplicações e correção de vulnerabilidades. Interesses em jogos, RPG, animes e realidade virtual.">
+  <img src="./assets/neon-protocol/about-desktop.svg" width="100%" align="top" alt="Minha trajetória reúne desenvolvimento, integração de sistemas e dados. Experiência com Java, Spring Boot e APIs REST. No setor financeiro, trabalhei com cobrança, modernização de aplicações e correção de vulnerabilidades. Interesses em jogos, RPG, animes e realidade virtual.">
 </picture>
+</p>
 
+<p>
 <picture>
   <source media="(prefers-reduced-motion: no-preference)" srcset="./assets/yellow-protocol/animacoes/divisoria-scan.gif">
-  <img src="./assets/yellow-protocol/animacoes/divisoria-scan.png" width="100%" alt="">
+  <img src="./assets/yellow-protocol/animacoes/divisoria-scan.png" width="100%" align="top" alt="">
 </picture>
+</p>
 
+<p>
 <a href="https://github.com/PHBR63?tab=repositories">
 <picture>
   <source media="(max-width: 600px)" srcset="./assets/neon-protocol/footer-mobile.svg">
-  <img src="./assets/neon-protocol/footer-desktop.svg" width="100%" alt="Ver todos os repositórios de @phbr63 no GitHub.">
+  <img src="./assets/neon-protocol/footer-desktop.svg" width="100%" align="top" alt="Ver todos os repositórios de @phbr63 no GitHub.">
 </picture>
 </a>
+</p>
 
 <details>
 <summary><b>Ler perfil em texto — apresentação, tecnologias e projetos</b></summary>

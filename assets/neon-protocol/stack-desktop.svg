@@ -1,38 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="768" viewBox="0 0 1200 768" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="832" viewBox="0 0 1200 832" role="img" aria-labelledby="title desc">
 <title id="title">Tech loadout — tecnologias e ferramentas</title>
 <desc id="desc">Tecnologias organizadas em seis áreas: back-end, web, dados, automação, jogos e versionamento.</desc>
-<rect width="1200" height="768" fill="#080C12"/>
-<path d="M0 0H1152L1200 48V112L1176 136H0Z" fill="#FCEE09"/>
-<text x="32" y="73" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="52" font-weight="700" fill="#080C12" text-anchor="start">01 // TECH LOADOUT</text>
-<text x="34" y="113" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="26" font-weight="400" fill="#080C12" text-anchor="start">TECNOLOGIAS / FERRAMENTAS</text>
-<rect x="1150" y="118" width="18" height="6" fill="#080C12"/>
-<rect x="1124" y="118" width="18" height="6" fill="#080C12"/>
-<rect x="1098" y="118" width="18" height="6" fill="#080C12"/>
-<path d="M32 176H570L588 194V346H50L32 328Z" fill="#00F0FF"/>
-<text x="56" y="221" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="26" font-weight="700" fill="#080C12" text-anchor="start">BACK-END / INTEGRAÇÕES</text>
-<text x="56" y="273" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="32" font-weight="400" fill="#080C12" text-anchor="start">Java · Spring Boot</text>
-<text x="56" y="315" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="32" font-weight="400" fill="#080C12" text-anchor="start">APIs REST · Apache Camel</text>
-<path d="M612 176H1150L1168 194V346H630L612 328Z" fill="#FCEE09"/>
-<text x="636" y="221" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="26" font-weight="700" fill="#080C12" text-anchor="start">WEB / INTERFACES</text>
-<text x="636" y="273" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="32" font-weight="400" fill="#080C12" text-anchor="start">React · TypeScript</text>
-<text x="636" y="315" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="32" font-weight="400" fill="#080C12" text-anchor="start">HTML · CSS · Tailwind CSS</text>
-<path d="M32 366H570L588 384V536H50L32 518Z" fill="#123440"/>
-<rect x="32" y="366" width="538" height="8" fill="#00F0FF"/>
-<text x="56" y="411" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="26" font-weight="700" fill="#00F0FF" text-anchor="start">DADOS / BANCOS</text>
-<text x="56" y="463" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="32" font-weight="400" fill="#EDF3FA" text-anchor="start">SQL · PostgreSQL · MySQL</text>
-<text x="56" y="505" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="32" font-weight="400" fill="#EDF3FA" text-anchor="start">Oracle · Supabase · Tableau</text>
-<path d="M612 366H1150L1168 384V536H630L612 518Z" fill="#14232F"/>
-<rect x="612" y="366" width="538" height="8" fill="#F35CDB"/>
-<text x="636" y="411" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="26" font-weight="700" fill="#F35CDB" text-anchor="start">AUTOMAÇÃO</text>
-<text x="636" y="463" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="32" font-weight="700" fill="#EDF3FA" text-anchor="start">Python</text>
-<path d="M1068 492H1138V498H1062Z" fill="#F35CDB"/>
-<path d="M32 556H570L588 574V726H50L32 708Z" fill="#FF375A"/>
-<text x="56" y="601" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="26" font-weight="700" fill="#080C12" text-anchor="start">JOGOS / REALIDADE VIRTUAL</text>
-<text x="56" y="653" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="32" font-weight="700" fill="#080C12" text-anchor="start">C# · Unity</text>
-<path d="M488 682H558V688H482Z" fill="#080C12"/>
-<path d="M612 556H1150L1168 574V726H630L612 708Z" fill="#FCEE09"/>
-<text x="636" y="601" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="26" font-weight="700" fill="#080C12" text-anchor="start">VERSIONAMENTO</text>
-<text x="636" y="653" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="32" font-weight="700" fill="#080C12" text-anchor="start">Git · GitHub</text>
-<path d="M1068 682H1138V688H1062Z" fill="#080C12"/>
+<rect width="1200" height="832" fill="#080C12"/>
+<path d="M0 0H1152L1200 48V128L1176 152H0Z" fill="#FCEE09"/>
+<text x="40" y="73" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="52" font-weight="700" fill="#080C12" text-anchor="start">01 // TECH LOADOUT</text>
+<text x="40" y="119" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="26" font-weight="400" fill="#080C12" text-anchor="start">TECNOLOGIAS / FERRAMENTAS</text>
+<rect x="1150" y="134" width="18" height="6" fill="#080C12"/>
+<rect x="1124" y="134" width="18" height="6" fill="#080C12"/>
+<rect x="1098" y="134" width="18" height="6" fill="#080C12"/>
+<path d="M40 192H570L588 210V376H58L40 358Z" fill="#00F0FF"/>
+<text x="64" y="241" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="26" font-weight="700" fill="#080C12" text-anchor="start">BACK-END / INTEGRAÇÕES</text>
+<text x="64" y="294" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="32" font-weight="400" fill="#080C12" text-anchor="start">Java · Spring Boot</text>
+<text x="64" y="342" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="32" font-weight="400" fill="#080C12" text-anchor="start">APIs REST · Apache Camel</text>
+<path d="M612 192H1142L1160 210V376H630L612 358Z" fill="#FCEE09"/>
+<text x="636" y="241" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="26" font-weight="700" fill="#080C12" text-anchor="start">WEB / INTERFACES</text>
+<text x="636" y="294" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="32" font-weight="400" fill="#080C12" text-anchor="start">React · TypeScript</text>
+<text x="636" y="342" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="32" font-weight="400" fill="#080C12" text-anchor="start">HTML · CSS · Tailwind CSS</text>
+<path d="M40 400H570L588 418V584H58L40 566Z" fill="#123440"/>
+<rect x="40" y="400" width="530" height="8" fill="#00F0FF"/>
+<text x="64" y="449" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="26" font-weight="700" fill="#00F0FF" text-anchor="start">DADOS / BANCOS</text>
+<text x="64" y="502" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="32" font-weight="400" fill="#EDF3FA" text-anchor="start">SQL · PostgreSQL · MySQL</text>
+<text x="64" y="550" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="32" font-weight="400" fill="#EDF3FA" text-anchor="start">Oracle · Supabase · Tableau</text>
+<path d="M612 400H1142L1160 418V584H630L612 566Z" fill="#14232F"/>
+<rect x="612" y="400" width="530" height="8" fill="#F35CDB"/>
+<text x="636" y="449" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="26" font-weight="700" fill="#F35CDB" text-anchor="start">AUTOMAÇÃO</text>
+<text x="636" y="502" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="32" font-weight="700" fill="#EDF3FA" text-anchor="start">Python</text>
+<path d="M1064 552H1136V558H1058Z" fill="#F35CDB"/>
+<path d="M40 608H570L588 626V792H58L40 774Z" fill="#FF375A"/>
+<text x="64" y="657" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="26" font-weight="700" fill="#080C12" text-anchor="start">JOGOS / REALIDADE VIRTUAL</text>
+<text x="64" y="710" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="32" font-weight="700" fill="#080C12" text-anchor="start">C# · Unity</text>
+<path d="M492 760H564V766H486Z" fill="#080C12"/>
+<path d="M612 608H1142L1160 626V792H630L612 774Z" fill="#FCEE09"/>
+<text x="636" y="657" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="26" font-weight="700" fill="#080C12" text-anchor="start">VERSIONAMENTO</text>
+<text x="636" y="710" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="32" font-weight="700" fill="#080C12" text-anchor="start">Git · GitHub</text>
+<path d="M1064 760H1136V766H1058Z" fill="#080C12"/>
 </svg>

@@ -39,54 +39,54 @@ def intro(mobile=False):
     title = 'Pedro Zampronha — código que conecta'
     desc = 'Formado em Sistemas de Informação pela ESPM. Desenvolvimento de software, integração de sistemas e dados. Jogos, RPG, animes e realidade virtual também fazem parte dos meus projetos.'
     if mobile:
-        w, h = 600, 704
-        body = [rect(0, 0, w, 66, YELLOW), text(30, 44, 'PHBR63 // ARQUIVO PESSOAL', 28, BG, 700),
-                path('M0 66H600V266L566 300H0Z', CYAN),
-                text(30, 133, 'CÓDIGO QUE', 52, BG, 700),
-                text(30, 195, 'CONECTA.', 60, BG, 700),
-                text(32, 256, 'IDEIAS EM MOVIMENTO', 28, BG, 700, True),
-                text(30, 359, 'FORMAÇÃO / ESPM', 28, CYAN, 700, True),
-                text(30, 404, 'Sistemas de Informação', 34, WHITE, 700),
-                text(30, 475, 'Desenvolvimento de software,', 32),
-                text(30, 520, 'integração de sistemas', 32),
-                text(30, 565, 'e dados.', 32),
-                rect(30, 611, 540, 58, YELLOW),
-                text(51, 651, 'JOGOS / RPG / ANIMES / VR', 29, BG, 700),
+        w, h = 600, 776
+        body = [rect(0, 0, w, 80, YELLOW), text(32, 52, 'PHBR63 // ARQUIVO PESSOAL', 28, BG, 700),
+                path('M0 80H600V286L566 320H0Z', CYAN),
+                text(32, 150, 'CÓDIGO QUE', 52, BG, 700),
+                text(32, 214, 'CONECTA.', 60, BG, 700),
+                text(32, 280, 'IDEIAS EM MOVIMENTO', 28, BG, 700, True),
+                text(32, 384, 'FORMAÇÃO / ESPM', 28, CYAN, 700, True),
+                text(32, 440, 'Sistemas de Informação', 34, WHITE, 700),
+                text(32, 520, 'Desenvolvimento de software,', 32),
+                text(32, 568, 'integração de sistemas', 32),
+                text(32, 616, 'e dados.', 32),
+                rect(32, 664, 536, 64, YELLOW),
+                text(52, 706, 'JOGOS / RPG / ANIMES / VR', 29, BG, 700),
                 rect(0, h-8, w, 8, RED)]
     else:
-        w, h = 1200, 440
-        body = [rect(0, 0, w, 66, YELLOW), text(34, 44, 'PHBR63 // ARQUIVO PESSOAL', 30, BG, 700),
-                rect(1112, 0, 16, 66, BG), rect(1144, 0, 16, 66, BG), rect(1176, 0, 24, 66, RED),
-                path('M0 66H424V389L384 432H0Z', CYAN),
-                text(32, 149, 'CÓDIGO', 64, BG, 700),
-                text(32, 219, 'QUE', 64, BG, 700),
-                text(32, 289, 'CONECTA.', 61, BG, 700),
-                text(34, 359, 'IDEIAS EM', 26, BG, 700, True),
-                text(34, 393, 'MOVIMENTO', 26, BG, 700, True),
-                text(476, 124, 'FORMAÇÃO / ESPM', 28, CYAN, 700, True),
-                text(476, 176, 'Sistemas de Informação', 36, WHITE, 700),
-                text(476, 248, 'Desenvolvimento de software,', 32),
-                text(476, 293, 'integração de sistemas e dados.', 32),
-                rect(476, 338, 677, 58, YELLOW),
-                text(502, 377, 'JOGOS / RPG / ANIMES / VR', 29, BG, 700),
+        w, h = 1200, 496
+        body = [rect(0, 0, w, 80, YELLOW), text(40, 52, 'PHBR63 // ARQUIVO PESSOAL', 30, BG, 700),
+                rect(1112, 0, 16, 80, BG), rect(1144, 0, 16, 80, BG), rect(1176, 0, 24, 80, RED),
+                path('M0 80H424V448L384 488H0Z', CYAN),
+                text(40, 167, 'CÓDIGO', 64, BG, 700),
+                text(40, 245, 'QUE', 64, BG, 700),
+                text(40, 323, 'CONECTA.', 61, BG, 700),
+                text(40, 395, 'IDEIAS EM', 26, BG, 700, True),
+                text(40, 433, 'MOVIMENTO', 26, BG, 700, True),
+                text(480, 144, 'FORMAÇÃO / ESPM', 28, CYAN, 700, True),
+                text(480, 202, 'Sistemas de Informação', 36, WHITE, 700),
+                text(480, 280, 'Desenvolvimento de software,', 32),
+                text(480, 328, 'integração de sistemas e dados.', 32),
+                rect(480, 388, 680, 60, YELLOW),
+                text(504, 428, 'JOGOS / RPG / ANIMES / VR', 29, BG, 700),
                 rect(0, h-8, w, 8, RED)]
     save(f'intro-{"mobile" if mobile else "desktop"}', w, h, title, desc, body)
 
 
 def heading(name, label, subtitle, number, color, mobile=False):
-    w, h = (600, 166) if mobile else (1200, 140)
+    w, h = (600, 176) if mobile else (1200, 160)
     accent = RED if color != RED else CYAN
     body = [rect(0, 0, w, h, color), rect(0, 0, 12, h, accent)]
     if mobile:
-        body += [rect(30, 24, 64, 64, BG), text(41, 68, number, 35, color, 700, True),
-                 text(112, 70, label, 40 if len(label) > 10 else 45, BG, 700),
-                 text(30, 132, subtitle, 28, BG, 700, True), rect(w-30, h-30, 30, 30, BG)]
+        body += [rect(32, 32, 64, 64, BG), text(43, 76, number, 35, color, 700, True),
+                 text(120, 78, label, 40 if len(label) > 10 else 45, BG, 700),
+                 text(32, 144, subtitle, 28, BG, 700, True), rect(w-32, h-32, 32, 32, BG)]
     else:
-        body += [rect(34, 30, 78, 78, BG), text(47, 84, number, 43, color, 700, True),
-                 text(140, 87, label, 60, BG, 700),
-                 text(826, 57, '// PHBR63', 24, BG, 700, True),
-                 text(826, 96, subtitle, 22, BG, 700, True),
-                 path('M1158 140H1200V98Z', BG)]
+        body += [rect(40, 40, 80, 80, BG), text(54, 95, number, 43, color, 700, True),
+                 text(152, 98, label, 56, BG, 700),
+                 text(832, 68, '// PHBR63', 24, BG, 700, True),
+                 text(832, 108, subtitle, 22, BG, 700, True),
+                 path('M1152 160H1200V112Z', BG)]
     save(f'section-{name}-{"mobile" if mobile else "desktop"}', w, h, label, subtitle, body)
 
 

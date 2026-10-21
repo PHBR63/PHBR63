@@ -11,6 +11,7 @@ from __future__ import annotations
 from html import escape
 from pathlib import Path
 import json
+import math
 import xml.etree.ElementTree as ET
 
 from PIL import ImageFont
@@ -33,6 +34,20 @@ FAMILIES = {
     "mono": "DejaVu Sans Mono, Consolas, monospace",
 }
 FONT_CACHE: dict[tuple[int, str, bool], ImageFont.FreeTypeFont] = {}
+
+# Ritmo de espaçamento compartilhado: 8 / 16 / 24 / 32 / 40 / 48 px.
+# A altura dos conteúdos vem das métricas da fonte, sem centralização em caixas fixas.
+GRID = 8
+BODY_SIZE = 32
+BODY_LEADING = 48
+
+
+def grid(value):
+    return math.ceil(value / GRID) * GRID
+
+
+def inset(mobile):
+    return 32 if mobile else 40
 
 
 def font(size: int, family: str = "sans", bold: bool = False):
@@ -60,6 +75,16 @@ def wrap(value: str, width: float, size: int, *, bold=False, family="sans"):
     if current:
         lines.append(current)
     return lines
+
+
+def block_height(lines, size=BODY_SIZE, line_height=BODY_LEADING, *, bold=False, family="sans"):
+    ascent, descent = font(size, family, bold).getmetrics()
+    return ascent + descent + max(0, len(lines) - 1) * line_height
+
+
+def centered_baseline(top, height, size, *, bold=False, family="sans"):
+    ascent, descent = font(size, family, bold).getmetrics()
+    return round(top + (height - ascent - descent) / 2 + ascent)
 
 
 class Panel:
@@ -98,14 +123,28 @@ class Panel:
             self.text(line, x, y + i * line_height, size, fill=fill, bold=bold, family=family, max_width=width)
         return y + len(lines) * line_height
 
+    def block(self, lines, x, top, width, *, size=BODY_SIZE, line_height=BODY_LEADING,
+              fill=WHITE, bold=False, family="sans"):
+        ascent, _ = font(size, family, bold).getmetrics()
+        for i, line in enumerate(lines):
+            self.text(line, x, top + ascent + i * line_height, size, fill=fill,
+                      bold=bold, family=family, max_width=width)
+        return top + block_height(lines, size, line_height, bold=bold, family=family)
+
     def header(self, title, subtitle, color, mobile):
-        height = 148 if mobile else 136
-        notch = 30 if mobile else 48
+        height = 160 if mobile else 152
+        pad = inset(mobile)
+        title_size = 44 if mobile else 52
+        title_top = 24
+        title_ascent, _ = font(title_size, "sans", True).getmetrics()
+        subtitle_top = title_top + block_height([title], title_size, bold=True) + (16 if mobile else 8)
+        subtitle_ascent, _ = font(26, "mono").getmetrics()
+        notch = 32 if mobile else 48
         self.path(f'M0 0H{self.w-notch}L{self.w} {notch}V{height-24}L{self.w-24} {height}H0Z', color)
-        self.text(title, 28 if mobile else 32, 70 if mobile else 73, 44 if mobile else 52,
-                  fill=BG, bold=True, max_width=self.w - 64)
-        self.text(subtitle, 28 if mobile else 34, 113 if mobile else 113, 26,
-                  fill=BG, family="mono", max_width=self.w - 64)
+        self.text(title, pad, title_top + title_ascent, title_size,
+                  fill=BG, bold=True, max_width=self.w - 2 * pad)
+        self.text(subtitle, pad, subtitle_top + subtitle_ascent, 26,
+                  fill=BG, family="mono", max_width=self.w - 2 * pad)
         self.rect(self.w - 50, height - 18, 18, 6, BG)
         self.rect(self.w - 76, height - 18, 18, 6, BG)
         self.rect(self.w - 102, height - 18, 18, 6, BG)
@@ -137,7 +176,16 @@ class Panel:
 
 def stack(mobile):
     width = 600 if mobile else 1200
-    height = 1312 if mobile else 768
+    pad = inset(mobile)
+    header_height = 160 if mobile else 152
+    gap = 24
+    inner = 24
+    label_height = block_height(["TECH"], 26, bold=True)
+    card_height = grid(inner + label_height + 16 + block_height(["line", "line"]) + inner)
+    card_width = width - 2 * pad if mobile else (width - 2 * pad - gap) // 2
+    first_y = header_height + (32 if mobile else 40)
+    rows = 6 if mobile else 3
+    height = first_y + rows * card_height + (rows - 1) * gap + pad
     p = Panel(f"stack-{'mobile' if mobile else 'desktop'}.svg", width, height,
               "Tech loadout — tecnologias e ferramentas",
               "Tecnologias organizadas em seis áreas: back-end, web, dados, automação, jogos e versionamento.")
@@ -151,58 +199,63 @@ def stack(mobile):
         ("VERSIONAMENTO", ["Git · GitHub"], YELLOW, BG, BG),
     ]
     for i, (label, lines, fill, text_color, label_color) in enumerate(groups):
-        x = 24 if mobile else 32 + (i % 2) * 580
-        y = 180 + i * 186 if mobile else 176 + (i // 2) * 190
-        card_width = 552 if mobile else 556
-        card_height = 170
+        x = pad if mobile else pad + (i % 2) * (card_width + gap)
+        y = first_y + (i if mobile else i // 2) * (card_height + gap)
         p.path(f'M{x} {y}H{x+card_width-18}L{x+card_width} {y+18}V{y+card_height}H{x+18}L{x} {y+card_height-18}Z', fill)
         if fill in (DARK_BLUE, DARK_CYAN):
             p.rect(x, y, card_width - 18, 8, label_color)
-        p.text(label, x + 24, y + 45, 26, fill=label_color, bold=True,
-               max_width=card_width - 48)
-        for j, line in enumerate(lines):
-            p.text(line, x + 24, y + 97 + j * 42, 32, fill=text_color,
-                   bold=len(lines) == 1, max_width=card_width - 48)
+        label_bottom = p.block([label], x + inner, y + inner, card_width - 2 * inner,
+                               size=26, fill=label_color, bold=True)
+        p.block(lines, x + inner, label_bottom + 16, card_width - 2 * inner,
+                fill=text_color, bold=len(lines) == 1)
         if len(lines) == 1:
-            p.path(f'M{x+card_width-100} {y+126}H{x+card_width-30}V{y+132}H{x+card_width-106}Z',
+            p.path(f'M{x+card_width-96} {y+card_height-32}H{x+card_width-24}V{y+card_height-26}H{x+card_width-102}Z',
                    label_color)
     return p.finish()
 
 
 def about(mobile):
     width = 600 if mobile else 1200
-    header_height = 148 if mobile else 136
-    left = 28 if mobile else 32
-    column = 544 if mobile else 730
+    header_height = 160 if mobile else 152
+    left = inset(mobile)
+    column_gap = 48
+    interests_width = width - 2 * left if mobile else 360
+    column = width - 2 * left if mobile else width - 2 * left - column_gap - interests_width
     first = "Experiência com Java, Spring Boot e APIs REST, integração de sistemas e dados."
     second = "No setor financeiro, trabalhei com cobrança, modernização de aplicações e correção de vulnerabilidades."
-    first_y = header_height + 58
+    first_top = header_height + (32 if mobile else 40)
     first_lines = wrap(first, column, 32)
-    finance_y = first_y + len(first_lines) * 43 + 16
-    finance_text_y = finance_y + 103
+    finance_y = grid(first_top + block_height(first_lines) + 32)
+    finance_height = 64
+    finance_text_top = finance_y + finance_height + 24
     finance_lines = wrap(second, column, 32)
-    content_end = finance_text_y + (len(finance_lines) - 1) * 43 + 30
-    interests_y = content_end + 24 if mobile else header_height + 32
-    interests_height = 320 if mobile else 402
-    height = interests_y + interests_height + 32 if mobile else max(content_end + 40, interests_y + interests_height + 32)
+    content_end = finance_text_top + block_height(finance_lines)
+    interests_y = grid(content_end + 32) if mobile else first_top
+    inner = 24
+    interest_title_height = block_height(["ALÉM DO CÓDIGO"], 28, bold=True)
+    rule_y = interests_y + inner + interest_title_height + 16
+    interest_list_top = rule_y + 2 + 24
+    interest_line_height = 56
+    interests_height = grid(interest_list_top - interests_y + block_height(["item"] * 4, line_height=interest_line_height) + inner)
+    height = grid(max(content_end, interests_y + interests_height) + left)
     p = Panel(f"about-{'mobile' if mobile else 'desktop'}.svg", width, height,
               "Sobre Pedro Zampronha",
               "Experiência em desenvolvimento e integração, passagem pelo setor financeiro e interesses em jogos, RPG, animes e realidade virtual.")
     p.header("03 // IDENTIFICAÇÃO", "SOBRE MIM", CYAN, mobile)
-    p.paragraph(first, left, first_y, column, 32, 43)
-    p.path(f'M{left} {finance_y}H{left+column-18}L{left+column} {finance_y+18}V{finance_y+58}H{left}Z', YELLOW)
-    p.text("SETOR FINANCEIRO", left + 18, finance_y + 39, 28, fill=BG, bold=True,
-           max_width=column - 36)
-    p.paragraph(second, left, finance_text_y, column, 32, 43)
-    ix = 28 if mobile else 804
-    iw = 544 if mobile else 364
+    p.block(first_lines, left, first_top, column)
+    p.path(f'M{left} {finance_y}H{left+column-24}L{left+column} {finance_y+24}V{finance_y+finance_height}H{left}Z', YELLOW)
+    p.text("SETOR FINANCEIRO", left + 24, centered_baseline(finance_y, finance_height, 28, bold=True),
+           28, fill=BG, bold=True, max_width=column - 48)
+    p.block(finance_lines, left, finance_text_top, column)
+    ix = left if mobile else left + column + column_gap
+    iw = interests_width
     iy = interests_y
     p.path(f'M{ix} {iy}H{ix+iw-32}L{ix+iw} {iy+32}V{iy+interests_height}H{ix+24}L{ix} {iy+interests_height-24}Z', YELLOW)
-    p.text("ALÉM DO CÓDIGO", ix + 24, iy + 49, 28, fill=BG, bold=True,
-           max_width=iw - 48)
-    p.rect(ix + 24, iy + 70, iw - 48, 3, BG)
+    p.block(["ALÉM DO CÓDIGO"], ix + inner, iy + inner, iw - 2 * inner, size=28, fill=BG, bold=True)
+    p.rect(ix + inner, rule_y, iw - 2 * inner, 2, BG)
+    interest_ascent, _ = font(32).getmetrics()
     for i, value in enumerate(["Jogos", "RPG", "Animes", "Realidade virtual"]):
-        py = iy + 118 + i * (44 if mobile else 60)
+        py = interest_list_top + interest_ascent + i * interest_line_height
         p.path(f'M{ix+24} {py-15}L{ix+36} {py-9}L{ix+24} {py-3}Z', BG)
         p.text(value, ix + 50, py, 32, fill=BG, max_width=iw - 70)
     p.rect(0, height - 8, width // 3, 8, CYAN)
@@ -211,23 +264,25 @@ def about(mobile):
 
 
 def footer(mobile):
-    width, height = (600, 284) if mobile else (1200, 248)
+    width = 600 if mobile else 1200
+    px = inset(mobile)
+    fs = 38 if mobile else 50
+    title_leading = 56 if mobile else 64
+    title_top = 32
+    title_lines = ["VER TODOS OS", "REPOSITÓRIOS"]
+    handle_top = title_top + block_height(title_lines, fs, title_leading, bold=True) + (32 if mobile else 24)
+    height = grid(handle_top + block_height(["@phbr63"], 32, family="mono", bold=True) + px)
     p = Panel(f"footer-{'mobile' if mobile else 'desktop'}.svg", width, height,
               "Ver todos os repositórios — @phbr63",
               "Chamada para abrir todos os repositórios públicos de PHBR63 no GitHub.")
     p.rect(0, 0, width, height, YELLOW)
-    split = 432 if mobile else 914
-    p.path(f'M{split+48} 0H{width}V{height}H{split-48}L{split+30} {height-78}V78Z', CYAN)
-    px = 28 if mobile else 40
-    fs = 38 if mobile else 50
-    p.text("VER TODOS OS", px, 83 if mobile else 85, fs, fill=BG, bold=True,
-           max_width=split - px - 6)
-    p.text("REPOSITÓRIOS", px, 139 if mobile else 150, fs, fill=BG, bold=True,
-           max_width=split - px - 6)
-    p.text("@phbr63", px, 226 if mobile else 213, 32, fill=BG, bold=True, family="mono")
-    ax, ay = (482, 86) if mobile else (1014, 62)
-    scale = 76 if mobile else 112
-    thickness = 15 if mobile else 20
+    split = 432 if mobile else 920
+    p.path(f'M{split+48} 0H{width}V{height}H{split-48}L{split+32} {height-80}V80Z', CYAN)
+    p.block(title_lines, px, title_top, split - px - 8, size=fs, line_height=title_leading, fill=BG, bold=True)
+    p.block(["@phbr63"], px, handle_top, split - px - 8, size=32, fill=BG, bold=True, family="mono")
+    scale = 80 if mobile else 112
+    ax, ay = width - px - scale, 64
+    thickness = 16 if mobile else 24
     p.path(f'M{ax} {ay}H{ax+scale}V{ay+scale}H{ax+scale-thickness}V{ay+thickness*2}L{ax+thickness} {ay+scale}L{ax} {ay+scale-thickness}L{ax+scale-thickness*2} {ay+thickness}H{ax}Z', BG)
     p.rect(0, height - 8, width - 90, 8, BG)
     p.rect(width - 70, height - 8, 70, 8, RED)
@@ -244,35 +299,41 @@ PROJECTS = [
 
 def project(item, mobile):
     key, title, tag, color, action_color, technologies, description = item
-    width, height = (600, 344) if mobile else (1200, 240)
-    header_height = 88 if mobile else 78
-    action_height = 72 if mobile else 58
-    margin = 28 if mobile else 32
+    width = 600 if mobile else 1200
+    margin = inset(mobile)
+    header_height = 96
+    action_height = 80
+    body_padding = 24 if mobile else 32
+    content_width = width - 2 * margin
+    # No mobile a cor já diferencia a tecnologia; o peso normal mantém a linha
+    # legível sem reduzir os 32 px ou criar uma quebra por apenas um glifo.
+    tech_bold = not mobile
+    tech_lines = wrap(technologies, content_width, BODY_SIZE, bold=tech_bold) if technologies else []
+    description_lines = wrap(description, content_width, BODY_SIZE)
+    technology_top = header_height + body_padding
+    description_top = technology_top
+    if tech_lines:
+        description_top += block_height(tech_lines, bold=tech_bold) + (16 if mobile else 24)
+    action_y = grid(description_top + block_height(description_lines) + body_padding)
+    height = action_y + action_height
     p = Panel(f"project-{key}-{'mobile' if mobile else 'desktop'}.svg", width, height,
               f"{title} — abrir repositório", description)
-    p.path(f'M0 0H{width-28}L{width} 28V{header_height}H0Z', color)
-    p.text(title, margin, 59 if mobile else 54, 38 if mobile else 40, fill=BG, bold=True,
-           max_width=width - 2 * margin)
+    p.path(f'M0 0H{width-32}L{width} 32V{header_height}H0Z', color)
+    title_size = 38 if mobile else 40
+    p.text(title, margin, centered_baseline(0, header_height, title_size, bold=True),
+           title_size, fill=BG, bold=True, max_width=content_width)
     if not mobile:
-        p.text(tag, width - 36, 50, 24, fill=BG, family="mono", anchor="end",
-               max_width=width // 2 - 36)
-    body_lines: list[tuple[str, bool]] = []
-    if technologies:
-        body_lines.extend((line, True) for line in wrap(technologies, width - 2 * margin, 32, bold=True))
-    body_lines.extend((line, False) for line in wrap(description, width - 2 * margin, 32))
-    line_height = 43
-    body_height = height - header_height - action_height
-    first_baseline = header_height + (body_height - len(body_lines) * line_height) / 2 + 33
-    for index, (line, bold) in enumerate(body_lines):
-        p.text(line, margin, first_baseline + index * line_height, 32,
-               fill=CYAN if bold else WHITE, bold=bold, max_width=width - 2 * margin)
-    action_y = height - action_height
+        p.text(tag, width - margin, centered_baseline(0, header_height, 24, family="mono"),
+               24, fill=BG, family="mono", anchor="end", max_width=width // 2 - margin)
+    if tech_lines:
+        p.block(tech_lines, margin, technology_top, content_width, fill=CYAN, bold=tech_bold)
+    p.block(description_lines, margin, description_top, content_width)
     p.rect(0, action_y, width, action_height, action_color)
-    p.text("ABRIR REPOSITÓRIO ↗", margin, action_y + (48 if mobile else 40),
-           28 if mobile else 26, fill=BG, bold=True, family="mono", max_width=width - 2 * margin)
-    p.path(f'M{width-96} {action_y+20}H{width-40}V{action_y+26}H{width-102}Z', BG)
+    p.text("ABRIR REPOSITÓRIO ↗", margin, centered_baseline(action_y, action_height, 28, bold=True, family="mono"),
+           28, fill=BG, bold=True, family="mono", max_width=content_width)
+    p.path(f'M{width-margin-64} {action_y+36}H{width-margin}V{action_y+42}H{width-margin-70}Z', BG)
     if key == "roll":
-        p.rect(0, header_height, 10, body_height, MAGENTA)
+        p.rect(0, header_height, 8, action_y - header_height, MAGENTA)
     return p.finish()
 
 

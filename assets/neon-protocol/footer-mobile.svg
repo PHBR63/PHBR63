@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="600" height="284" viewBox="0 0 600 284" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="240" viewBox="0 0 600 240" role="img" aria-labelledby="title desc">
 <title id="title">Ver todos os repositórios — @phbr63</title>
 <desc id="desc">Chamada para abrir todos os repositórios públicos de PHBR63 no GitHub.</desc>
-<rect width="600" height="284" fill="#080C12"/>
-<rect x="0" y="0" width="600" height="284" fill="#FCEE09"/>
-<path d="M480 0H600V284H384L462 206V78Z" fill="#00F0FF"/>
-<text x="28" y="83" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="38" font-weight="700" fill="#080C12" text-anchor="start">VER TODOS OS</text>
-<text x="28" y="139" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="38" font-weight="700" fill="#080C12" text-anchor="start">REPOSITÓRIOS</text>
-<text x="28" y="226" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="32" font-weight="700" fill="#080C12" text-anchor="start">@phbr63</text>
-<path d="M482 86H558V162H543V116L497 162L482 147L528 101H482Z" fill="#080C12"/>
-<rect x="0" y="276" width="510" height="8" fill="#080C12"/>
-<rect x="530" y="276" width="70" height="8" fill="#FF375A"/>
+<rect width="600" height="240" fill="#080C12"/>
+<rect x="0" y="0" width="600" height="240" fill="#FCEE09"/>
+<path d="M480 0H600V240H384L464 160V80Z" fill="#00F0FF"/>
+<text x="32" y="68" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="38" font-weight="700" fill="#080C12" text-anchor="start">VER TODOS OS</text>
+<text x="32" y="124" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="38" font-weight="700" fill="#080C12" text-anchor="start">REPOSITÓRIOS</text>
+<text x="32" y="195" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="32" font-weight="700" fill="#080C12" text-anchor="start">@phbr63</text>
+<path d="M488 64H568V144H552V96L504 144L488 128L536 80H488Z" fill="#080C12"/>
+<rect x="0" y="232" width="510" height="8" fill="#080C12"/>
+<rect x="530" y="232" width="70" height="8" fill="#FF375A"/>
 </svg>

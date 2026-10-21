@@ -1,34 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="600" height="989" viewBox="0 0 600 989" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="1032" viewBox="0 0 600 1032" role="img" aria-labelledby="title desc">
 <title id="title">Sobre Pedro Zampronha</title>
 <desc id="desc">Experiência em desenvolvimento e integração, passagem pelo setor financeiro e interesses em jogos, RPG, animes e realidade virtual.</desc>
-<rect width="600" height="989" fill="#080C12"/>
-<path d="M0 0H570L600 30V124L576 148H0Z" fill="#00F0FF"/>
-<text x="28" y="70" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="44" font-weight="700" fill="#080C12" text-anchor="start">03 // IDENTIFICAÇÃO</text>
-<text x="28" y="113" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="26" font-weight="400" fill="#080C12" text-anchor="start">SOBRE MIM</text>
-<rect x="550" y="130" width="18" height="6" fill="#080C12"/>
-<rect x="524" y="130" width="18" height="6" fill="#080C12"/>
-<rect x="498" y="130" width="18" height="6" fill="#080C12"/>
-<text x="28" y="206" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="32" font-weight="400" fill="#EDF3FA" text-anchor="start">Experiência com Java, Spring</text>
-<text x="28" y="249" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="32" font-weight="400" fill="#EDF3FA" text-anchor="start">Boot e APIs REST, integração de</text>
-<text x="28" y="292" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="32" font-weight="400" fill="#EDF3FA" text-anchor="start">sistemas e dados.</text>
-<path d="M28 351H554L572 369V409H28Z" fill="#FCEE09"/>
-<text x="46" y="390" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="28" font-weight="700" fill="#080C12" text-anchor="start">SETOR FINANCEIRO</text>
-<text x="28" y="454" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="32" font-weight="400" fill="#EDF3FA" text-anchor="start">No setor financeiro, trabalhei</text>
-<text x="28" y="497" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="32" font-weight="400" fill="#EDF3FA" text-anchor="start">com cobrança, modernização de</text>
-<text x="28" y="540" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="32" font-weight="400" fill="#EDF3FA" text-anchor="start">aplicações e correção de</text>
-<text x="28" y="583" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="32" font-weight="400" fill="#EDF3FA" text-anchor="start">vulnerabilidades.</text>
-<path d="M28 637H540L572 669V957H52L28 933Z" fill="#FCEE09"/>
-<text x="52" y="686" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="28" font-weight="700" fill="#080C12" text-anchor="start">ALÉM DO CÓDIGO</text>
-<rect x="52" y="707" width="496" height="3" fill="#080C12"/>
-<path d="M52 740L64 746L52 752Z" fill="#080C12"/>
-<text x="78" y="755" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="32" font-weight="400" fill="#080C12" text-anchor="start">Jogos</text>
-<path d="M52 784L64 790L52 796Z" fill="#080C12"/>
-<text x="78" y="799" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="32" font-weight="400" fill="#080C12" text-anchor="start">RPG</text>
-<path d="M52 828L64 834L52 840Z" fill="#080C12"/>
-<text x="78" y="843" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="32" font-weight="400" fill="#080C12" text-anchor="start">Animes</text>
-<path d="M52 872L64 878L52 884Z" fill="#080C12"/>
-<text x="78" y="887" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="32" font-weight="400" fill="#080C12" text-anchor="start">Realidade virtual</text>
-<rect x="0" y="981" width="200" height="8" fill="#00F0FF"/>
-<rect x="200" y="981" width="75" height="8" fill="#FF375A"/>
+<rect width="600" height="1032" fill="#080C12"/>
+<path d="M0 0H568L600 32V136L576 160H0Z" fill="#00F0FF"/>
+<text x="32" y="65" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="44" font-weight="700" fill="#080C12" text-anchor="start">03 // IDENTIFICAÇÃO</text>
+<text x="32" y="117" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="26" font-weight="400" fill="#080C12" text-anchor="start">SOBRE MIM</text>
+<rect x="550" y="142" width="18" height="6" fill="#080C12"/>
+<rect x="524" y="142" width="18" height="6" fill="#080C12"/>
+<rect x="498" y="142" width="18" height="6" fill="#080C12"/>
+<text x="32" y="222" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="32" font-weight="400" fill="#EDF3FA" text-anchor="start">Experiência com Java, Spring</text>
+<text x="32" y="270" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="32" font-weight="400" fill="#EDF3FA" text-anchor="start">Boot e APIs REST, integração de</text>
+<text x="32" y="318" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="32" font-weight="400" fill="#EDF3FA" text-anchor="start">sistemas e dados.</text>
+<path d="M32 360H544L568 384V424H32Z" fill="#FCEE09"/>
+<text x="56" y="402" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="28" font-weight="700" fill="#080C12" text-anchor="start">SETOR FINANCEIRO</text>
+<text x="32" y="478" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="32" font-weight="400" fill="#EDF3FA" text-anchor="start">No setor financeiro, trabalhei</text>
+<text x="32" y="526" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="32" font-weight="400" fill="#EDF3FA" text-anchor="start">com cobrança, modernização de</text>
+<text x="32" y="574" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="32" font-weight="400" fill="#EDF3FA" text-anchor="start">aplicações e correção de</text>
+<text x="32" y="622" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="32" font-weight="400" fill="#EDF3FA" text-anchor="start">vulnerabilidades.</text>
+<path d="M32 664H536L568 696V1000H56L32 976Z" fill="#FCEE09"/>
+<text x="56" y="714" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="28" font-weight="700" fill="#080C12" text-anchor="start">ALÉM DO CÓDIGO</text>
+<rect x="56" y="737" width="488" height="2" fill="#080C12"/>
+<path d="M56 778L68 784L56 790Z" fill="#080C12"/>
+<text x="82" y="793" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="32" font-weight="400" fill="#080C12" text-anchor="start">Jogos</text>
+<path d="M56 834L68 840L56 846Z" fill="#080C12"/>
+<text x="82" y="849" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="32" font-weight="400" fill="#080C12" text-anchor="start">RPG</text>
+<path d="M56 890L68 896L56 902Z" fill="#080C12"/>
+<text x="82" y="905" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="32" font-weight="400" fill="#080C12" text-anchor="start">Animes</text>
+<path d="M56 946L68 952L56 958Z" fill="#080C12"/>
+<text x="82" y="961" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="32" font-weight="400" fill="#080C12" text-anchor="start">Realidade virtual</text>
+<rect x="0" y="1024" width="200" height="8" fill="#00F0FF"/>
+<rect x="200" y="1024" width="75" height="8" fill="#FF375A"/>
 </svg>

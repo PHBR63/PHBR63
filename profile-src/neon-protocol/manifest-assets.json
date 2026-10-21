@@ -6,114 +6,114 @@
     {
       "path": "assets/neon-protocol/about-desktop.svg",
       "width": 1200,
-      "height": 602,
+      "height": 576,
       "bytes": 3466,
-      "git_blob_sha": "72df46d2443815ec4a6601ed310ba98cf7b759b5",
-      "sha256": "4542e8eb62f9d2108fcff5c2e66f96694a47680b777730320ebf7845c9fbf0f2"
+      "git_blob_sha": "8f6bd57d31837288533cbf5ef33fe6f37da9be84",
+      "sha256": "fcf95c815d79d9447eccffc20f987b2cc1e11d6a8bd52ddcf5fba8b6c066d9bb"
     },
     {
       "path": "assets/neon-protocol/about-mobile.svg",
       "width": 600,
-      "height": 989,
-      "bytes": 3737,
-      "git_blob_sha": "5af90fb6630a7b895a909feaeeda6158960c305c",
-      "sha256": "7d29b91873d3e712d0b6b3d1afe8f2312cc0af985958b2787146cca11e823350"
+      "height": 1032,
+      "bytes": 3743,
+      "git_blob_sha": "7850a8a9424343e91be21861ba71a5a75afb3820",
+      "sha256": "ac828c9b39633e87e797b82858ec8e24e5912cac7b6a17de8aec38eb27c89643"
     },
     {
       "path": "assets/neon-protocol/footer-desktop.svg",
       "width": 1200,
-      "height": 248,
+      "height": 264,
       "bytes": 1201,
-      "git_blob_sha": "1fb85511841c5f4867d0ee81ba24d7b2bec17a09",
-      "sha256": "e48f08ce446f28a6cda5e064f34fa089c52970f1a78fcc6b793203463351b373"
+      "git_blob_sha": "eec1e35a45c8d26fe9f471e6c785f1307b63ac4f",
+      "sha256": "e98119e4d183b84e6dc0c441a0b7d43cdb601d9fc20801a036673b1153ab7e52"
     },
     {
       "path": "assets/neon-protocol/footer-mobile.svg",
       "width": 600,
-      "height": 284,
-      "bytes": 1188,
-      "git_blob_sha": "bbede572c3092b6740644453fc03bf9875f88a14",
-      "sha256": "a5cca7c6cf32ef09f852db2cfb5cf81024d46d998c07f599b95637aa8731052b"
+      "height": 240,
+      "bytes": 1186,
+      "git_blob_sha": "7c345c0640ed7e4e900b42d490ef601bf6a785b1",
+      "sha256": "e18800fa85b99026ca02e7c32b624ae8f18a1b41c4829f466bd9b68144fe21ff"
     },
     {
       "path": "assets/neon-protocol/intro-desktop.svg",
       "width": 1200,
-      "height": 440,
+      "height": 496,
       "bytes": 2397,
-      "git_blob_sha": "8cc1334f03a5610e60e87518c7ca84699cc21b36",
-      "sha256": "8d3b38dd25bc2a5cfe3d6935f5765a894069d682b3c928bb798438861502af0e"
+      "git_blob_sha": "fa219810aeb2377ea319c470e833db2ac0d2f9d8",
+      "sha256": "3979bb0a5154bf6f5bc5024378b0be123982cd89320341afe04addb100d9f4ed"
     },
     {
       "path": "assets/neon-protocol/intro-mobile.svg",
       "width": 600,
-      "height": 704,
+      "height": 776,
       "bytes": 2089,
-      "git_blob_sha": "67dfac75d2dc0618edef9ca9ba56234cc8d57e13",
-      "sha256": "5c0b78c61efac8c76cd4a33649b20d5f167c53d92e2d063150667dc0dbc63b40"
+      "git_blob_sha": "2a5dfb2ac8c81af918f9639b560737c90558a189",
+      "sha256": "73d09d17a766d8d7e02df01d866d91106dd3c25b921fd98e9ff082257844a2f0"
     },
     {
       "path": "assets/neon-protocol/project-3dgame-desktop.svg",
       "width": 1200,
-      "height": 240,
-      "bytes": 1151,
-      "git_blob_sha": "fd4f4afe6f53f76d59780c5820ed873bdcc77151",
-      "sha256": "233d9783bf7e302a53cb69c32e8bd81c3a11ea7737f57291f7a6c840ebb3b326"
+      "height": 280,
+      "bytes": 1149,
+      "git_blob_sha": "ab2016b60fda1dcab7b70797cefddf9f117a29be",
+      "sha256": "8c472f70a01a15b4d7ccc75e4b5d6d97be2e1aa02f05299d93a23b7c4add4e91"
     },
     {
       "path": "assets/neon-protocol/project-3dgame-mobile.svg",
       "width": 600,
-      "height": 344,
-      "bytes": 989,
-      "git_blob_sha": "27cdbaa8e797016570139eec1ae0296f6b6740ea",
-      "sha256": "da22ea57cd65f447357b70c6f291cfdbe95beb8201af4a86cc02e6fb56a4a750"
+      "height": 264,
+      "bytes": 987,
+      "git_blob_sha": "63f91b7c335c9c191546ee30fd1f43031233c065",
+      "sha256": "9c9cf5ece1f223759f9a87dc461dfc574ad8cb730f9debe8215211f753ac6023"
     },
     {
       "path": "assets/neon-protocol/project-anime-desktop.svg",
       "width": 1200,
-      "height": 240,
-      "bytes": 1192,
-      "git_blob_sha": "490e9f30bcd719ba131124d26129d2317e86b175",
-      "sha256": "98f3e96fe6d58f3d0c74a7654423e8e80e48dbc9ca2a7a4c2f7034ebf4c81a19"
+      "height": 280,
+      "bytes": 1190,
+      "git_blob_sha": "34f8fca008d44e29edd45102d578f5307adbbc13",
+      "sha256": "40c20eadf6f2d2d14a69e3dc56c1150814ef2de64eca789781bfa3e11b21aecd"
     },
     {
       "path": "assets/neon-protocol/project-anime-mobile.svg",
       "width": 600,
-      "height": 344,
-      "bytes": 1183,
-      "git_blob_sha": "72c692bf3be5306eabcd13a07200ccd3c7272e97",
-      "sha256": "18b59ac33d4d6d1a595d7ee339e2453f4805ec6d40c53a19273e08efbe6a7604"
+      "height": 312,
+      "bytes": 1179,
+      "git_blob_sha": "e78e9390200bc32db16d77db23355e9f70ec6394",
+      "sha256": "96cc4c8e5af0dc6a0df2cdf30b9a186a77a7a542ae94e01e6207a4858969e27a"
     },
     {
       "path": "assets/neon-protocol/project-roll-desktop.svg",
       "width": 1200,
-      "height": 240,
-      "bytes": 1487,
-      "git_blob_sha": "2f601e2b3800f65ae98c6fe9ec321a2aff3565d6",
-      "sha256": "7d0e244e6b6a450e19c20cd3aeb2e3589f4a31ec8daa4ad8486229fc2f1e87e0"
+      "height": 344,
+      "bytes": 1482,
+      "git_blob_sha": "b5aa9062f84d4565eeb58b076e465f85f51ac06e",
+      "sha256": "96f9d292a687cb6d1747388adddea4816cc1f05ea2fbe605cf8615aff85acdb5"
     },
     {
       "path": "assets/neon-protocol/project-roll-mobile.svg",
       "width": 600,
-      "height": 344,
-      "bytes": 1473,
-      "git_blob_sha": "15100e04424912e91d18e93a4ec0eff476c0d2d2",
-      "sha256": "12a452edc865d630b0343ad0fb5741a9bfa3ff439c0f4de2d6b96e3835270fed"
+      "height": 368,
+      "bytes": 1466,
+      "git_blob_sha": "a3646db042a83b09a141c55ae99bf7cc955508d9",
+      "sha256": "ec5eca8714b40fc78c8098c65b440ed16cabda8bf8508002d778e8549bfd9699"
     },
     {
       "path": "assets/neon-protocol/project-vr-desktop.svg",
       "width": 1200,
-      "height": 240,
-      "bytes": 1361,
-      "git_blob_sha": "73d84edcddefe7e1f19e0265bc232f756de4eacc",
-      "sha256": "2c67f75c6732636c01a3fb02cc05bb32f674bfd5c0b2dd5b256269ee6d95724c"
+      "height": 344,
+      "bytes": 1357,
+      "git_blob_sha": "cbba2967153b4f9ac1f7b65d562ae6bb0e598ddb",
+      "sha256": "7f446ab17f70621b47eae2f8002d0068cef202b2997347d0d2bc74b541de8eb7"
     },
     {
       "path": "assets/neon-protocol/project-vr-mobile.svg",
       "width": 600,
-      "height": 344,
-      "bytes": 1341,
-      "git_blob_sha": "931e865754ba0bb968ffc0dd74bc4167566b03f3",
-      "sha256": "9583740d93063140029411c15d5dd5ea222b6c2787f06f96852112bb5da6caf3"
+      "height": 368,
+      "bytes": 1335,
+      "git_blob_sha": "2972abea889ed8f830470fdf0479d4b22587b06b",
+      "sha256": "e56b5d41a3a88a61ae9a2c6727134e6b81b08b95516fae57fe71aec1fb1e1267"
     },
     {
       "path": "assets/neon-protocol/projeto-anime-check.webp",
@@ -126,34 +126,34 @@
     {
       "path": "assets/neon-protocol/section-projects-desktop.svg",
       "width": 1200,
-      "height": 140,
-      "bytes": 1004,
-      "git_blob_sha": "91e3b049846d12b669cdecae123cb8f57602aa87",
-      "sha256": "f2b5fced16acd70bdb4c17e4385c55bd4ab007c6cb8a0d56baca7d43aa55e9f3"
+      "height": 160,
+      "bytes": 1006,
+      "git_blob_sha": "7954aa58ffdf34d80be97e72ecf35ec014e51a8c",
+      "sha256": "00ae351d3cac3120fe82610ae18900e581380dd12f3e584217ff52ce4b27594e"
     },
     {
       "path": "assets/neon-protocol/section-projects-mobile.svg",
       "width": 600,
-      "height": 166,
+      "height": 176,
       "bytes": 889,
-      "git_blob_sha": "4ff103c0230fd82cab8c05c21a872f784a57fc85",
-      "sha256": "4910c0749415324cdc1b7b76b378b43dc2acebb5bbf26fbe8c4b10f153694d70"
+      "git_blob_sha": "21b8b70ed4bca93551405dc546cb43b3e7f2a9be",
+      "sha256": "d88b559057b2900901c3fd537c0731ce039aee4884b11f35feb5b35c7d4b6ffd"
     },
     {
       "path": "assets/neon-protocol/stack-desktop.svg",
       "width": 1200,
-      "height": 768,
+      "height": 832,
       "bytes": 4249,
-      "git_blob_sha": "6259f5fb6b8c36da29a49650cab465f3fc36786e",
-      "sha256": "489d3ce8abfb11d8518781b0464015056b8a135e7971daa4e35977d354edb428"
+      "git_blob_sha": "f5e18283998c55563ef7e3b7fc1e563e816fb923",
+      "sha256": "2f1bdb7c176ca90710fd647bf6c55b85e2d52a2e35d0291dc3470b1883f69929"
     },
     {
       "path": "assets/neon-protocol/stack-mobile.svg",
       "width": 600,
-      "height": 1312,
-      "bytes": 4227,
-      "git_blob_sha": "2c48136412a40a27a2367f8c9414f28cffbc2583",
-      "sha256": "6f9f388ae008c9e39034b4fd0cdca97036fa2dfc8a3c307d2ea3ca544c57251d"
+      "height": 1448,
+      "bytes": 4231,
+      "git_blob_sha": "4a2ce7ebc5b830c49d1ba7b4bce386eb50446b48",
+      "sha256": "3a10df75c440b459e1018977b114dd49029d9b46263a00f112bc49d064b619a3"
     },
     {
       "path": "assets/neon-protocol/terminal-mobile.gif",

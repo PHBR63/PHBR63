@@ -17,6 +17,12 @@ O README contém banner, apresentação ilustrada, terminal animado, tecnologias
 
 As capas são ilustrações conceituais. Nenhum painel representa captura da aplicação, medição de domínio técnico ou indicador de atividade em tempo real.
 
+## Espaçamento e organização
+
+Cada painel tem um contêiner de parágrafo próprio no README, para que as margens nativas do GitHub produzam intervalos consistentes. Uma quebra adicional marca a entrada de Tecnologias, Projetos e Trajetória. Dentro de cada projeto, capa e descrição permanecem no mesmo link e no mesmo parágrafo. As imagens usam `align="top"` para reduzir a emenda causada pelo alinhamento de linha de base.
+
+Os painéis usam margens horizontais de 40 px nos arquivos desktop e 32 px nos arquivos mobile. O ritmo interno segue intervalos de 8, 16, 24, 32 e 48 px, com altura dos cartões de projeto calculada a partir do conteúdo. Tecnologias, descrição e chamada para abrir o repositório são grupos separados. A conferência final de espaçamento ocorre no perfil publicado, porque o GitHub aplica seu próprio renderizador ao HTML.
+
 ## Atualizar
 
 A partir da raiz do repositório:
