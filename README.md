@@ -8,9 +8,9 @@
 </p>
 
 <p align="center">
-  <a href="#missões--projetos">Projetos</a> ·
-  <a href="#tech-loadout--tecnologias">Tecnologias</a> ·
-  <a href="#identificação--sobre-mim">Sobre mim</a> ·
+  <a href="#user-content-missões--projetos">Projetos</a> ·
+  <a href="#user-content-tech-loadout--tecnologias">Tecnologias</a> ·
+  <a href="#user-content-identificação--sobre-mim">Sobre mim</a> ·
   <a href="https://github.com/PHBR63?tab=repositories">Todos os repositórios</a>
 </p>
 
