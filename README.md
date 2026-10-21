@@ -1,25 +1,75 @@
-<p align="center">
-  <img src="./assets/aincrad-header.svg" width="100%" alt="Pedro Zampronha, PHBR63. Interface inspirada em Aincrad com castelo flutuante e menu de jogador. Desenvolvimento de software, integrações e dados." />
-</p>
+<p align="center"><img src="./assets/aincrad-hero.png" width="100%" alt="Pedro Zampronha. Arte de Aincrad com castelo flutuante sobre as nuvens e menu holográfico Link Start."></p>
 
-<p align="center">
-  <a href="#player-profile--sobre-mim">Player Profile</a> ·
-  <a href="#skill-records--tecnologias">Skill Records</a> ·
-  <a href="#quest-log--projetos">Quest Log</a> ·
-  <a href="#outside-the-system--além-do-trabalho">Outside the System</a>
-</p>
+<img src="./assets/system-link.svg" width="100%" alt="PHBR63 · Code, build, explore">
+
+<p align="center"><b>Desenvolvimento de software · Integrações · Dados · Experiências interativas</b><br><sub>Java e Spring Boot no back-end. Interfaces, dados e mundos interativos nos projetos.</sub></p>
+
+<p align="center"><a href="#quest-log">Projetos</a> · <a href="#skill-records">Tecnologias</a> · <a href="#activity-record">Atividade</a> · <a href="#player-profile">Sobre mim</a></p>
+
+<a id="quest-log"></a>
+<details open>
+<summary><b>⚔️ Quest Log · Projetos em desenvolvimento</b></summary>
+<br>
+
+<a href="https://github.com/PHBR63/lets-roll-cursor">
+<picture>
+  <source media="(max-width: 600px)" srcset="./assets/quest-lets-roll-mobile.svg">
+  <img src="./assets/quest-lets-roll.svg" width="100%" alt="Let&#x27;s Roll — RPG de mesa online. Abrir repositório.">
+</picture>
+</a>
+
+<a href="https://github.com/PHBR63/anime-check">
+<picture>
+  <source media="(max-width: 600px)" srcset="./assets/quest-anime-check-mobile.svg">
+  <img src="./assets/quest-anime-check.svg" width="100%" alt="Anime Check — Organização e descoberta de animes. Abrir repositório.">
+</picture>
+</a>
+
+<sub>Projetos em desenvolvimento e experimentações, com diferentes estágios de maturidade.</sub>
+</details>
+
+<a id="skill-records"></a>
+<details open>
+<summary><b>🗡️ Skill Records · Tecnologias e ferramentas</b></summary>
+<br>
+
+<picture>
+  <source media="(max-width: 600px)" srcset="./assets/skill-records-mobile.svg">
+  <img src="./assets/skill-records.svg" width="100%" alt="Back-end: Java e Spring Boot. Web: React e TypeScript. Dados: SQL e Tableau. Automação: Python. Jogos: C# e Unity. Versionamento: Git e GitHub.">
+</picture>
+
+Escolho as ferramentas de acordo com o problema, considerando a complexidade da solução e o trabalho necessário para mantê-la.
+</details>
+
+<a id="activity-record"></a>
+<details open>
+<summary><b>💠 Activity Record · Atividade no GitHub</b></summary>
+<br>
+
+<picture>
+  <source media="(max-width: 600px)" srcset="./assets/activity-record-mobile.svg">
+  <img src="./assets/activity-record.svg" width="100%" alt="12 repositórios públicos e 391 contribuições na janela consultada. Dados coletados em 21/10/2026.">
+</picture>
+
+<sub>Fotografia dos dados públicos consultados em 21/10/2026; não é um indicador em tempo real.</sub>
+</details>
+
+<a id="player-profile"></a>
+<details>
+<summary><b>👤 Player Profile · Minha trajetória, experiência e forma de trabalhar</b></summary>
+<br>
 
 # Olá, sou Pedro Zampronha 👋
 
 **Desenvolvimento de software · Integrações · Dados · Experiências interativas**
 
-## Player Profile · Sobre mim
+## Sobre mim
 
 Sou profissional de tecnologia, formado em Sistemas de Informação pela ESPM. Minha trajetória reúne desenvolvimento de software, integração de sistemas, análise de dados e experiência com infraestrutura e liderança técnica.
 
 Gosto de entender como as coisas se conectam: a necessidade de quem usa, a regra de negócio, a interface, a API e os dados. Esse olhar orienta meu trabalho na criação de soluções úteis, organizadas e que possam continuar evoluindo.
 
-## Experience Log · Minha experiência
+## Minha experiência
 
 Tenho experiência com desenvolvimento back-end em **Java e Spring Boot**, criação e documentação de APIs REST, integração entre sistemas e modernização de aplicações.
 
@@ -27,7 +77,7 @@ Minha passagem pelo setor financeiro incluiu projetos de cobrança, atualizaçã
 
 Também trabalho com aplicações web, automação e visualização de dados. Gosto de transformar informações dispersas em interfaces, análises e ferramentas que facilitem o trabalho e apoiem decisões.
 
-## Skill Records · Tecnologias
+## Tecnologias e ferramentas
 
 | Área | Tecnologias e ferramentas |
 | :--- | :--- |
@@ -40,7 +90,7 @@ Também trabalho com aplicações web, automação e visualização de dados. Go
 
 Escolho as ferramentas de acordo com o problema, considerando a complexidade da solução e o trabalho necessário para mantê-la.
 
-## Quest Log · Projetos
+## Projetos
 
 ### 🎲 Let's Roll
 
@@ -56,19 +106,20 @@ Aplicação voltada à organização e descoberta de animes. Reúne meu interess
 
 Estes repositórios incluem projetos em desenvolvimento e experimentações, com diferentes estágios de maturidade.
 
-## Crafting Principles · Como gosto de trabalhar
+## Como gosto de trabalhar
 
 Valorizo código legível, responsabilidades bem definidas e documentação que ajude outro desenvolvedor a entender o caminho dos dados e o motivo das decisões.
 
 Procuro compreender o contexto antes de alterar uma solução, fazer mudanças objetivas e validar o comportamento esperado. Uso ferramentas de inteligência artificial como apoio à pesquisa e ao desenvolvimento, mantendo a revisão crítica sobre o resultado.
 
-## Outside the System · Além do trabalho
+## Além do trabalho
 
 Jogos, RPG, animes e realidade virtual também fazem parte dos meus interesses — e frequentemente viram projetos. Gosto de explorar como programação, narrativa e interação podem se encontrar em uma mesma experiência.
 
 Por aqui, compartilho parte desse percurso: aplicações, estudos e ideias que ganham forma em código.
 
----
+</details>
 
-<p align="center"><sub>Interface autoral inspirada em Sword Art Online · Aincrad. Perfil pessoal, sem vínculo oficial com a franquia.</sub></p>
+<p align="center"><br><b>O próximo projeto começa com uma boa ideia.</b><br><sub>Software, RPG, animes e realidade virtual fazem parte do caminho.</sub><br><br><a href="https://github.com/PHBR63?tab=repositories">Explorar meus repositórios</a></p>
 
+<p align="center"><sub>PHBR63 · Interface autoral inspirada em Sword Art Online / Aincrad · Sem vínculo oficial com a franquia.</sub></p>
