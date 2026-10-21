@@ -19,7 +19,7 @@ As capas são ilustrações conceituais. Nenhum painel representa captura da apl
 
 ## Espaçamento e organização
 
-Cada painel tem um contêiner de parágrafo próprio no README, para que as margens nativas do GitHub produzam intervalos consistentes. Uma quebra adicional marca a entrada de Tecnologias, Projetos e Trajetória. Dentro de cada projeto, capa e descrição permanecem no mesmo link e no mesmo parágrafo. As imagens usam `align="top"` para reduzir a emenda causada pelo alinhamento de linha de base.
+Cada painel tem um contêiner de parágrafo próprio no README, para que as margens nativas do GitHub produzam intervalos consistentes. A divisória animada marca a entrada de Tecnologias, Projetos e Trajetória, além do encerramento antes do rodapé. O mesmo arquivo GIF é reutilizado nessas quatro posições. Dentro de cada projeto, capa e descrição permanecem no mesmo link e no mesmo parágrafo. As imagens usam `align="top"` para reduzir a emenda causada pelo alinhamento de linha de base.
 
 Os painéis usam margens horizontais de 40 px nos arquivos desktop e 32 px nos arquivos mobile. O ritmo interno segue intervalos de 8, 16, 24, 32 e 48 px, com altura dos cartões de projeto calculada a partir do conteúdo. Tecnologias, descrição e chamada para abrir o repositório são grupos separados. A conferência final de espaçamento ocorre no perfil publicado, porque o GitHub aplica seu próprio renderizador ao HTML.
 
@@ -42,7 +42,7 @@ Edite o conteúdo textual em `build_readme.py` e os trechos correspondentes nos 
 
 O elemento `picture` seleciona os painéis mobile em telas de até 600 px. O breakpoint se refere à largura da janela, não à coluna interna do GitHub. As capas dos projetos mantêm a proporção 2:1; suas descrições têm composição própria para celular.
 
-O terminal possui duas animações: desktop e mobile. As fontes animadas exigem `prefers-reduced-motion: no-preference`. Quando essa condição não é atendida, o README seleciona SVG estático no celular e PNG estático no desktop. A divisória também tem GIF e PNG estático. Não há animações por JavaScript nem CSS injetado no perfil.
+O terminal possui duas animações: desktop e mobile. O GIF desktop é a imagem padrão em `img`; o GIF mobile é selecionado em telas de até 600 px. Antes dessas opções, fontes com `prefers-reduced-motion: reduce` selecionam o SVG estático no celular e o PNG estático no desktop. As quatro divisórias usam o GIF como imagem padrão e o PNG quando há preferência por redução de movimento. Assim, o comportamento padrão continua animado mesmo em leitores que ignoram as fontes de `picture`, e navegadores compatíveis respeitam a preferência de movimento. Não há animações por JavaScript nem CSS injetado no perfil.
 
 As imagens possuem fundo opaco para manter as cores nos temas claro e escuro. A personalização ocupa o conteúdo do README; o GitHub controla a moldura, os menus e o tema geral da página.
 

@@ -14,14 +14,19 @@
 
 <p>
 <picture>
-  <source media="(max-width: 600px) and (prefers-reduced-motion: no-preference)" srcset="./assets/neon-protocol/terminal-mobile.gif">
-  <source media="(max-width: 600px)" srcset="./assets/neon-protocol/terminal-mobile.svg">
-  <source media="(prefers-reduced-motion: no-preference)" srcset="./assets/yellow-protocol/animacoes/terminal-conexao.gif">
-  <img src="./assets/yellow-protocol/animacoes/terminal-conexao.png" width="100%" align="top" alt="Criando. Experimentando. Evoluindo.">
+  <source media="(max-width: 600px) and (prefers-reduced-motion: reduce)" srcset="./assets/neon-protocol/terminal-mobile.svg">
+  <source media="(prefers-reduced-motion: reduce)" srcset="./assets/yellow-protocol/animacoes/terminal-conexao.png">
+  <source media="(max-width: 600px)" srcset="./assets/neon-protocol/terminal-mobile.gif">
+  <img src="./assets/yellow-protocol/animacoes/terminal-conexao.gif" width="100%" align="top" alt="Criando. Experimentando. Evoluindo.">
 </picture>
 </p>
 
-<br>
+<p>
+<picture>
+  <source media="(prefers-reduced-motion: reduce)" srcset="./assets/yellow-protocol/animacoes/divisoria-scan.png">
+  <img src="./assets/yellow-protocol/animacoes/divisoria-scan.gif" width="100%" align="top" alt="">
+</picture>
+</p>
 
 <p>
 <picture>
@@ -30,7 +35,12 @@
 </picture>
 </p>
 
-<br>
+<p>
+<picture>
+  <source media="(prefers-reduced-motion: reduce)" srcset="./assets/yellow-protocol/animacoes/divisoria-scan.png">
+  <img src="./assets/yellow-protocol/animacoes/divisoria-scan.gif" width="100%" align="top" alt="">
+</picture>
+</p>
 
 <p>
 <picture>
@@ -79,7 +89,12 @@
 </a>
 </p>
 
-<br>
+<p>
+<picture>
+  <source media="(prefers-reduced-motion: reduce)" srcset="./assets/yellow-protocol/animacoes/divisoria-scan.png">
+  <img src="./assets/yellow-protocol/animacoes/divisoria-scan.gif" width="100%" align="top" alt="">
+</picture>
+</p>
 
 <p>
 <picture>
@@ -90,8 +105,8 @@
 
 <p>
 <picture>
-  <source media="(prefers-reduced-motion: no-preference)" srcset="./assets/yellow-protocol/animacoes/divisoria-scan.gif">
-  <img src="./assets/yellow-protocol/animacoes/divisoria-scan.png" width="100%" align="top" alt="">
+  <source media="(prefers-reduced-motion: reduce)" srcset="./assets/yellow-protocol/animacoes/divisoria-scan.png">
+  <img src="./assets/yellow-protocol/animacoes/divisoria-scan.gif" width="100%" align="top" alt="">
 </picture>
 </p>
 

@@ -25,6 +25,15 @@ def project(key, repo, cover, name, alt):
 </p>'''
 
 
+def animated_divider():
+    return f'''<p>
+<picture>
+  <source media="(prefers-reduced-motion: reduce)" srcset="{YELLOW}/animacoes/divisoria-scan.png">
+  <img src="{YELLOW}/animacoes/divisoria-scan.gif" width="100%" align="top" alt="">
+</picture>
+</p>'''
+
+
 def main():
     blocks = [f'''<p>
 <picture>
@@ -35,28 +44,23 @@ def main():
     picture('intro', 'Pedro Zampronha. Formado em Sistemas de Informação pela ESPM. Desenvolvimento de software, integração de sistemas e dados. Interesses em jogos, RPG, animes e realidade virtual.'),
     f'''<p>
 <picture>
-  <source media="(max-width: 600px) and (prefers-reduced-motion: no-preference)" srcset="{ART}/terminal-mobile.gif">
-  <source media="(max-width: 600px)" srcset="{ART}/terminal-mobile.svg">
-  <source media="(prefers-reduced-motion: no-preference)" srcset="{YELLOW}/animacoes/terminal-conexao.gif">
-  <img src="{YELLOW}/animacoes/terminal-conexao.png" width="100%" align="top" alt="Criando. Experimentando. Evoluindo.">
+  <source media="(max-width: 600px) and (prefers-reduced-motion: reduce)" srcset="{ART}/terminal-mobile.svg">
+  <source media="(prefers-reduced-motion: reduce)" srcset="{YELLOW}/animacoes/terminal-conexao.png">
+  <source media="(max-width: 600px)" srcset="{ART}/terminal-mobile.gif">
+  <img src="{YELLOW}/animacoes/terminal-conexao.gif" width="100%" align="top" alt="Criando. Experimentando. Evoluindo.">
 </picture>
 </p>''',
-    '<br>',
+    animated_divider(),
     picture('stack', 'Tecnologias por área: back-end e integrações — Java, Spring Boot, APIs REST e Apache Camel; web — React, TypeScript, HTML, CSS e Tailwind CSS; dados — SQL, PostgreSQL, MySQL, Oracle, Supabase e Tableau; automação — Python; jogos e realidade virtual — C# e Unity; versionamento — Git e GitHub.'),
-    '<br>',
+    animated_divider(),
     picture('section-projects', 'Projetos — explorar o código.'),
     project('3dgame', '3dGame', f'{YELLOW}/projetos/projeto-3dgame.webp', '3dGame', '3dGame — Jogo da turma da ESPM. Abrir repositório.'),
     project('vr', 'jogo-vr', f'{YELLOW}/projetos/projeto-jogo-vr.webp', 'jogo-vr', 'jogo-vr — Unity e C#. Projeto de jogo em realidade virtual. Abrir repositório.'),
     project('roll', 'lets-roll-cursor', f'{YELLOW}/projetos/projeto-lets-roll-cursor.webp', "Let's Roll", "Let's Roll — React, TypeScript e Supabase. Plataforma para RPG de mesa online, em desenvolvimento. Abrir repositório."),
     project('anime', 'anime-check', f'{ART}/projeto-anime-check.webp', 'Anime Check', 'Anime Check — Organização e descoberta de animes. Abrir repositório.'),
-    '<br>',
+    animated_divider(),
     picture('about', 'Minha trajetória reúne desenvolvimento, integração de sistemas e dados. Experiência com Java, Spring Boot e APIs REST. No setor financeiro, trabalhei com cobrança, modernização de aplicações e correção de vulnerabilidades. Interesses em jogos, RPG, animes e realidade virtual.'),
-    f'''<p>
-<picture>
-  <source media="(prefers-reduced-motion: no-preference)" srcset="{YELLOW}/animacoes/divisoria-scan.gif">
-  <img src="{YELLOW}/animacoes/divisoria-scan.png" width="100%" align="top" alt="">
-</picture>
-</p>''',
+    animated_divider(),
     f'''<p>
 <a href="https://github.com/PHBR63?tab=repositories">
 {picture('footer', 'Ver todos os repositórios de @phbr63 no GitHub.', block=False)}
