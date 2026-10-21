@@ -1,5 +1,9 @@
 # Perfil PHBR63 — Aincrad v2
 
+> **Material legado.** O `README.md` da raiz agora é editado diretamente; os assets atuais ficam em `assets/yellow-protocol`.
+>
+> Os geradores antigos servem somente às versões legadas: gravam `README.legacy.md` na própria pasta de fontes, sem sobrescrever o README da raiz. A documentação abaixo registra a versão anterior.
+
 ## Direção visual
 
 A referência enviada pelo usuário é `README (8).md`, um perfil com imagens de seções, painéis de projetos, stack, atividade e blocos expansíveis. Esta versão recria essa composição com identidade própria de Aincrad: azul noturno, ciano, prata e pequenos acentos em âmbar.
@@ -47,3 +51,4 @@ O repositório de perfil recebe apenas README, assets e os arquivos necessários
 - A versão final deve ser conferida no perfil publicado, incluindo imagens, links dos projetos e abertura das seções.
 
 O banner é uma interpretação artística inspirada em Aincrad, sem pretensão de mapa ou arquitetura canônica. A personalização ocupa o README; os menus e o tema geral do GitHub são controlados pela plataforma.
+

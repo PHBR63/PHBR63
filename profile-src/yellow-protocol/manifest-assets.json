@@ -1,0 +1,124 @@
+[
+  {
+    "path": "assets/yellow-protocol/animacoes/divisoria-scan.gif",
+    "bytes": 292707,
+    "sha256": "935ce70c5bb211f50bea316ea51340d03f2bd58449e913cb7b4c97786b03bf57",
+    "width": 1200,
+    "height": 64,
+    "frames": 217
+  },
+  {
+    "path": "assets/yellow-protocol/animacoes/divisoria-scan.png",
+    "bytes": 3646,
+    "sha256": "655628dcdc3bd64fcbf28c2ca789a889ebac6d86a673d0944e3fdb9c4895a0ab",
+    "width": 1200,
+    "height": 64,
+    "frames": 1
+  },
+  {
+    "path": "assets/yellow-protocol/animacoes/divisoria-scan.svg",
+    "bytes": 1656,
+    "sha256": "18b914d8a9a610001df11ce4231bbfbabf3f2c9d7692663283654d839a1876b5"
+  },
+  {
+    "path": "assets/yellow-protocol/animacoes/terminal-conexao.gif",
+    "bytes": 85885,
+    "sha256": "59407a54b22f4d680baca5526fcd6b80b6784fa986e2e12cd46cb9dbc72e79ea",
+    "width": 1200,
+    "height": 180,
+    "frames": 45
+  },
+  {
+    "path": "assets/yellow-protocol/animacoes/terminal-conexao.png",
+    "bytes": 20011,
+    "sha256": "2ad98e9cc6c7d1b5dbb44350e6f9af865d546c3c080babd5fcdf8edfe2896935",
+    "width": 1200,
+    "height": 180,
+    "frames": 1
+  },
+  {
+    "path": "assets/yellow-protocol/animacoes/terminal-conexao.svg",
+    "bytes": 3225,
+    "sha256": "484477028a0447a56dedfcf14fbb433aaf8c5bdbca8ee5f0a206ed1c482c01b4"
+  },
+  {
+    "path": "assets/yellow-protocol/banners/banner-compacto.webp",
+    "bytes": 321902,
+    "sha256": "cec58af247b859418265ca46d6a7b86d2b251f712fc4667b06a1cfed2caee501",
+    "width": 1448,
+    "height": 1086,
+    "frames": 1
+  },
+  {
+    "path": "assets/yellow-protocol/banners/banner-principal.webp",
+    "bytes": 272070,
+    "sha256": "ad54ac12e843836a39a3daf9a560b41da371f7a8098d96c9ac568c65117ccfda",
+    "width": 2172,
+    "height": 724,
+    "frames": 1
+  },
+  {
+    "path": "assets/yellow-protocol/projetos/projeto-3dgame.webp",
+    "bytes": 315056,
+    "sha256": "8fa6196c5599619ad0175ed567fa04a81d4172b00ba49ea0fdf01a687dc625ac",
+    "width": 1774,
+    "height": 887,
+    "frames": 1
+  },
+  {
+    "path": "assets/yellow-protocol/projetos/projeto-jogo-vr.webp",
+    "bytes": 262192,
+    "sha256": "0b2dc737079bffd70fde9182ea70b9694a6498036cc5fada417ef38e3294460b",
+    "width": 1774,
+    "height": 887,
+    "frames": 1
+  },
+  {
+    "path": "assets/yellow-protocol/projetos/projeto-lets-roll-cursor.webp",
+    "bytes": 356626,
+    "sha256": "13a29c8300c6a71a15321200e79539c1b6b628f5f5b025e66f3c078c5b91815a",
+    "width": 1774,
+    "height": 887,
+    "frames": 1
+  },
+  {
+    "path": "assets/yellow-protocol/tecnologias/csharp.svg",
+    "bytes": 562,
+    "sha256": "1ff94f9e7124348fb74252669372945d1a11e42a3df3e107f32e9b4fbe7f1908"
+  },
+  {
+    "path": "assets/yellow-protocol/tecnologias/java.svg",
+    "bytes": 568,
+    "sha256": "86cf2e8066d8afffff8caa79f54e1ae3db5ecaebb6ba80bb635e1ad853f856e3"
+  },
+  {
+    "path": "assets/yellow-protocol/tecnologias/python.svg",
+    "bytes": 574,
+    "sha256": "a2baadacda26e5ed4db430524f5651881d10473b2f428da968780cc8923f1e77"
+  },
+  {
+    "path": "assets/yellow-protocol/tecnologias/react.svg",
+    "bytes": 571,
+    "sha256": "680220b83153af85109d319f8e96d8d757195a7aabd2b0d7067b4c80f270d127"
+  },
+  {
+    "path": "assets/yellow-protocol/tecnologias/spring-boot.svg",
+    "bytes": 589,
+    "sha256": "73b9467b8a1db6d8c788054b9ac4bc4aa5e2ebb1b63ccab41ee398cc241889a2"
+  },
+  {
+    "path": "assets/yellow-protocol/tecnologias/sql.svg",
+    "bytes": 565,
+    "sha256": "5ccc3d017aa315e28efa898c66acd83b343c581f84ce7aa432a93d872ca1cb95"
+  },
+  {
+    "path": "assets/yellow-protocol/tecnologias/typescript.svg",
+    "bytes": 586,
+    "sha256": "b7225eebfc6f1b7c5b445ce86fa802f020c2955cbc6190ee6a6e9ffc1c4a3953"
+  },
+  {
+    "path": "assets/yellow-protocol/tecnologias/unity.svg",
+    "bytes": 571,
+    "sha256": "649cd90ee10d3d147e017697093c4f1960f311dc86c68a8bb96d050f2cf7436a"
+  }
+]

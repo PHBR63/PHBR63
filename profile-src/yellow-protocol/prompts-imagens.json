@@ -1,0 +1,42 @@
+{
+  "metodo": "Gerador de imagens integrado; ilustrações originais a partir das duas prévias aprovadas.",
+  "brief_comum": "Use case: ui-mockup / digital portfolio artwork.\nCreate ONE FINAL, standalone raster asset to actually embed in Pedro Zampronha's GitHub profile README. This is NOT a preview of a page, NOT a screenshot, NOT a collage, NOT a mockup. No browser chrome, no file header, no outer GitHub frame, no other sections, no tool watermarks. Only the asset requested.\nReference image 1 is the approved Yellow Protocol direction: use its electric yellow #FCEE09, near-black #080C12, thin cyan #00F0FF accents and angular technical geometry. Reference image 2 supplies the cinematic Night City atmosphere. Preserve a common art direction across the asset set.\nDesign: strong Cyberpunk 2077 inspired visual language, asymmetrical sharply chamfered panels, precise industrial microdetails, crisp condensed italic display typography, restrained fine grain, sparse chromatic offsets, cinematic nocturnal city light. Sophisticated high contrast and lots of visual breathing room. No rounded SaaS cards, no generic blue-purple gradients, no heavy bloom covering text.\nAll exact requested text must be beautifully legible, correctly spelled, fully inside safe margins of at least 6% from the edges. Output completely fills the canvas. Solid dark background, not transparent. Decorative artwork must never collide with names. Do not invent personal credentials, numbers, stats, percentages, logos, services, contacts, descriptions, or additional text. Do not include the Cyberpunk game title or official logo; this is Pedro's own identity.\n",
+  "pecas": [
+    {
+      "id": "banner",
+      "filename": "banner-principal.png",
+      "folder": "banners",
+      "prompt": "Asset: the MAIN IDENTITY BANNER. EXACT target canvas 1920 x 640 pixels, 3:1 wide landscape. No wide borders around the artwork. Powerful yellow graphic field on the left and center occupying about 60%, a beautifully rendered Night City-inspired nocturnal skyline on the right occupying about 40%, with dark architecture and cyan light and a few yellow city lights. Large forward-leaning near-black name on the yellow field, set on two lines, exact \"PEDRO\" then \"ZAMPRONHA\". The surname must remain inside the safe area and never extend into the city in a way that hurts reading. Below the name, exact handle \"@phbr63\". Small readable subtitle \"DESENVOLVIMENTO • EXPERIMENTAÇÃO • PROJETOS\". Sparse cyan circuit-like graphic lines, a couple of notched corner accents, a personal geometric PZ insignia incorporated into distant architecture only if restrained. The image is a complete polished production banner. No fake link buttons."
+    },
+    {
+      "id": "project_3dgame",
+      "filename": "projeto-3dgame.png",
+      "folder": "projetos",
+      "prompt": "Asset: final FEATURED PROJECT COVER, exactly 1536 x 768 pixels, 2:1 landscape. Exact title \"3dGame\", large and highly legible on the left third. Exact smaller label \"PROJETO / SHADERLAB\". All-caps secondary section marker \"01\". The right two thirds are a striking abstract original 3D environment: monumental geometric concrete blocks forming an angular gateway, one intensely yellow illuminated portal, dark wet ground reflecting yellow and cyan, strong architectural perspective. This is illustrative cover art, not a screenshot of actual gameplay. Do not include people, guns, stats, gameplay interfaces, or scene labels. Thin yellow top-left corner cut and cyan lower-right technical line unify it with the main banner. Dark background across the whole asset, no yellow rectangle behind every text. No buttons. Beautiful large architectural composition and clear project naming."
+    },
+    {
+      "id": "project_vr",
+      "filename": "projeto-jogo-vr.png",
+      "folder": "projetos",
+      "prompt": "Asset: final PROJECT COVER, exactly 1536 x 768 pixels, 2:1 landscape. Exact title \"jogo-vr\", large and highly legible on the left third. Exact smaller label \"PROJETO / C#\". All-caps secondary section marker \"02\". On the right two thirds, a beautifully rendered FUTURISTIC VR HEADSET as a product object floating above a thin holographic wireframe plane: black industrial casing, precise yellow inserts, faint cyan optics and a few red rear accent lines. No human wearer, no weapons, no specific commercial headset brand. Abstract dark digital space, understated technical construction lines, clean cinematic side lighting. The illustration is symbolic project cover art, not a screenshot. Match the angular dark yellow/cyan framed visual language of the 3dGame cover: one clipped yellow upper-left corner, tiny cyan details, plenty of negative space. No buttons, no fake stats."
+    },
+    {
+      "id": "project_cursor",
+      "filename": "projeto-lets-roll-cursor.png",
+      "folder": "projetos",
+      "prompt": "Asset: final PROJECT COVER, exactly 1536 x 768 pixels, 2:1 landscape. Exact title \"lets-roll-cursor\" prominently on the left half, carefully fitted and fully legible. Exact smaller label \"PROJETO / TYPESCRIPT\". All-caps secondary section marker \"03\". On the right half: an original sculptural mouse pointer arrow made of dark machined material with electric cyan edges, hovering over dynamic curved yellow light trails and a precise perspective grid. Strong sense of digital movement, no screenshot of an actual app, no realistic computer or human hands. A dark abstract technological background with faint angular construction lines. Match the same upper-left clipped yellow corner and sparse cyan accents as other project covers. Balanced, crisp, not cluttered. No buttons, no fake stats."
+    },
+    {
+      "id": "contact",
+      "filename": "faixa-contato.png",
+      "folder": "contato",
+      "prompt": "Asset: the final CONTACT FOOTER BANNER, exactly 1536 x 512 pixels, 3:1 wide landscape. Dark nocturnal city panorama on the right half, wet neon reflections in muted cyan and yellow. On the clean left half, exact top text \"ESTABELECER CONEXÃO\" and large exact handle \"@phbr63\". Below in smaller type \"PEDRO ZAMPRONHA\". A coherent sharp yellow perimeter frame with chamfered corner cuts, slim cyan signal line that extends toward the skyline, sparse yellow industrial graphic bars. The handle is the primary focus and needs to be clearly readable even when the banner is reduced to 700px wide. No contact email, no social links besides the provided handle, no fake button, no platform logo, no invented slogan. Personal cinematic outro asset with substantial breathing room."
+    },
+    {
+      "id": "compact",
+      "filename": "banner-compacto.png",
+      "folder": "banners",
+      "prompt": "Recomposição da identidade do banner principal em proporção 4:3. Preservar PEDRO / ZAMPRONHA e @phbr63 em painel amarelo, margens seguras e cidade noturna na parte inferior e direita. Omitir o subtítulo comprido para leitura em telas menores. Mesma tipografia, cores e atmosfera do banner principal; não cortar nem distorcer."
+    }
+  ]
+}

@@ -1,77 +1,81 @@
-<p align="center"><img src="./assets/cyberpunk/hero.png" width="100%" alt="Pedro Zampronha / PHBR63. Cabeçalho amarelo e preto inspirado em Cyberpunk 2077, com cenário urbano neon."></p>
+<picture>
+  <source media="(max-width: 600px)" srcset="./assets/yellow-protocol/banners/banner-compacto.webp">
+  <img src="./assets/yellow-protocol/banners/banner-principal.webp" width="100%" alt="Pedro Zampronha — @phbr63. Desenvolvimento, experimentação e projetos.">
+</picture>
 
-<img src="./assets/cyberpunk/signal.svg" width="100%" alt="PHBR63 · Code, build, repeat">
+<p align="center">
+  <b>Desenvolvimento de software · Integrações · Dados · Experiências interativas</b>
+</p>
 
-<p align="center"><b>Pedro Zampronha · Desenvolvimento de software, integrações e dados</b><br><sub>Java / Spring Boot · React / TypeScript · Python / SQL</sub></p>
+<p align="center">
+  <a href="#missões--projetos">Projetos</a> ·
+  <a href="#tech-loadout--tecnologias">Tecnologias</a> ·
+  <a href="#identificação--sobre-mim">Sobre mim</a> ·
+  <a href="https://github.com/PHBR63?tab=repositories">Todos os repositórios</a>
+</p>
 
-<p align="center"><a href="#projetos">Projetos</a> · <a href="#stack">Stack</a> · <a href="#atividade">Atividade</a> · <a href="#sobre">Sobre mim</a></p>
+Sou **Pedro Zampronha**, formado em Sistemas de Informação pela **ESPM**. Trabalho com desenvolvimento de software, integração de sistemas e dados. Gosto de conectar a necessidade de quem usa, a regra de negócio, a interface, a API e os dados.
 
-<a id="projetos"></a>
-<details open>
-<summary><b>📌 Projetos em destaque</b></summary>
-<br>
+Jogos, RPG, animes e realidade virtual também fazem parte desse percurso — e frequentemente viram projetos.
 
-<a href="https://github.com/PHBR63/lets-roll-cursor"><picture><source media="(max-width: 600px)" srcset="./assets/cyberpunk/lets-roll-mobile.svg"><img src="./assets/cyberpunk/lets-roll.svg" width="100%" alt="Let’s Roll — abrir repositório de RPG de mesa online"></picture></a>
+<picture>
+  <source media="(prefers-reduced-motion: no-preference)" srcset="./assets/yellow-protocol/animacoes/terminal-conexao.gif">
+  <img src="./assets/yellow-protocol/animacoes/terminal-conexao.png" width="100%" alt="Criando. Experimentando. Evoluindo.">
+</picture>
 
-<a href="https://github.com/PHBR63/anime-check"><picture><source media="(max-width: 600px)" srcset="./assets/cyberpunk/anime-check-mobile.svg"><img src="./assets/cyberpunk/anime-check.svg" width="100%" alt="Anime Check — abrir repositório de organização e descoberta de animes"></picture></a>
+## Missões // Projetos
 
-Projetos em desenvolvimento e experimentações, com diferentes estágios de maturidade.
+### 01 · 3dGame
 
-</details>
+<a href="https://github.com/PHBR63/3dGame">
+  <img src="./assets/yellow-protocol/projetos/projeto-3dgame.webp" width="640" alt="Capa ilustrada de 3dGame: um portal iluminado em uma cidade futurista. Abrir o repositório.">
+</a>
 
-<a id="stack"></a>
+**Jogo da turma da ESPM.** Um registro de desenvolvimento de jogos em 3D.
+
+[Explorar o código →](https://github.com/PHBR63/3dGame)
+
+### 02 · jogo-vr
+
+<a href="https://github.com/PHBR63/jogo-vr">
+  <img src="./assets/yellow-protocol/projetos/projeto-jogo-vr.webp" width="640" alt="Capa ilustrada de jogo-vr: um visor de realidade virtual com detalhes amarelos e ciano. Abrir o repositório.">
+</a>
+
+**Unity · C#** — Projeto de jogo em realidade virtual, explorando experiências interativas.
+
+[Explorar o código →](https://github.com/PHBR63/jogo-vr)
+
+### 03 · Let's Roll
+
+<a href="https://github.com/PHBR63/lets-roll-cursor">
+  <img src="./assets/yellow-protocol/projetos/projeto-lets-roll-cursor.webp" width="640" alt="Capa ilustrada de lets-roll-cursor: um cursor ciano com rastros de luz. Abrir o repositório de Let's Roll.">
+</a>
+
+**React · TypeScript · Supabase** — Plataforma em desenvolvimento para RPG de mesa online, com organização de campanhas e recursos para mestres e jogadores.
+
+[Explorar o código →](https://github.com/PHBR63/lets-roll-cursor)
+
+**Também por aqui:** [Anime Check](https://github.com/PHBR63/anime-check), projeto voltado à organização e descoberta de animes.
+
+<sub>Os projetos estão em diferentes estágios de desenvolvimento. As capas são ilustrações conceituais de apresentação.</sub>
+
+## Tech loadout // Tecnologias
+
+<p>
+  <img src="./assets/yellow-protocol/tecnologias/java.svg" width="140" alt="Java">
+  <img src="./assets/yellow-protocol/tecnologias/spring-boot.svg" width="140" alt="Spring Boot">
+  <img src="./assets/yellow-protocol/tecnologias/react.svg" width="140" alt="React">
+  <img src="./assets/yellow-protocol/tecnologias/typescript.svg" width="140" alt="TypeScript">
+  <img src="./assets/yellow-protocol/tecnologias/python.svg" width="140" alt="Python">
+  <img src="./assets/yellow-protocol/tecnologias/sql.svg" width="140" alt="SQL">
+  <img src="./assets/yellow-protocol/tecnologias/csharp.svg" width="140" alt="C#">
+  <img src="./assets/yellow-protocol/tecnologias/unity.svg" width="140" alt="Unity">
+</p>
+
+Tecnologias presentes na minha experiência e nos meus projetos. Escolho as ferramentas considerando o problema, a complexidade da solução e o trabalho necessário para mantê-la.
+
 <details>
-<summary><b>🧰 Tecnologias e ferramentas</b></summary>
-<br>
-
-<picture><source media="(max-width: 600px)" srcset="./assets/cyberpunk/stack-mobile.svg"><img src="./assets/cyberpunk/stack.svg" width="100%" alt="Back-end: Java e Spring Boot. Web: React e TypeScript. Dados: SQL e Tableau. Automação: Python. Jogos: C# e Unity. Versionamento: Git e GitHub."></picture>
-
-</details>
-
-<a id="numeros"></a>
-<details>
-<summary><b>📊 Em números</b></summary>
-<br>
-
-<picture><source media="(max-width: 600px)" srcset="./assets/cyberpunk/stats-mobile.svg"><img src="./assets/cyberpunk/stats.svg" width="100%" alt="12 repositórios públicos; 392 contribuições na janela; maior sequência de 5 dias."></picture>
-
-<sub>Dados consultados em 21/10/2026. Fotografia da janela retornada pelo GitHub; atualização por geração.</sub>
-
-</details>
-
-<a id="atividade"></a>
-<details>
-<summary><b>🟩 Atividade no GitHub</b></summary>
-<br>
-
-<picture><source media="(max-width: 600px)" srcset="./assets/cyberpunk/activity-mobile.svg"><img src="./assets/cyberpunk/activity.svg" width="100%" alt="Calendário das contribuições públicas consultadas em 21/10/2026."></picture>
-
-</details>
-
-<a id="sobre"></a>
-<details>
-<summary><b>👤 Sobre mim e minha experiência</b></summary>
-<br>
-
-# Olá, sou Pedro Zampronha 👋
-
-**Desenvolvimento de software · Integrações · Dados · Experiências interativas**
-
-## Sobre mim
-
-Sou profissional de tecnologia, formado em Sistemas de Informação pela ESPM. Minha trajetória reúne desenvolvimento de software, integração de sistemas, análise de dados e experiência com infraestrutura e liderança técnica.
-
-Gosto de entender como as coisas se conectam: a necessidade de quem usa, a regra de negócio, a interface, a API e os dados. Esse olhar orienta meu trabalho na criação de soluções úteis, organizadas e que possam continuar evoluindo.
-
-## Minha experiência
-
-Tenho experiência com desenvolvimento back-end em **Java e Spring Boot**, criação e documentação de APIs REST, integração entre sistemas e modernização de aplicações.
-
-Minha passagem pelo setor financeiro incluiu projetos de cobrança, atualização de tecnologias e correção de vulnerabilidades. Essa experiência reforçou meu cuidado com manutenção, segurança e clareza nas decisões técnicas.
-
-Também trabalho com aplicações web, automação e visualização de dados. Gosto de transformar informações dispersas em interfaces, análises e ferramentas que facilitem o trabalho e apoiem decisões.
-
-## Tecnologias e ferramentas
+<summary><b>Ver ferramentas por área</b></summary>
 
 | Área | Tecnologias e ferramentas |
 | :--- | :--- |
@@ -82,45 +86,35 @@ Também trabalho com aplicações web, automação e visualização de dados. Go
 | Jogos e realidade virtual | C# · Unity |
 | Versionamento | Git · GitHub |
 
-Escolho as ferramentas de acordo com o problema, considerando a complexidade da solução e o trabalho necessário para mantê-la.
-
-## Projetos
-
-### 🎲 Let's Roll
-
-Projeto de plataforma para RPG de mesa online, com foco na organização de campanhas e na experiência de mestres e jogadores. É um espaço para desenvolver interfaces, modelar regras e explorar recursos de interação.
-
-[Explorar o repositório →](https://github.com/PHBR63/lets-roll-cursor)
-
-### 🎌 Anime Check
-
-Aplicação voltada à organização e descoberta de animes. Reúne meu interesse por esse universo com desenvolvimento web, integração com APIs e apresentação de informações.
-
-[Explorar o repositório →](https://github.com/PHBR63/anime-check)
-
-Estes repositórios incluem projetos em desenvolvimento e experimentações, com diferentes estágios de maturidade.
-
-## Como gosto de trabalhar
-
-Valorizo código legível, responsabilidades bem definidas e documentação que ajude outro desenvolvedor a entender o caminho dos dados e o motivo das decisões.
-
-Procuro compreender o contexto antes de alterar uma solução, fazer mudanças objetivas e validar o comportamento esperado. Uso ferramentas de inteligência artificial como apoio à pesquisa e ao desenvolvimento, mantendo a revisão crítica sobre o resultado.
-
-## Além do trabalho
-
-Jogos, RPG, animes e realidade virtual também fazem parte dos meus interesses — e frequentemente viram projetos. Gosto de explorar como programação, narrativa e interação podem se encontrar em uma mesma experiência.
-
-Por aqui, compartilho parte desse percurso: aplicações, estudos e ideias que ganham forma em código.
-
 </details>
 
-<a id="contato"></a>
+## Identificação // Sobre mim
+
 <details>
-<summary><b>👋 Onde me encontrar</b></summary>
-<br>
+<summary><b>Minha experiência e como gosto de trabalhar</b></summary>
 
-<a href="https://github.com/PHBR63"><img src="./assets/cyberpunk/contact.svg" width="100%" alt="PHBR63 — perfil no GitHub"></a>
+Minha trajetória reúne desenvolvimento de software, integração de sistemas, análise de dados e experiência com infraestrutura e liderança técnica.
+
+Tenho experiência com back-end em **Java e Spring Boot**, criação e documentação de APIs REST, integração entre sistemas e modernização de aplicações. Minha passagem pelo setor financeiro incluiu projetos de cobrança, atualização de tecnologias e correção de vulnerabilidades.
+
+Também trabalho com aplicações web, automação e visualização de dados. Gosto de transformar informações dispersas em interfaces, análises e ferramentas que facilitem o trabalho e apoiem decisões.
+
+Valorizo código legível, responsabilidades bem definidas e documentação que explique o caminho dos dados e o motivo das decisões. Procuro compreender o contexto, fazer mudanças objetivas e validar o comportamento esperado. Uso ferramentas de inteligência artificial como apoio à pesquisa e ao desenvolvimento, mantendo a revisão crítica sobre o resultado.
 
 </details>
 
-<p align="center"><sub>Identidade visual inspirada em <a href="https://www.cyberpunk.net/br/pt-br/cyberpunk-2077">Cyberpunk 2077</a>. Arte do cabeçalho criada com IA. Perfil pessoal, sem vínculo oficial com CD PROJEKT RED.</sub></p>
+<picture>
+  <source media="(prefers-reduced-motion: no-preference)" srcset="./assets/yellow-protocol/animacoes/divisoria-scan.gif">
+  <img src="./assets/yellow-protocol/animacoes/divisoria-scan.png" width="100%" alt="">
+</picture>
+
+<p align="center">
+  <b>Continuar explorando</b><br>
+  <a href="https://github.com/PHBR63?tab=repositories">Repositórios</a> ·
+  <a href="https://github.com/PHBR63?tab=overview">Atividade no GitHub</a>
+</p>
+
+<p align="center">
+  <sub>Identidade visual inspirada em <a href="https://www.cyberpunk.net/br/pt-br/cyberpunk-2077">Cyberpunk 2077</a>. Artes ilustradas criadas com IA.</sub>
+</p>
+

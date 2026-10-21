@@ -1,5 +1,9 @@
 # PHBR63 — Cyberpunk
 
+> **Material legado.** O `README.md` da raiz agora é editado diretamente; os assets atuais ficam em `assets/yellow-protocol`.
+>
+> Os geradores antigos servem somente às versões legadas: gravam `README.legacy.md` na própria pasta de fontes, sem sobrescrever o README da raiz. A documentação abaixo registra a versão anterior.
+
 ## Resultado
 
 Redesign do perfil pessoal inspirado na identidade de Cyberpunk 2077: amarelo, preto, ciano, recortes angulares e uma arte urbana de cabeçalho. A estrutura parte do README (8).md enviado pelo usuário: projetos abertos e demais seções expansíveis.
@@ -49,3 +53,4 @@ Para atualizar métricas, substitua o JSON pela nova consulta, atualize `DATE` n
 - Direção visual: https://www.cyberpunk.net/br/pt-br/cyberpunk-2077
 
 Arte de cabeçalho original criada com IA. A personalização é de fã, não representa material oficial da CD PROJEKT RED. O tema altera o README; a navegação e o fundo geral do GitHub permanecem sob controle da plataforma.
+

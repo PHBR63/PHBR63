@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="64" viewBox="0 0 1200 64" role="img" aria-labelledby="title desc"><title id="title">Divisória — pulso de criação</title><desc id="desc">Uma linha angular amarela recebe um pulso ciano lento. Animação decorativa, sem flashes.</desc>
+  <defs>
+    <linearGradient id="scan" gradientUnits="userSpaceOnUse" x1="-80" y1="0" x2="80" y2="0">
+      <stop offset="0" stop-color="#00F0FF" stop-opacity="0"/><stop offset="0.35" stop-color="#00F0FF" stop-opacity="0.4"/><stop offset="0.5" stop-color="#00F0FF"/><stop offset="0.65" stop-color="#00F0FF" stop-opacity="0.4"/><stop offset="1" stop-color="#00F0FF" stop-opacity="0"/>
+      <animateTransform attributeName="gradientTransform" type="translate" values="-160 0;1360 0" dur="12s" repeatCount="indefinite"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="64" fill="#080C12"/>
+  <path d="M0 40H54L74 20H200L218 38H972L990 20H1124L1144 40H1200" fill="none" stroke="#202D3D" stroke-width="7"/>
+  <path d="M0 40H54L74 20H200L218 38H972L990 20H1124L1144 40H1200" fill="none" stroke="#FCEE09" stroke-width="1.6" opacity="0.76"/>
+  <path d="M0 40H54L74 20H200L218 38H972L990 20H1124L1144 40H1200" fill="none" stroke="url(#scan)" stroke-width="4" opacity="1">
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.067;0.933;1" dur="12s" repeatCount="indefinite"/>
+  </path>
+  <path d="M90 31H148M1050 31H1108" stroke="#202D3D" stroke-width="2"/>
+  <path d="M165 27L171 21M175 27L181 21" stroke="#FF375A" stroke-width="2"/>
+  <path d="M1010 21L1016 27M1020 21L1026 27" stroke="#FCEE09" stroke-width="2" opacity="0.65"/>
+</svg>

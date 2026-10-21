@@ -1,4 +1,4 @@
-"""Gera o perfil Cyberpunk a partir do texto aprovado e de dados públicos locais."""
+"""Gera o perfil Cyberpunk legado a partir do texto aprovado e de dados públicos locais."""
 from pathlib import Path
 from html import escape
 import json
@@ -110,7 +110,7 @@ def picture(name, alt):
 
 
 def main():
-    """Valida a conta e as fontes, gera imagens e salva o documento exibido pelo GitHub."""
+    """Valida fontes e gera SVGs e README.legacy.md, sem alterar o README da raiz."""
     ASSETS.mkdir(parents=True,exist_ok=True)
     user = json.loads((SOURCE/'github-public-data.json').read_text(encoding='utf-8-sig')).get('data',{}).get('user')
     if not user or user.get('login') != 'PHBR63':
@@ -157,9 +157,10 @@ def main():
     for filename in re.findall(r'(?:src|srcset)="\./assets/cyberpunk/([^"]+)"',readme):
         if not (ASSETS/filename).is_file():
             raise FileNotFoundError(f'Imagem referenciada ausente: {filename}')
-    (ROOT/'README.md').write_text(readme,encoding='utf-8',newline='\n')
+    (SOURCE/'README.legacy.md').write_text(readme,encoding='utf-8',newline='\n')
     print(json.dumps({'public_repos':user['repositories']['totalCount'],'contributions':calendar['totalContributions'],'longest_streak':longest,'visuals':len(list(ASSETS.glob('*')))}))
 
 
 if __name__ == '__main__':
     main()
+

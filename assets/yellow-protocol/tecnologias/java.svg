@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="280" height="92" viewBox="0 0 280 92" role="img" aria-labelledby="title desc">
+  <title id="title">Java</title>
+  <desc id="desc">Badge de texto Java, em amarelo sobre fundo escuro.</desc>
+  <path d="M15 1H279V77L265 91H1V15Z" fill="#080C12" stroke="#293D48" stroke-width="2"/>
+  <path d="M17 27H23V59L17 65Z" fill="#FCEE09"/>
+  <text x="40" y="58" font-family="DejaVu Sans,Arial,Helvetica,sans-serif" font-size="32" font-weight="700" fill="#FCEE09">Java</text>
+  <path d="M254 28H260V58L254 64Z" fill="#00F0FF"/>
+</svg>

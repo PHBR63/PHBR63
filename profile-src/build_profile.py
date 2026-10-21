@@ -1,4 +1,4 @@
-"""Gera os painéis SVG e o README a partir do texto aprovado e dos dados públicos."""
+"""Gera os painéis SVG e o README legado a partir do texto aprovado e dos dados públicos."""
 from pathlib import Path
 from html import escape
 import json
@@ -114,7 +114,7 @@ def picture(base, alt):
 
 
 def main():
-    """Lê as fontes locais, valida os dados essenciais e gera os arquivos finais."""
+    """Lê as fontes locais e gera SVGs e README.legacy.md, sem alterar o README da raiz."""
     ASSETS.mkdir(exist_ok=True)
     payload=json.loads((SOURCE/"github-public-data.json").read_text(encoding="utf-8-sig"))
     user=payload.get("data",{}).get("user")
@@ -194,12 +194,13 @@ Escolho as ferramentas de acordo com o problema, considerando a complexidade da 
 
 <p align="center"><sub>PHBR63 · Inspirado em Sword Art Online / Aincrad · Sem vínculo oficial.<br>Referências: <a href="https://aincrad-archive.hecate2.chatgpt.site/">Aincrad Memory Archive</a> · <a href="https://wallpapersafari.com/w/F8j0Gb">Wallpaper de Aincrad</a>. Arte do cabeçalho adaptada com IA.</sub></p>
 '''
-    (ROOT/"README.md").write_text(readme,encoding="utf-8",newline="\n")
+    (SOURCE/"README.legacy.md").write_text(readme,encoding="utf-8",newline="\n")
     for name in re.findall(r'(?:src|srcset)="\./assets/([^"]+)"',readme):
         if not (ASSETS/name).is_file():
             raise FileNotFoundError(f"Imagem referenciada não encontrada: {name}")
-    print(f"Gerados README.md e {len(list(ASSETS.glob('*')))} arquivos visuais.")
+    print(f"Gerados README.legacy.md e {len(list(ASSETS.glob('*')))} arquivos visuais.")
 
 
 if __name__ == "__main__":
     main()
+
