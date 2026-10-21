@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="520" viewBox="0 0 1440 520" role="img" aria-labelledby="title description">
+  <title id="title">Pedro Zampronha — PHBR63 — Aincrad Interface</title>
+  <desc id="description">Banner autoral inspirado em Aincrad: castelo flutuante, menu de sistema e painel de jogador. Desenvolvimento de software, integrações e dados.</desc>
+  <defs>
+    <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#d8edf3"/><stop offset="1" stop-color="#f4f8fa"/></linearGradient>
+    <linearGradient id="land" x2="0" y2="1"><stop stop-color="#83a8b5"/><stop offset="1" stop-color="#c8dce3"/></linearGradient>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse"><path d="M48 0H0V48" fill="none" stroke="#527c90" stroke-opacity=".07"/></pattern>
+    <clipPath id="frame"><rect width="1440" height="520" rx="14"/></clipPath>
+  </defs>
+  <g clip-path="url(#frame)" font-family="'Segoe UI',Arial,sans-serif">
+    <path fill="url(#sky)" d="M0 0h1440v520H0z"/>
+    <path fill="url(#grid)" d="M0 0h1440v520H0z"/>
+    <circle cx="1030" cy="230" r="228" fill="#fff" opacity=".45"/>
+    <g fill="none" stroke="#79adbe" opacity=".25">
+      <circle cx="1030" cy="230" r="205"/><circle cx="1030" cy="230" r="216" stroke-dasharray="2 14"/>
+      <path d="M794 230h472M1030-6v472"/>
+    </g>
+    <!-- Silhueta original: plataformas progressivas evocam o castelo flutuante. -->
+    <g fill="url(#land)" stroke="#7296a5" stroke-width="1.2" opacity=".62">
+      <path d="M1030 61l-17 35h34z"/><path d="M1011 98h38l10 13h-58z"/>
+      <path d="M995 116h70l12 14h-94z"/><path d="M977 136h106l13 15H964z"/>
+      <path d="M957 158h146l15 17H942z"/><path d="M935 183h190l18 19H917z"/>
+      <path d="M910 211h240l21 20H889z"/><path d="M882 241h296l23 22H859z"/>
+      <path d="M850 274h360l26 23H824z"/><path d="M813 309h434l29 26H784z"/>
+      <path d="M774 346h512l25 26H749z"/>
+      <path d="M749 372h562l-76 22-41 21-81 13-83 36-83-36-81-13-41-21z"/>
+    </g>
+    <g fill="none" stroke="#fff" stroke-width="9" opacity=".62"><path d="M780 275q240-36 535 0"/><path d="M710 345q310-48 650-1"/><path d="M844 183q180-26 369 0"/></g>
+    <!-- O painel não apresenta métricas fictícias de carreira ou atividade. -->
+    <path d="M40 40h612l-19 92H40z" fill="#fff" fill-opacity=".86" stroke="#b8d2dc"/>
+    <path d="M40 40h5v92h-5z" fill="#56bace"/>
+    <text x="66" y="70" font-size="13" letter-spacing="3" fill="#547281">PLAYER ID</text>
+    <text x="65" y="110" font-size="34" font-weight="650" fill="#172f40">PHBR63</text>
+    <path d="M239 90h329l-8 16H231z" fill="#e0ebdf"/>
+    <path d="M244 93h318l-5 10H239z" fill="#91c65a"/>
+    <text x="251" y="77" font-size="11" letter-spacing="2" fill="#536f53">CONNECTION ESTABLISHED</text>
+    <text x="56" y="202" font-size="15" letter-spacing="5" fill="#547281">AINCRAD / DEVELOPER PROFILE</text>
+    <text x="52" y="272" font-size="58" font-weight="350" letter-spacing="-2" fill="#132c3d">Pedro Zampronha</text>
+    <path d="M56 298h530" stroke="#99bac8"/>
+    <text x="56" y="338" font-size="22" fill="#34586c">Desenvolvimento de software</text>
+    <text x="56" y="373" font-size="22" fill="#34586c">Integrações · Dados · Experiências interativas</text>
+    <g transform="translate(1260 62)" fill="#fff" fill-opacity=".88" stroke="#b6ced8">
+      <circle cx="0" cy="0" r="25"/><circle cx="0" cy="65" r="25"/><circle cx="0" cy="130" r="25"/><circle cx="0" cy="195" r="25"/>
+      <g fill="none" stroke="#53788b" stroke-width="2"><circle cy="-5" r="6"/><path d="M-11 12q0-17 22 0M-11 60h22M-11 70h22M-11 80h15M-11 122h22v17h-22zM-6 122v-5h12v5M-10 187l20 17M10 187l-20 17"/></g>
+    </g>
+    <path d="M0 443h1440v77H0z" fill="#132c3d"/>
+    <path d="M0 443h1440" stroke="#70c5d8" stroke-width="2"/>
+    <circle cx="58" cy="481" r="5" fill="#a8d778"/>
+    <text x="78" y="487" font-size="14" letter-spacing="2" fill="#dceaf0">LINK START</text>
+    <text x="1400" y="487" text-anchor="end" font-size="13" letter-spacing="3" fill="#b7ced9">CODE · BUILD · EXPLORE</text>
+  </g>
+</svg>
+
