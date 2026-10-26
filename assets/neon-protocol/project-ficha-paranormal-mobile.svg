@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="332" viewBox="0 0 600 332" role="img" aria-labelledby="title desc">
+<title id="title">LET’S ROLL — abrir repositório</title>
+<desc id="desc">Let's Roll — mesa virtual de fã não oficial para Ordem Paranormal, com fichas, rolagens e mapa tático</desc>
+<rect width="600" height="332" fill="#080C12"/>
+<path d="M0 0H568L600 32V96H0Z" fill="#FCEE09"/>
+<rect width="8" height="252" fill="#FF375A"/>
+<text x="28" y="62" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="36" font-weight="700" fill="#080C12">LET’S ROLL</text>
+
+<text x="28" y="139" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="26" font-weight="700" fill="#EDF3FA">FICHAS, ROLAGENS E COMBATE</text><text x="28" y="174" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="26" font-weight="700" fill="#EDF3FA">MAPA TÁTICO COLABORATIVO</text>
+<text x="28" y="215" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="17" font-weight="700" fill="#00F0FF">ORDEM PARANORMAL  •  PROJETO NÃO OFICIAL</text>
+<rect y="252" width="600" height="80" fill="#00F0FF"/>
+<text x="28" y="303" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="23" font-weight="700" fill="#080C12">ABRIR REPOSITÓRIO ↗</text>
+<path d="M496 296H560V302H490Z" fill="#080C12"/>
+</svg>
