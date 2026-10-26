@@ -55,6 +55,26 @@
 </picture>
 </p>
 
+
+<p align="center"><b>Projetos principais</b><br><sub>Uma seleção de produtos, ferramentas e experiências construídas em diferentes domínios.</sub></p>
+
+<p><a href="https://github.com/PHBR63/anime-compass"><b>01 · AniCheck</b></a><br>Catálogo e descoberta de animes, listas pessoais, progresso, comunidade e experiência instalável com recursos offline.<br><sub>React 18 · TypeScript · Vite · Tailwind CSS · PWA · Lovable Cloud</sub></p>
+
+<p><a href="https://github.com/PHBR63/ficha-paranormal"><b>02 · Let's Roll</b></a><br>Mesa virtual de fã, não oficial, para Ordem Paranormal RPG: fichas, rolagens, combate, campanhas e mapa tático colaborativo.<br><sub>React 19 · TypeScript · Vite · Supabase · PWA</sub></p>
+
+<p><a href="https://github.com/PHBR63/telahub"><b>03 · TelaHub</b></a><br>Comunicação de equipes com comunidades, canais persistentes, presença em tempo real, câmeras e compartilhamento de tela por LiveKit/WebRTC.<br><sub>React · Socket.IO · SQLite · LiveKit · Docker</sub></p>
+
+<p><a href="https://github.com/PHBR63/RyuuImob-dev"><b>04 · RyuuImob</b></a><br>Demonstração funcional de portal imobiliário e painel de gestão. Trabalha com dados de exemplo e armazenamento local no navegador, sem banco compartilhado ou autenticação segura no servidor.<br><sub>React 18 · TypeScript · Vite · Zustand</sub></p>
+
+<p><a href="https://github.com/PHBR63/mindforge-questforge"><b>05 · BrainPG</b></a><br>Organização de campanhas de RPG com mapa mental, quadro de investigação, NPCs, locais, facções, missões, sessões e biblioteca de arquivos.<br><sub>React · TypeScript · React Flow · Lovable Cloud</sub></p>
+
+<p><sub>Os resumos refletem os READMEs consultados em 26/10/2026. Let's Roll é um projeto de fã não oficial; RyuuImob está descrito no próprio README como demonstração local.</sub></p>
+
+
+<details>
+<summary><b>Galeria visual de outros projetos</b></summary>
+
+
 <p align="center"><img src="./assets/neon-protocol/animated/mission-3d.svg" width="100%" alt="Painel Cyberpunk animado: mission-3d"></p>
 
 <p>
@@ -102,6 +122,8 @@
 </picture>
 </a>
 </p>
+
+</details>
 
 <p>
 <picture>
@@ -159,33 +181,39 @@ Tecnologias presentes na minha experiência e nos meus projetos. Escolho as ferr
 | Jogos e realidade virtual | C# · Unity |
 | Versionamento | Git · GitHub |
 
-### Projetos
+### Projetos em destaque
 
-#### 01 · 3dGame
+#### 01 · AniCheck
 
-**Jogo da turma da ESPM.** Um registro de desenvolvimento de jogos em 3D.
+Catálogo e descoberta de animes, listas pessoais, progresso, comunidade e recursos PWA com suporte offline.
 
-[Explorar o código de 3dGame →](https://github.com/PHBR63/3dGame)
+[Explorar anime-compass →](https://github.com/PHBR63/anime-compass)
 
-#### 02 · jogo-vr
+#### 02 · Let's Roll
 
-**Unity · C#** — Projeto de jogo em realidade virtual, explorando experiências interativas.
+Mesa virtual de fã, não oficial, para Ordem Paranormal RPG. Reúne fichas automatizadas, rolagens, combate, campanhas e mapa tático colaborativo.
 
-[Explorar o código de jogo-vr →](https://github.com/PHBR63/jogo-vr)
+[Explorar ficha-paranormal →](https://github.com/PHBR63/ficha-paranormal)
 
-#### 03 · Let's Roll
+#### 03 · TelaHub
 
-**React · TypeScript · Supabase** — Plataforma em desenvolvimento para RPG de mesa online, com organização de campanhas e recursos para mestres e jogadores.
+Aplicativo instalável para comunicação em equipes, com comunidades, canais persistentes, presença em tempo real e salas de compartilhamento de tela e câmeras via LiveKit/WebRTC.
 
-[Explorar o código de Let's Roll →](https://github.com/PHBR63/lets-roll-cursor)
+[Explorar telahub →](https://github.com/PHBR63/telahub)
 
-#### 04 · Anime Check
+#### 04 · RyuuImob
 
-Projeto voltado à organização e descoberta de animes.
+Demonstração funcional de portal imobiliário e painel de gestão. O README informa que imóveis e artigos são dados de exemplo e que as alterações ficam apenas no navegador; não há banco compartilhado nem autenticação segura no servidor.
 
-[Explorar o código de Anime Check →](https://github.com/PHBR63/anime-check)
+[Explorar RyuuImob-dev →](https://github.com/PHBR63/RyuuImob-dev)
 
-Os projetos estão em diferentes estágios de desenvolvimento. As capas são ilustrações conceituais de apresentação.
+#### 05 · BrainPG
+
+Ferramenta para Mestres de RPG organizarem campanhas, personagens, lugares, facções, missões, sessões, mapas mentais e investigações.
+
+[Explorar mindforge-questforge →](https://github.com/PHBR63/mindforge-questforge)
+
+Os nomes e resumos seguem os READMEs atuais. As capas existentes na galeria visual são ilustrações conceituais de outros repositórios.
 
 ### Experiência e forma de trabalhar
 
