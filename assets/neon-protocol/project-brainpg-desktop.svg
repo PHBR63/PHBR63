@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="280" viewBox="0 0 1200 280" role="img" aria-labelledby="title desc">
+<title id="title">BRAINPG — abrir repositório</title>
+<desc id="desc">BrainPG — organização de campanhas de RPG, mapas mentais, investigações, NPCs e sessões</desc>
+<rect width="1200" height="280" fill="#080C12"/>
+<path d="M0 0H1168L1200 32V96H0Z" fill="#FF375A"/>
+<rect width="12" height="216" fill="#00F0FF"/>
+<text x="40" y="62" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="40" font-weight="700" fill="#080C12">BRAINPG</text>
+<text x="1160" y="56" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="22" font-weight="700" fill="#080C12" text-anchor="end">RPG / CAMPANHAS</text>
+<text x="40" y="148" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="29" font-weight="700" fill="#EDF3FA">CAMPANHAS, MAPAS MENTAIS E INVESTIGAÇÕES</text>
+<text x="40" y="187" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="21" font-weight="700" fill="#00F0FF">NPCs  •  MISSÕES  •  SESSÕES  •  ARQUIVOS</text>
+<rect y="216" width="1200" height="64" fill="#FCEE09"/>
+<text x="40" y="257" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="25" font-weight="700" fill="#080C12">ORGANIZAR CAMPANHAS / ABRIR PROJETO ↗</text>
+<path d="M1096 244H1160V250H1090Z" fill="#080C12"/>
+</svg>
