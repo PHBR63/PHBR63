@@ -69,13 +69,58 @@
 
 <p><a href="https://github.com/institutoidex/idex-impact-hub"><b>01 · Instituto IDEX — Impact Hub</b></a><br>Desenvolvimento integral do site institucional e painel administrativo do Instituto IDEX. Site em português, inglês e espanhol, com projetos, notícias, transparência e contato gerenciados pela equipe.<br><sub>React 19 · TypeScript · TanStack Start · Supabase · Tailwind CSS</sub><br><a href="https://institutoidex.org">Site publicado →</a></p>
 
+<p align="center">
+  <a href="https://github.com/PHBR63/anime-compass">
+    <picture>
+      <source media="(max-width: 600px)" srcset="./assets/neon-protocol/project-anicheck-mobile.svg">
+      <img src="./assets/neon-protocol/project-anicheck-desktop.svg" width="100%" align="top" alt="AniCheck — catálogo, descoberta e progresso de animes, listas pessoais e comunidade. Abrir repositório.">
+    </picture>
+  </a>
+</p>
+
 <p><a href="https://github.com/PHBR63/anime-compass"><b>02 · AniCheck</b></a><br>Catálogo e descoberta de animes, listas pessoais, progresso, comunidade e experiência instalável com recursos offline.<br><sub>React 18 · TypeScript · Vite · Tailwind CSS · PWA · Lovable Cloud</sub></p>
+
+<p align="center">
+  <a href="https://github.com/PHBR63/ficha-paranormal">
+    <picture>
+      <source media="(max-width: 600px)" srcset="./assets/neon-protocol/project-ficha-paranormal-mobile.svg">
+      <img src="./assets/neon-protocol/project-ficha-paranormal-desktop.svg" width="100%" align="top" alt="Let's Roll — mesa virtual de fã não oficial para Ordem Paranormal, com fichas, rolagens e mapa tático. Abrir repositório.">
+    </picture>
+  </a>
+</p>
 
 <p><a href="https://github.com/PHBR63/ficha-paranormal"><b>03 · Let's Roll</b></a><br>Mesa virtual de fã, não oficial, para Ordem Paranormal RPG: fichas, rolagens, combate, campanhas e mapa tático colaborativo.<br><sub>React 19 · TypeScript · Vite · Supabase · PWA</sub></p>
 
+<p align="center">
+  <a href="https://github.com/PHBR63/telahub">
+    <picture>
+      <source media="(max-width: 600px)" srcset="./assets/neon-protocol/project-telahub-mobile.svg">
+      <img src="./assets/neon-protocol/project-telahub-desktop.svg" width="100%" align="top" alt="TelaHub — comunicação de equipes, canais persistentes, câmeras e compartilhamento de tela. Abrir repositório.">
+    </picture>
+  </a>
+</p>
+
 <p><a href="https://github.com/PHBR63/telahub"><b>04 · TelaHub</b></a><br>Comunicação de equipes com comunidades, canais persistentes, presença em tempo real, câmeras e compartilhamento de tela por LiveKit/WebRTC.<br><sub>React · Socket.IO · SQLite · LiveKit · Docker</sub></p>
 
+<p align="center">
+  <a href="https://github.com/PHBR63/RyuuImob-dev">
+    <picture>
+      <source media="(max-width: 600px)" srcset="./assets/neon-protocol/project-ryuuimob-mobile.svg">
+      <img src="./assets/neon-protocol/project-ryuuimob-desktop.svg" width="100%" align="top" alt="RyuuImob — demonstração local de portal imobiliário e painel de gestão com dados de exemplo. Abrir repositório.">
+    </picture>
+  </a>
+</p>
+
 <p><a href="https://github.com/PHBR63/RyuuImob-dev"><b>05 · RyuuImob</b></a><br>Demonstração funcional de portal imobiliário e painel de gestão. Trabalha com dados de exemplo e armazenamento local no navegador, sem banco compartilhado ou autenticação segura no servidor.<br><sub>React 18 · TypeScript · Vite · Zustand</sub></p>
+
+<p align="center">
+  <a href="https://github.com/PHBR63/mindforge-questforge">
+    <picture>
+      <source media="(max-width: 600px)" srcset="./assets/neon-protocol/project-brainpg-mobile.svg">
+      <img src="./assets/neon-protocol/project-brainpg-desktop.svg" width="100%" align="top" alt="BrainPG — organização de campanhas de RPG, mapas mentais, investigações, NPCs e sessões. Abrir repositório.">
+    </picture>
+  </a>
+</p>
 
 <p><a href="https://github.com/PHBR63/mindforge-questforge"><b>06 · BrainPG</b></a><br>Organização de campanhas de RPG com mapa mental, quadro de investigação, NPCs, locais, facções, missões, sessões e biblioteca de arquivos.<br><sub>React · TypeScript · React Flow · Lovable Cloud</sub></p>
 
