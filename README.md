@@ -58,6 +58,15 @@
 
 <p align="center"><b>Projetos principais</b><br><sub>Uma seleção de produtos, ferramentas e experiências construídas em diferentes domínios.</sub></p>
 
+<p align="center">
+  <a href="https://github.com/institutoidex/idex-impact-hub">
+    <picture>
+      <source media="(max-width: 600px)" srcset="./assets/neon-protocol/project-idex-impact-hub-mobile.svg">
+      <img src="./assets/neon-protocol/project-idex-impact-hub-desktop.svg" width="100%" align="top" alt="IDEX Impact Hub — site institucional multilíngue e painel administrativo, desenvolvimento integral. Abrir repositório.">
+    </picture>
+  </a>
+</p>
+
 <p><a href="https://github.com/institutoidex/idex-impact-hub"><b>01 · Instituto IDEX — Impact Hub</b></a><br>Desenvolvimento integral do site institucional e painel administrativo do Instituto IDEX. Site em português, inglês e espanhol, com projetos, notícias, transparência e contato gerenciados pela equipe.<br><sub>React 19 · TypeScript · TanStack Start · Supabase · Tailwind CSS</sub><br><a href="https://institutoidex.org">Site publicado →</a></p>
 
 <p><a href="https://github.com/PHBR63/anime-compass"><b>02 · AniCheck</b></a><br>Catálogo e descoberta de animes, listas pessoais, progresso, comunidade e experiência instalável com recursos offline.<br><sub>React 18 · TypeScript · Vite · Tailwind CSS · PWA · Lovable Cloud</sub></p>
