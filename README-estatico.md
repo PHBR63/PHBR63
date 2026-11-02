@@ -136,7 +136,7 @@ Tem uma ideia, um projeto ou uma integração para discutir?
 
 **Vamos conversar sobre tecnologia com propósito — e sobre o próximo desafio.**
 
-[E-mail](mailto:ryuutechp@gmail.com) · [LinkedIn](https://www.linkedin.com/in/pedro-henrique-7880a5185/) · [Tableau Public](https://public.tableau.com/profile/pedro.henrique.ferreira.zampronha#!/)
+[E-mail](mailto:ryuutechp@gmail.com) · [LinkedIn](https://www.linkedin.com/in/pedro-henrique-7880a5185/)
 
 
 
