@@ -29,7 +29,7 @@ Jogos, RPG, animes e realidade virtual também fazem parte do meu repertório �
 <a name="projetos"></a>
 
 <p align="center">
-  <img src="assets/pixel-cyberpunk/projetos.png" alt="Projetos" width="1080">
+  <img src="assets/pixel-cyberpunk/projetos-hack-v5.png" alt="Projetos — Pedro no computador construindo o título com blocos digitais" width="1080">
 </p>
 
 <p align="center">
@@ -113,7 +113,7 @@ Organização de campanhas de RPG com mapas mentais, investigação, NPCs, facç
 <a name="outros"></a>
 
 <p align="center">
-  <img src="assets/pixel-cyberpunk/outros.png" alt="Outros" width="1080">
+  <img src="assets/pixel-cyberpunk/outros-bancada-v5.png" alt="Outros — Pedro na bancada de invenções com projeção holográfica" width="1080">
 </p>
 
 ### Laboratório de ideias
