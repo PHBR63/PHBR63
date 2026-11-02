@@ -32,37 +32,79 @@ Jogos, RPG, animes e realidade virtual também fazem parte do meu repertório �
   <img src="assets/pixel-cyberpunk/projetos.png" alt="Projetos" width="1080">
 </p>
 
-### Instituto IDEX · tecnologia para impacto social
+<p align="center">
+  <a href="https://github.com/institutoidex/idex-impact-hub">
+    <picture>
+      <source media="(max-width: 600px)" srcset="assets/project-hud-v2/idex-mobile.svg">
+      <img src="assets/project-hud-v2/idex-desktop.svg" width="1080" alt="Instituto IDEX — impacto social. Site institucional e gestão de conteúdo. Abrir repositório.">
+    </picture>
+  </a>
+</p>
 
 Site institucional com projetos, notícias, documentos de transparência e painel administrativo. Conteúdo em português, inglês e espanhol.
 
 [Explorar o código](https://github.com/institutoidex/idex-impact-hub) · [Conhecer o site](https://institutoidex.org)
 
-### AniCheck · seu universo de animes
+<p align="center">
+  <a href="https://github.com/PHBR63/anime-compass">
+    <picture>
+      <source media="(max-width: 600px)" srcset="assets/project-hud-v2/anicheck-mobile.svg">
+      <img src="assets/project-hud-v2/anicheck-desktop.svg" width="1080" alt="AniCheck — animes &amp; descoberta. Catálogo, listas e progresso de animes. Abrir repositório.">
+    </picture>
+  </a>
+</p>
 
 Catálogo, descoberta, listas e acompanhamento de progresso, com recursos de comunidade e PWA.
 
 [Explorar o código](https://github.com/PHBR63/anime-compass)
 
-### Let's Roll · a campanha ganha vida
+<p align="center">
+  <a href="https://github.com/PHBR63/ficha-paranormal">
+    <picture>
+      <source media="(max-width: 600px)" srcset="assets/project-hud-v2/lets-roll-mobile.svg">
+      <img src="assets/project-hud-v2/lets-roll-desktop.svg" width="1080" alt="Let’s Roll — rpg · projeto de fã. Fichas, rolagens e campanhas de RPG. Abrir repositório.">
+    </picture>
+  </a>
+</p>
 
 Projeto não oficial de fã para Ordem Paranormal: fichas, rolagens, combate, campanhas e mapa tático colaborativo.
 
 [Explorar o código](https://github.com/PHBR63/ficha-paranormal)
 
-### TelaHub · colaboração em equipe
+<p align="center">
+  <a href="https://github.com/PHBR63/telahub">
+    <picture>
+      <source media="(max-width: 600px)" srcset="assets/project-hud-v2/telahub-mobile.svg">
+      <img src="assets/project-hud-v2/telahub-desktop.svg" width="1080" alt="TelaHub — colaboração. Canais, presença e compartilhamento. Abrir repositório.">
+    </picture>
+  </a>
+</p>
 
 Canais de comunicação, presença, câmeras e compartilhamento de tela para aproximar a equipe.
 
 [Explorar o código](https://github.com/PHBR63/telahub)
 
-### RyuuImob · experiência imobiliária
+<p align="center">
+  <a href="https://github.com/PHBR63/RyuuImob-dev">
+    <picture>
+      <source media="(max-width: 600px)" srcset="assets/project-hud-v2/ryuuimob-mobile.svg">
+      <img src="assets/project-hud-v2/ryuuimob-desktop.svg" width="1080" alt="RyuuImob — demonstração local. Portal imobiliário com dados de exemplo. Abrir repositório.">
+    </picture>
+  </a>
+</p>
 
 Demonstração local de uma interface imobiliária, com dados de exemplo e armazenamento no navegador. Não representa um sistema de produção com autenticação segura no servidor.
 
 [Explorar o código](https://github.com/PHBR63/RyuuImob-dev)
 
-### BrainPG · ideias viram campanha
+<p align="center">
+  <a href="https://github.com/PHBR63/mindforge-questforge">
+    <picture>
+      <source media="(max-width: 600px)" srcset="assets/project-hud-v2/brainpg-mobile.svg">
+      <img src="assets/project-hud-v2/brainpg-desktop.svg" width="1080" alt="BrainPG — campanhas &amp; ideias. Mapas mentais e organização de RPG. Abrir repositório.">
+    </picture>
+  </a>
+</p>
 
 Organização de campanhas de RPG com mapas mentais, investigação, NPCs, facções, sessões e arquivos.
 
