@@ -1,0 +1,45 @@
+name: Cidade de contribuições
+
+on:
+  workflow_dispatch:
+  schedule:
+    # 06:17 UTC = 03:17 em Brasília (UTC-3).
+    - cron: '17 6 * * *'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: contribution-city
+  cancel-in-progress: false
+
+jobs:
+  update-city:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Obter a versão atual do perfil
+        uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5
+        with:
+          ref: main
+
+      - name: Validar o gerador
+        run: python3 -B -m unittest discover -s profile-src/contribution-city -v
+
+      - name: Consultar o calendário público e gerar a cidade
+        run: python3 -B profile-src/contribution-city/generate.py --username PHBR63
+
+      - name: Salvar somente a cidade atualizada
+        shell: bash
+        run: |
+          set -euo pipefail
+          git add -- profile-3d-contrib/profile-night-rainbow.svg
+          if git diff --cached --quiet; then
+            echo "Cidade sem alterações; nenhum commit necessário."
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m "Atualiza cidade de contribuições"
+          # Recusa sobrescrever mudanças concorrentes; uma nova execução tentará de novo.
+          git push origin HEAD:main
