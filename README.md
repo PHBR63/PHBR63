@@ -17,20 +17,25 @@
 
 <picture><source media="(prefers-reduced-motion: reduce)" srcset="assets/midnight/projetos-estatico.svg?v=5"><img src="assets/midnight/projects-hud-v1/projetos.gif?v=projects-hud-v1" alt="Projetos" width="900"></picture>
 
-<p><a href="https://github.com/institutoidex/idex-impact-hub"><picture><source media="(prefers-reduced-motion: reduce)" srcset="assets/midnight/project-scenes-v1/idex/poster.png?v=scenes-v1"><img src="assets/midnight/project-scenes-v1/idex/idex.gif?v=scenes-v1" alt="" width="180" align="left"></picture></a><strong><a href="https://github.com/institutoidex/idex-impact-hub">Instituto IDEX</a></strong><br>Site institucional com projetos, notícias, documentos de transparência e painel administrativo.<br><a href="https://github.com/institutoidex/idex-impact-hub">Explorar o repositório →</a></p>
-<br clear="left">
+<p><a href="https://github.com/institutoidex/idex-impact-hub"><picture><source media="(prefers-reduced-motion: reduce)" srcset="assets/midnight/project-scenes-v1/idex/poster.png?v=scenes-v1"><img src="assets/midnight/project-scenes-v1/idex/idex.gif?v=scenes-v1" alt="" width="320"></picture></a></p>
 
-<p><a href="https://github.com/PHBR63/anime-compass"><picture><source media="(prefers-reduced-motion: reduce)" srcset="assets/midnight/anicheck-anime-v2/poster.png?v=anime-v2"><img src="assets/midnight/anicheck-anime-v2/anicheck.gif?v=anime-v2" alt="" width="180" align="left"></picture></a><strong><a href="https://github.com/PHBR63/anime-compass">AniCheck</a></strong><br>Catálogo, descoberta, listas e acompanhamento de progresso de animes.<br><a href="https://github.com/PHBR63/anime-compass">Explorar o repositório →</a></p>
-<br clear="left">
+<p><strong><a href="https://github.com/institutoidex/idex-impact-hub">Instituto IDEX</a></strong><br>Site institucional com projetos, notícias, documentos de transparência e painel administrativo.<br><a href="https://github.com/institutoidex/idex-impact-hub">Explorar o repositório →</a></p>
 
-<p><a href="https://github.com/PHBR63/ficha-paranormal"><picture><source media="(prefers-reduced-motion: reduce)" srcset="assets/midnight/project-scenes-v1/letsroll/poster.png?v=scenes-v1"><img src="assets/midnight/project-scenes-v1/letsroll/letsroll.gif?v=scenes-v1" alt="" width="180" align="left"></picture></a><strong><a href="https://github.com/PHBR63/ficha-paranormal">Let’s Roll</a></strong><br>Projeto não oficial de fã para Ordem Paranormal: fichas, rolagens, campanhas e mapa tático.<br><a href="https://github.com/PHBR63/ficha-paranormal">Explorar o repositório →</a></p>
-<br clear="left">
+<p><a href="https://github.com/PHBR63/anime-compass"><picture><source media="(prefers-reduced-motion: reduce)" srcset="assets/midnight/anicheck-anime-v2/poster.png?v=anime-v2"><img src="assets/midnight/anicheck-anime-v2/anicheck.gif?v=anime-v2" alt="" width="320"></picture></a></p>
 
-<p><a href="https://github.com/PHBR63/telahub"><picture><source media="(prefers-reduced-motion: reduce)" srcset="assets/midnight/project-scenes-v1/telahub/poster.png?v=scenes-v1"><img src="assets/midnight/project-scenes-v1/telahub/telahub.gif?v=scenes-v1" alt="" width="180" align="left"></picture></a><strong><a href="https://github.com/PHBR63/telahub">TelaHub</a></strong><br>Canais de comunicação, presença, câmeras e compartilhamento de tela.<br><a href="https://github.com/PHBR63/telahub">Explorar o repositório →</a></p>
-<br clear="left">
+<p><strong><a href="https://github.com/PHBR63/anime-compass">AniCheck</a></strong><br>Catálogo, descoberta, listas e acompanhamento de progresso de animes.<br><a href="https://github.com/PHBR63/anime-compass">Explorar o repositório →</a></p>
 
-<p><a href="https://github.com/PHBR63/mindforge-questforge"><picture><source media="(prefers-reduced-motion: reduce)" srcset="assets/midnight/brainpg-rpg-v2/poster.png?v=brainpg-rpg-v2"><img src="assets/midnight/brainpg-rpg-v2/brainpg.gif?v=brainpg-rpg-v2" alt="" width="180" align="left"></picture></a><strong><a href="https://github.com/PHBR63/mindforge-questforge">BrainPG</a></strong><br>Organização de campanhas de RPG com mapas mentais e quadros de investigação.<br><a href="https://github.com/PHBR63/mindforge-questforge">Explorar o repositório →</a></p>
-<br clear="left">
+<p><a href="https://github.com/PHBR63/ficha-paranormal"><picture><source media="(prefers-reduced-motion: reduce)" srcset="assets/midnight/project-scenes-v1/letsroll/poster.png?v=scenes-v1"><img src="assets/midnight/project-scenes-v1/letsroll/letsroll.gif?v=scenes-v1" alt="" width="320"></picture></a></p>
+
+<p><strong><a href="https://github.com/PHBR63/ficha-paranormal">Let’s Roll</a></strong><br>Projeto não oficial de fã para Ordem Paranormal: fichas, rolagens, campanhas e mapa tático.<br><a href="https://github.com/PHBR63/ficha-paranormal">Explorar o repositório →</a></p>
+
+<p><a href="https://github.com/PHBR63/telahub"><picture><source media="(prefers-reduced-motion: reduce)" srcset="assets/midnight/project-scenes-v1/telahub/poster.png?v=scenes-v1"><img src="assets/midnight/project-scenes-v1/telahub/telahub.gif?v=scenes-v1" alt="" width="320"></picture></a></p>
+
+<p><strong><a href="https://github.com/PHBR63/telahub">TelaHub</a></strong><br>Canais de comunicação, presença, câmeras e compartilhamento de tela.<br><a href="https://github.com/PHBR63/telahub">Explorar o repositório →</a></p>
+
+<p><a href="https://github.com/PHBR63/mindforge-questforge"><picture><source media="(prefers-reduced-motion: reduce)" srcset="assets/midnight/brainpg-rpg-v2/poster.png?v=brainpg-rpg-v2"><img src="assets/midnight/brainpg-rpg-v2/brainpg.gif?v=brainpg-rpg-v2" alt="" width="320"></picture></a></p>
+
+<p><strong><a href="https://github.com/PHBR63/mindforge-questforge">BrainPG</a></strong><br>Organização de campanhas de RPG com mapas mentais e quadros de investigação.<br><a href="https://github.com/PHBR63/mindforge-questforge">Explorar o repositório →</a></p>
 
 ## Contribuições
 
