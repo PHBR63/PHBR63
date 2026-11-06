@@ -1,144 +1,48 @@
-<div align="center">
+<p align="center"><picture><source media="(prefers-reduced-motion: reduce)" srcset="assets/midnight/hero-estatico.png?v=R05"><img src="assets/midnight/hero.gif?v=R05" alt="Pedro Zampronha — Software, Integrações e Dados. Personagem acenando." width="900"></picture></p>
 
-# Pedro Zampronha
+[Sobre mim](#sobre-mim) · [Tecnologias](#tecnologias) · [Projetos](#projetos) · [Contribuições](#contribuições) · [Contato](#contato) · [Versão sem animações](README-estatico.md)
 
-**Software · Integrações · Dados**
+## Sobre mim
 
-Uma missão de cada vez. Tecnologia conectada ao mundo real.
+<picture><source media="(prefers-reduced-motion: reduce)" srcset="assets/midnight/terminal-v01/perfil-terminal-estatico.png?v=terminal-v1"><img src="assets/midnight/terminal-v01/perfil-terminal.gif?v=terminal-v1" alt="Sobre mim: Gosto de entender o problema antes de escrever código. Busco soluções simples, bem organizadas e fáceis de manter — sempre com espaço para aprender e melhorar. Fora do terminal: jogos, RPG, animes e realidade virtual." width="900"></picture>
 
-[Sobre mim](#sobre-mim) · [Projetos](#projetos) · [Outros](#outros) · [Chama aí!](#chama-ai)
+<picture><source media="(prefers-reduced-motion: reduce)" srcset="assets/midnight/parkour-v02/scene-estatico.png"><img src="assets/midnight/parkour-v02/scene.gif" alt="Pedro em pixel art correndo e saltando entre prédios de Night City." width="900"></picture>
 
-[Versão sem animações](README-estatico.md)
+## Tecnologias
 
-</div>
-
-<a name="sobre-mim"></a>
-
-<p align="center">
-  <img src="assets/pixel-cyberpunk/sobre-mim.gif" alt="Sobre mim" width="1080">
-</p>
-
-Sou **Pedro Zampronha**, formado em **Sistemas de Informação pela ESPM**. Trabalho com desenvolvimento de software, integração de sistemas e dados — conectando a necessidade de quem usa, a regra de negócio, a interface e a API.
-
-- **ZAS · 2024–atual:** coordenação de TI, sistemas e infraestrutura.
-- **Santander / F1rst · 2021–2024:** desenvolvimento com Java, Spring e APIs REST.
-
-**Ferramentas do inventário**  
-`Java` · `Spring Boot` · `APIs REST` · `TypeScript` · `React` · `SQL` · `Git`
-
-Jogos, RPG, animes e realidade virtual também fazem parte do meu repertório — e às vezes viram projetos.
-
-<a name="projetos"></a>
-
-<p align="center">
-  <img src="assets/pixel-cyberpunk/projetos-hack-v5.gif" alt="Projetos — Pedro no computador construindo o título com blocos digitais" width="1080">
-</p>
-
-<p align="center">
-  <a href="https://github.com/institutoidex/idex-impact-hub">
-    <picture>
-      <source media="(max-width: 600px)" srcset="assets/project-hud-v2/idex-mobile.svg">
-      <img src="assets/project-hud-v2/idex-desktop.svg" width="1080" alt="Instituto IDEX — impacto social. Site institucional e gestão de conteúdo. Abrir repositório.">
-    </picture>
-  </a>
-</p>
-
-Site institucional com projetos, notícias, documentos de transparência e painel administrativo. Conteúdo em português, inglês e espanhol.
-
-[Explorar o código](https://github.com/institutoidex/idex-impact-hub) · [Conhecer o site](https://institutoidex.org)
-
-<p align="center">
-  <a href="https://github.com/PHBR63/anime-compass">
-    <picture>
-      <source media="(max-width: 600px)" srcset="assets/project-hud-v2/anicheck-mobile.svg">
-      <img src="assets/project-hud-v2/anicheck-desktop.svg" width="1080" alt="AniCheck — animes &amp; descoberta. Catálogo, listas e progresso de animes. Abrir repositório.">
-    </picture>
-  </a>
-</p>
-
-Catálogo, descoberta, listas e acompanhamento de progresso, com recursos de comunidade e PWA.
-
-[Explorar o código](https://github.com/PHBR63/anime-compass)
-
-<p align="center">
-  <a href="https://github.com/PHBR63/ficha-paranormal">
-    <picture>
-      <source media="(max-width: 600px)" srcset="assets/project-hud-v2/lets-roll-mobile.svg">
-      <img src="assets/project-hud-v2/lets-roll-desktop.svg" width="1080" alt="Let’s Roll — rpg · projeto de fã. Fichas, rolagens e campanhas de RPG. Abrir repositório.">
-    </picture>
-  </a>
-</p>
-
-Projeto não oficial de fã para Ordem Paranormal: fichas, rolagens, combate, campanhas e mapa tático colaborativo.
-
-[Explorar o código](https://github.com/PHBR63/ficha-paranormal)
-
-<p align="center">
-  <a href="https://github.com/PHBR63/telahub">
-    <picture>
-      <source media="(max-width: 600px)" srcset="assets/project-hud-v2/telahub-mobile.svg">
-      <img src="assets/project-hud-v2/telahub-desktop.svg" width="1080" alt="TelaHub — colaboração. Canais, presença e compartilhamento. Abrir repositório.">
-    </picture>
-  </a>
-</p>
-
-Canais de comunicação, presença, câmeras e compartilhamento de tela para aproximar a equipe.
-
-[Explorar o código](https://github.com/PHBR63/telahub)
-
-<p align="center">
-  <a href="https://github.com/PHBR63/RyuuImob-dev">
-    <picture>
-      <source media="(max-width: 600px)" srcset="assets/project-hud-v2/ryuuimob-mobile.svg">
-      <img src="assets/project-hud-v2/ryuuimob-desktop.svg" width="1080" alt="RyuuImob — demonstração local. Portal imobiliário com dados de exemplo. Abrir repositório.">
-    </picture>
-  </a>
-</p>
-
-Demonstração local de uma interface imobiliária, com dados de exemplo e armazenamento no navegador. Não representa um sistema de produção com autenticação segura no servidor.
-
-[Explorar o código](https://github.com/PHBR63/RyuuImob-dev)
-
-<p align="center">
-  <a href="https://github.com/PHBR63/mindforge-questforge">
-    <picture>
-      <source media="(max-width: 600px)" srcset="assets/project-hud-v2/brainpg-mobile.svg">
-      <img src="assets/project-hud-v2/brainpg-desktop.svg" width="1080" alt="BrainPG — campanhas &amp; ideias. Mapas mentais e organização de RPG. Abrir repositório.">
-    </picture>
-  </a>
-</p>
-
-Organização de campanhas de RPG com mapas mentais, investigação, NPCs, facções, sessões e arquivos.
-
-[Explorar o código](https://github.com/PHBR63/mindforge-questforge)
-
-<a name="outros"></a>
-
-<p align="center">
-  <img src="assets/pixel-cyberpunk/outros-bancada-v5.gif" alt="Outros — Pedro na bancada de invenções com projeção holográfica" width="1080">
-</p>
-
-### Laboratório de ideias
-
-Aprendizado, experimentos e referências que alimentam o próximo projeto.
-
-- [SAO Unified Hub](https://github.com/PHBR63/PROJECT-SAO-FULLDRIVE) — cronologia, personagens e mundos de Sword Art Online.
-- [3dGame](https://github.com/PHBR63/3dGame) — jogo acadêmico da turma da ESPM.
-- [Outros repositórios públicos](https://github.com/PHBR63?tab=repositories) — explore meu laboratório.
-
-**Fora do terminal:** RPG, jogos, animes e realidade virtual.
-
-<a name="chama-ai"></a>
-
-<p align="center">
-  <img src="assets/pixel-cyberpunk/chama-ai.gif" alt="Chama aí!" width="1080">
-</p>
-
-Tem uma ideia, um projeto ou uma integração para discutir?
-
-**Vamos conversar sobre tecnologia com propósito — e sobre o próximo desafio.**
-
-[E-mail](mailto:ryuutechp@gmail.com) · [LinkedIn](https://www.linkedin.com/in/pedro-henrique-7880a5185/)
+<picture><source media="(prefers-reduced-motion: reduce)" srcset="assets/midnight/stack-estatico.svg?v=tech-ia-v1"><img src="assets/midnight/technology-hud-v1/tecnologias.gif?v=hud-v1" alt="Tecnologias: Java · Spring Boot · APIs REST · TypeScript · React · SQL · Git · ChatGPT · Claude" width="900"></picture>
 
 
+## Projetos
 
+<picture><source media="(prefers-reduced-motion: reduce)" srcset="assets/midnight/projetos-estatico.svg?v=5"><img src="assets/midnight/projects-hud-v1/projetos.gif?v=projects-hud-v1" alt="Projetos" width="900"></picture>
+
+<p><a href="https://github.com/institutoidex/idex-impact-hub"><picture><source media="(prefers-reduced-motion: reduce)" srcset="assets/midnight/project-scenes-v1/idex/poster.png?v=scenes-v1"><img src="assets/midnight/project-scenes-v1/idex/idex.gif?v=scenes-v1" alt="" width="180" align="left"></picture></a><strong><a href="https://github.com/institutoidex/idex-impact-hub">Instituto IDEX</a></strong><br>Site institucional com projetos, notícias, documentos de transparência e painel administrativo.<br><a href="https://github.com/institutoidex/idex-impact-hub">Explorar o repositório →</a></p>
+<br clear="left">
+
+<p><a href="https://github.com/PHBR63/anime-compass"><picture><source media="(prefers-reduced-motion: reduce)" srcset="assets/midnight/anicheck-anime-v2/poster.png?v=anime-v2"><img src="assets/midnight/anicheck-anime-v2/anicheck.gif?v=anime-v2" alt="" width="180" align="left"></picture></a><strong><a href="https://github.com/PHBR63/anime-compass">AniCheck</a></strong><br>Catálogo, descoberta, listas e acompanhamento de progresso de animes.<br><a href="https://github.com/PHBR63/anime-compass">Explorar o repositório →</a></p>
+<br clear="left">
+
+<p><a href="https://github.com/PHBR63/ficha-paranormal"><picture><source media="(prefers-reduced-motion: reduce)" srcset="assets/midnight/project-scenes-v1/letsroll/poster.png?v=scenes-v1"><img src="assets/midnight/project-scenes-v1/letsroll/letsroll.gif?v=scenes-v1" alt="" width="180" align="left"></picture></a><strong><a href="https://github.com/PHBR63/ficha-paranormal">Let’s Roll</a></strong><br>Projeto não oficial de fã para Ordem Paranormal: fichas, rolagens, campanhas e mapa tático.<br><a href="https://github.com/PHBR63/ficha-paranormal">Explorar o repositório →</a></p>
+<br clear="left">
+
+<p><a href="https://github.com/PHBR63/telahub"><picture><source media="(prefers-reduced-motion: reduce)" srcset="assets/midnight/project-scenes-v1/telahub/poster.png?v=scenes-v1"><img src="assets/midnight/project-scenes-v1/telahub/telahub.gif?v=scenes-v1" alt="" width="180" align="left"></picture></a><strong><a href="https://github.com/PHBR63/telahub">TelaHub</a></strong><br>Canais de comunicação, presença, câmeras e compartilhamento de tela.<br><a href="https://github.com/PHBR63/telahub">Explorar o repositório →</a></p>
+<br clear="left">
+
+<p><a href="https://github.com/PHBR63/mindforge-questforge"><picture><source media="(prefers-reduced-motion: reduce)" srcset="assets/midnight/brainpg-rpg-v2/poster.png?v=brainpg-rpg-v2"><img src="assets/midnight/brainpg-rpg-v2/brainpg.gif?v=brainpg-rpg-v2" alt="" width="180" align="left"></picture></a><strong><a href="https://github.com/PHBR63/mindforge-questforge">BrainPG</a></strong><br>Organização de campanhas de RPG com mapas mentais e quadros de investigação.<br><a href="https://github.com/PHBR63/mindforge-questforge">Explorar o repositório →</a></p>
+<br clear="left">
+
+## Contribuições
+
+<img src="profile-3d-contrib/profile-night-rainbow.svg?v=R06" alt="Cidade de contribuições de PHBR63" width="900">
+
+
+## Contato
+
+<p><img src="assets/midnight/contato.png?v=5" alt="Pedro Cyberpunk apontando para os links" width="150" align="left"></p>
+
+Vamos conversar sobre tecnologia e novos projetos.
+
+<a href="https://github.com/PHBR63"><img src="assets/midnight/github.svg?v=5" alt="GitHub" width="48"></a> &nbsp; <a href="https://www.linkedin.com/in/pedro-henrique-7880a5185/"><img src="assets/midnight/linkedin.svg?v=5" alt="LinkedIn" width="48"></a> &nbsp; <a href="mailto:ryuutechp@gmail.com"><img src="assets/midnight/email.svg?v=5" alt="Enviar e-mail" width="48"></a>
+
+<br clear="left">
