@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="900" height="300" viewBox="0 0 900 300">
-<desc>Níveis públicos do calendário de PHBR63 consultado em 11/11/2026 (UTC). Período: 2025-11-09 a 2026-11-11. Alturas representam níveis, não contagens de contribuições.</desc>
+<desc>Níveis públicos do calendário de PHBR63 consultado em 12/11/2026 (UTC). Período: 2025-11-09 a 2026-11-12. Alturas representam níveis, não contagens de contribuições.</desc>
 <defs><linearGradient id="g"><stop stop-color="#22d3ee"/><stop offset="1" stop-color="#f472b6"/></linearGradient></defs>
 <rect x="2" y="2" width="896" height="296" rx="18" fill="#0d0e16" stroke="url(#g)" stroke-width="2"/>
 <text x="30" y="40" fill="#22d3ee" font-family="Arial" font-size="21" font-weight="bold">// CIDADE DE CONTRIBUIÇÕES</text>
@@ -67,6 +67,7 @@
 <g data-date="2026-07-06" data-level="0" data-base-y="173.8" data-top-y="170.8"><path d="M529.0 170.8v3h10v-3z" fill="#1b2531" opacity=".72"/><path d="M539.0 170.8l5 -4v3l-5 4z" fill="#1b2531" opacity=".45"/><path d="M529.0 170.8l10 0 5 -4 -10 0z" fill="#1b2531"/></g>
 <g data-date="2026-08-18" data-level="0" data-base-y="174.0" data-top-y="171.0"><path d="M614.0 171.0v3h10v-3z" fill="#1b2531" opacity=".72"/><path d="M624.0 171.0l5 -4v3l-5 4z" fill="#1b2531" opacity=".45"/><path d="M614.0 171.0l10 0 5 -4 -10 0z" fill="#1b2531"/></g>
 <g data-date="2026-09-30" data-level="0" data-base-y="174.2" data-top-y="171.2"><path d="M699.0 171.2v3h10v-3z" fill="#1b2531" opacity=".72"/><path d="M709.0 171.2l5 -4v3l-5 4z" fill="#1b2531" opacity=".45"/><path d="M699.0 171.2l10 0 5 -4 -10 0z" fill="#1b2531"/></g>
+<g data-date="2026-11-12" data-level="0" data-base-y="174.4" data-top-y="171.4"><path d="M784.0 171.4v3h10v-3z" fill="#1b2531" opacity=".72"/><path d="M794.0 171.4l5 -4v3l-5 4z" fill="#1b2531" opacity=".45"/><path d="M784.0 171.4l10 0 5 -4 -10 0z" fill="#1b2531"/></g>
 <g data-date="2026-05-17" data-level="0" data-base-y="174.9" data-top-y="171.9"><path d="M431.0 171.9v3h10v-3z" fill="#1b2531" opacity=".72"/><path d="M441.0 171.9l5 -4v3l-5 4z" fill="#1b2531" opacity=".45"/><path d="M431.0 171.9l10 0 5 -4 -10 0z" fill="#1b2531"/></g>
 <g data-date="2026-06-29" data-level="0" data-base-y="175.1" data-top-y="172.1"><path d="M516.0 172.1v3h10v-3z" fill="#1b2531" opacity=".72"/><path d="M526.0 172.1l5 -4v3l-5 4z" fill="#1b2531" opacity=".45"/><path d="M516.0 172.1l10 0 5 -4 -10 0z" fill="#1b2531"/></g>
 <g data-date="2026-08-11" data-level="0" data-base-y="175.3" data-top-y="172.3"><path d="M601.0 172.3v3h10v-3z" fill="#1b2531" opacity=".72"/><path d="M611.0 172.3l5 -4v3l-5 4z" fill="#1b2531" opacity=".45"/><path d="M601.0 172.3l10 0 5 -4 -10 0z" fill="#1b2531"/></g>
